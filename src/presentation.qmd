@@ -28,80 +28,80 @@ format:
 
 ## 🎯 Motivation
 
-- Need for executable, FAIR‑compliant research data documentation  
-- Lowering barriers for reuse, reproducibility, archiving  
+-   Need for executable, FAIR‑compliant research data documentation\
+-   Lowering barriers for reuse, reproducibility, archiving
 
----
+------------------------------------------------------------------------
 
 ## 🚀 The Open Research Data Template
 
-- GitHub‑based Quarto framework  
-- Multi‑language: Python · R · Julia · ObservableJS  
-- Integrates narrative, metadata, code, interactive visualizations  
+-   GitHub‑based Quarto framework\
+-   Multi‑language: Python · R · Julia · ObservableJS\
+-   Integrates narrative, metadata, code, interactive visualizations
 
----
+------------------------------------------------------------------------
 
 ## 🧱 Template Structure & Automation
 
 ### Project layout
 
-```
+```         
 
 analysis/  | build/  | data/  | docs/
 src/       | test/   | assets/ | project-management/
+```
 
-````
+-   Uses GitHub Actions to render and publish\
+-   Metadata harmonization across formats
 
-- Uses GitHub Actions to render and publish  
-- Metadata harmonization across formats  
-
----
+------------------------------------------------------------------------
 
 ## 💡 Real‑world Case Studies
 
-- **DigiHistCH24**  
-- **Stadt.Geschichte.Basel**  
-- **DHBern**  
-- **Decoding Inequality 2025**
+-   **DigiHistCH24**\
+-   **Stadt.Geschichte.Basel**\
+-   **DHBern**\
+-   **Decoding Inequality 2025**
 
 Each showcases reproducibility, interactivity, and domain adaptation.
 
----
+------------------------------------------------------------------------
 
 ## 🔧 Demo & Workflow
 
-```{python}
+``` python
 #| echo: true
 import pandas as pd
 df = pd.DataFrame({"x":[1,2,3],"y":[4,5,6]})
-df.plot(kind="line")
-````
+df.plot(kind="line") 
+```
 
-* Live output from code chunk
-* Line numbering and incremental reveal
+-   Live output from code chunk
+-   Line numbering and incremental reveal
 
----
+------------------------------------------------------------------------
 
 ## 📦 Publishing & Sustainability
 
-* Self‑contained HTML output via `embed-resources: true`
-* GitHub Pages deployment from `docs/`
-* FAIR archival using automated DOI issuance via Zenodo
+-   Self‑contained HTML output via `embed-resources: true`
+-   GitHub Pages deployment from `docs/`
+-   FAIR archival using automated DOI issuance via Zenodo
 
----
+------------------------------------------------------------------------
 
 ## 📞 Get Involved
 
-* Repository: `github.com/maehr/one-template-to-rule-them-all`
-* Issues & Discussions welcome
-* Compatible with DH workflows and Open Science practices
+-   Repository: `github.com/maehr/one-template-to-rule-them-all`
+-   Issues & Discussions welcome
+-   Compatible with DH workflows and Open Science practices
 
----
+------------------------------------------------------------------------
 
 ## 🔚 Thank You
 
-Questions? Reach out at [moritz.maehr@gmail.com](mailto:moritz.maehr@gmail.com)
+Questions? Reach out at [moritz.maehr\@gmail.com](mailto:moritz.maehr@gmail.com)
 
+```{=html}
 <!-- 
 
 **Notes / Enhancements**
@@ -114,3 +114,4 @@ Questions? Reach out at [moritz.maehr@gmail.com](mailto:moritz.maehr@gmail.com)
 Feel free to tweak the theme or add plugin options based on your branding or interactivity goals.
 
 -->
+```

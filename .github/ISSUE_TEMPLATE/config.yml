@@ -2,7 +2,7 @@ contact_links:
   - name: Are you looking for documentation on one-template-to-rule-them-all?
     url: https://maehr.github.io/one-template-to-rule-them-all
     about: Please see the documentation for one-template-to-rule-them-all on its GitHub Pages page.
-  - name: Do want to discuss one-template-to-rule-them-all with the community?
+  - name: Do you want to discuss one-template-to-rule-them-all with the community?
     url: https://github.com/maehr/one-template-to-rule-them-all/discussions
     about: Please see the discussions page for one-template-to-rule-them-all.
 blank_issues_enabled: true
