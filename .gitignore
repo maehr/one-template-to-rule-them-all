@@ -1,6 +1,7 @@
 # Quarto
 .quarto/
 _site/
+_freeze/
 
 # Exclude example.env
 !example.env
