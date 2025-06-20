@@ -1,1 +1,44 @@
-# Go to https://citation-file-format.github.io/ to learn more about the Citation File Format.
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  One Template to Rule Them All: Interactive Research Data
+  Documentation with Quarto
+message: 'If you use this repository, please cite as below.'
+type: software
+authors:
+  - family-names: Mähr
+    given-names: Moritz
+    orcid: 'https://orcid.org/0000-0002-1367-1618'
+  - family-names: Twente
+    given-names: Moritz
+    orcid: 'https://orcid.org/0009-0005-7187-9774'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.<INSERT_YOUR_DOI>
+repository-code: 'https://github.com/maehr/one-template-to-rule-them-all'
+abstract: >
+  This repository contains the presentation materials for
+  "One Template to Rule Them All: Interactive Research Data
+  Documentation with Quarto", presented by Moritz Mähr and
+  Moritz Twente at the Digital Humanities Tech Symposium
+  (DHTech), DH2025, NOVA University, Lisbon. It introduces
+  the Open Research Data Template—a GitHub-based Quarto
+  framework for interactive, executable, and reusable
+  research data documentation—demonstrated with real-world
+  DH projects.
+keywords:
+  - digital humanities
+  - open research data
+  - Quarto
+  - reproducible research
+  - FAIR data
+  - interactive documentation
+  - research data management
+  - GitHub Actions
+  - executable notebooks
+  - multi-language support
+license: CC-BY-4.0 AND AGPL-3.0-only
+version: 1.0.0
+date-released: '2025-07-14'

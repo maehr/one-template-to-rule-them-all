@@ -1,8 +1,15 @@
 {
-	"name": "REPO_NAME",
-	"description": "SHORT_DESCRIPTION",
-	"author": "FULLNAME <[INSERT CONTACT METHOD]>",
-	"url": "https://github.com/USERNAME/REPO_NAME/issues",
+	"name": "one-template-to-rule-them-all",
+	"description": "Presentation for the Digital Humanities Tech Symposium at DH2025 (Lisbon): introducing the Open Research Data Template, a GitHub-based Quarto framework for interactive, executable, and reusable research data documentation. Includes real-world DH project examples and details on automation and multi-language support.",
+	"author": "Moritz Mähr <moritz.maehr@gmail.com> (https://github.com/maehr/)",
+	"contributors": [
+		{
+			"name": "Moritz Twente",
+			"email": "mtwente@protonmail.com",
+			"url": "https://github.com/mtwente/"
+		}
+	],
+	"url": "https://github.com/maehr/one-template-to-rule-them-all/issues",
 	"license": "AGPL-3.0",
 	"scripts": {
 		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBY.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
