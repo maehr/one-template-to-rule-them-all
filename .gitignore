@@ -1,6 +1,7 @@
 # Quarto
 .quarto/
 _site/
+_freeze/
 
 # Exclude example.env
 !example.env
@@ -483,3 +484,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/r,git,node,linux,macos,dotenv,python,windows,visualstudiocode
+
+/.quarto/

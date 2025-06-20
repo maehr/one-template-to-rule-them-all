@@ -2,13 +2,13 @@ project:
   type: website
 
 website:
-  title: REPO_NAME
+  title: one-template-to-rule-them-all
   favicon: android-chrome-512x512.png
   open-graph: true
   twitter-card: true
-  site-url: https://USERNAME.github.io/REPO_NAME/
-  repo-url: https://github.com/USERNAME/REPO_NAME/
-  issue-url: https://github.com/USERNAME/REPO_NAME/issues/new/choose
+  site-url: https://maehr.github.io/one-template-to-rule-them-all/
+  repo-url: https://github.com/maehr/one-template-to-rule-them-all/
+  issue-url: https://github.com/maehr/one-template-to-rule-them-all/issues/new/choose
   repo-actions: [edit, issue]
   page-navigation: true
   bread-crumbs: true
@@ -19,10 +19,10 @@ website:
   navbar:
     logo: android-chrome-512x512.png
     logo-alt: ''
-    title: REPO_NAME
+    title: one-template-to-rule-them-all
     tools:
       - icon: github
-        url: https://github.com/USERNAME/REPO_NAME/
+        url: https://github.com/maehr/one-template-to-rule-them-all/
     left:
       - text: Readme
         href: index.qmd
@@ -31,7 +31,7 @@ website:
 
   sidebar:
     contents:
-      - section: REPO_NAME
+      - section: one-template-to-rule-them-all
         href: index.qmd
         contents:
           - text: Changelog

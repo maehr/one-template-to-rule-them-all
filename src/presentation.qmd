@@ -1,0 +1,117 @@
+---
+title: "One Template to Rule Them All"
+subtitle: "Interactive Research Data Documentation with Quarto"
+author:
+  - name: "Moritz Mähr"
+    affiliation: "University of Basel & University of Bern"
+    orcid: "https://orcid.org/0000-0002-1367-1618"
+  - name: "Moritz Twente"
+    affiliation: "University of Basel"
+    orcid: "https://orcid.org/0009-0005-7187-9774"
+date: "July 14, 2025"
+institute: "Digital Humanities Tech Symposium (DHTech) at DH2025, NOVA University Lisbon"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    incremental: true
+    transition: slide
+    code-line-numbers: true
+    embed-resources: true
+    menu:
+      side: right
+      width: normal
+    height: 900
+    width: 1600
+# bibliography: references.bib
+---
+
+## 🎯 Motivation
+
+-   Need for executable, FAIR‑compliant research data documentation\
+-   Lowering barriers for reuse, reproducibility, archiving
+
+------------------------------------------------------------------------
+
+## 🚀 The Open Research Data Template
+
+-   GitHub‑based Quarto framework\
+-   Multi‑language: Python · R · Julia · ObservableJS\
+-   Integrates narrative, metadata, code, interactive visualizations
+
+------------------------------------------------------------------------
+
+## 🧱 Template Structure & Automation
+
+### Project layout
+
+```         
+
+analysis/  | build/  | data/  | docs/
+src/       | test/   | assets/ | project-management/
+```
+
+-   Uses GitHub Actions to render and publish\
+-   Metadata harmonization across formats
+
+------------------------------------------------------------------------
+
+## 💡 Real‑world Case Studies
+
+-   **DigiHistCH24**\
+-   **Stadt.Geschichte.Basel**\
+-   **DHBern**\
+-   **Decoding Inequality 2025**
+
+Each showcases reproducibility, interactivity, and domain adaptation.
+
+------------------------------------------------------------------------
+
+## 🔧 Demo & Workflow
+
+``` python
+#| echo: true
+import pandas as pd
+df = pd.DataFrame({"x":[1,2,3],"y":[4,5,6]})
+df.plot(kind="line") 
+```
+
+-   Live output from code chunk
+-   Line numbering and incremental reveal
+
+------------------------------------------------------------------------
+
+## 📦 Publishing & Sustainability
+
+-   Self‑contained HTML output via `embed-resources: true`
+-   GitHub Pages deployment from `docs/`
+-   FAIR archival using automated DOI issuance via Zenodo
+
+------------------------------------------------------------------------
+
+## 📞 Get Involved
+
+-   Repository: `github.com/maehr/one-template-to-rule-them-all`
+-   Issues & Discussions welcome
+-   Compatible with DH workflows and Open Science practices
+
+------------------------------------------------------------------------
+
+## 🔚 Thank You
+
+Questions? Reach out at [moritz.maehr\@gmail.com](mailto:moritz.maehr@gmail.com)
+
+```{=html}
+<!-- 
+
+**Notes / Enhancements**
+
+- We use `embed-resources: true` to make fully portable HTML presentations.
+- Slide-level options (`incremental`, code line numbers, transitions) follow best practices.
+- Included speaker-friendly elements: menu, slide numbers, responsive sizing.
+- You can further customize branding via a `_brand.yml` or `.scss` theme.
+
+Feel free to tweak the theme or add plugin options based on your branding or interactivity goals.
+
+-->
+```

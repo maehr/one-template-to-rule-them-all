@@ -1,9 +1,9 @@
 meta:
-  name: REPO_NAME
+  name: one-template-to-rule-them-all
   link:
-    home: https://USERNAME.github.io/REPO_NAME
-    github: https://github.com/USERNAME
+    home: https://maehr.github.io/one-template-to-rule-them-all
+    github: https://github.com/maehr
   description: |
-    SHORT_DESCRIPTION
+    Presentation for the Digital Humanities Tech Symposium at DH2025 (Lisbon): introducing the Open Research Data Template, a GitHub-based Quarto framework for interactive, executable, and reusable research data documentation. Includes real-world DH project examples and details on automation and multi-language support.
 
 # Go to https://quarto.org/docs/authoring/brand.html to learn more about multiformat branding with brand.yml
