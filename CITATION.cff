@@ -16,7 +16,7 @@ authors:
     orcid: 'https://orcid.org/0009-0005-7187-9774'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.<INSERT_YOUR_DOI>
+    value: ZENODO_RECORD
 repository-code: 'https://github.com/maehr/one-template-to-rule-them-all'
 abstract: >
   This repository contains the presentation materials for
