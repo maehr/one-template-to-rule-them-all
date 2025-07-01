@@ -2,13 +2,13 @@
 title: "One Template to Rule Them All"
 subtitle: "Interactive Research Data Documentation with Quarto"
 author:
-  - name: "Moritz Mähr"
+  - name: Moritz Mähr
     affiliation:
     - "University of Basel"
     - "University of Bern"
     orcid: "0000-0002-1367-1618"
     email: "moritz.maehr@gmail.com"
-  - name: "Moritz Twente"
+  - name: Moritz Twente
     affiliation: "University of Basel"
     orcid: "0009-0005-7187-9774"
     email: "mtwente@protonmail.com"
