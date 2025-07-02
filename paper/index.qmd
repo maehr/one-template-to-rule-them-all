@@ -1,0 +1,38 @@
+---
+title: "One Template to Rule Them All"
+author:
+  - name: Moritz Mähr
+    affiliation:
+      - ref: unibas
+      - ref: unibe
+    orcid: "0000-0002-1367-1618"
+    email: "moritz.maehr@gmail.com"
+  - name: Moritz Twente
+    affiliation:
+      - ref: unibas
+    orcid: "0009-0005-7187-9774"
+    email: "mtwente@protonmail.com"
+affiliations: 
+  - id: unibas
+    name: "University of Basel"
+  - id: unibe
+    name: "University of Bern"
+pubyear: 2025
+pubvolume: 1
+pagestart: 1
+pageend: 10
+citation:
+  type: paper-conference
+  container-title: "Digital Humanities Tech Symposium (DHTech) at DH2025, NOVA University Lisbon"
+  issued: 2025
+  editor:
+    - TBD
+doi: "TBD"
+keywords: ["TBD"]
+final: true
+bibliography: bibliography.bib
+appendix:
+  - title: "Additional Methods"
+    content: |
+      Full details here...
+---
