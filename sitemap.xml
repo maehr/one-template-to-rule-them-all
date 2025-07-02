@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://maehr.github.io/one-template-to-rule-them-all/src/presentation.html</loc>
-    <lastmod>2025-06-20T06:54:48.663Z</lastmod>
+    <loc>https://maehr.github.io/one-template-to-rule-them-all/SECURITY.html</loc>
+    <lastmod>2025-06-20T06:22:36.547Z</lastmod>
   </url>
   <url>
     <loc>https://maehr.github.io/one-template-to-rule-them-all/LICENSE-AGPL.html</loc>
@@ -29,8 +29,24 @@
     <lastmod>2025-06-20T06:22:36.545Z</lastmod>
   </url>
   <url>
+    <loc>https://maehr.github.io/one-template-to-rule-them-all/documentation/index.html</loc>
+    <lastmod>2025-07-02T09:08:05.010Z</lastmod>
+  </url>
+  <url>
     <loc>https://maehr.github.io/one-template-to-rule-them-all/CODE_OF_CONDUCT.html</loc>
     <lastmod>2025-06-20T06:22:36.546Z</lastmod>
+  </url>
+  <url>
+    <loc>https://maehr.github.io/one-template-to-rule-them-all/paper/index.html</loc>
+    <lastmod>2025-07-02T07:19:56.183Z</lastmod>
+  </url>
+  <url>
+    <loc>https://maehr.github.io/one-template-to-rule-them-all/documentation/digital-humanities-tech-symposium-final-extension.html</loc>
+    <lastmod>2025-06-30T07:38:30.235Z</lastmod>
+  </url>
+  <url>
+    <loc>https://maehr.github.io/one-template-to-rule-them-all/documentation/digital-humanities-tech-symposium.html</loc>
+    <lastmod>2025-06-30T07:38:30.245Z</lastmod>
   </url>
   <url>
     <loc>https://maehr.github.io/one-template-to-rule-them-all/report.html</loc>
@@ -53,7 +69,7 @@
     <lastmod>2025-06-20T06:22:36.487Z</lastmod>
   </url>
   <url>
-    <loc>https://maehr.github.io/one-template-to-rule-them-all/SECURITY.html</loc>
-    <lastmod>2025-06-20T06:22:36.547Z</lastmod>
+    <loc>https://maehr.github.io/one-template-to-rule-them-all/presentation/index.html</loc>
+    <lastmod>2025-07-02T09:09:04.947Z</lastmod>
   </url>
 </urlset>

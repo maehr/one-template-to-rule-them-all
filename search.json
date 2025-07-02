@@ -1,59 +1,27 @@
 [
   {
-    "objectID": "src/presentation.html#motivation",
-    "href": "src/presentation.html#motivation",
-    "title": "One Template to Rule Them All",
-    "section": "🎯 Motivation",
-    "text": "🎯 Motivation\n\nNeed for executable, FAIR‑compliant research data documentation\n\nLowering barriers for reuse, reproducibility, archiving"
+    "objectID": "SECURITY.html",
+    "href": "SECURITY.html",
+    "title": "Security Policy",
+    "section": "",
+    "text": "To report a security issue, please email moritz.maehr@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. This project follows a 90 day disclosure timeline.",
+    "crumbs": [
+      "Readme",
+      "one-template-to-rule-them-all",
+      "Security"
+    ]
   },
   {
-    "objectID": "src/presentation.html#the-open-research-data-template",
-    "href": "src/presentation.html#the-open-research-data-template",
-    "title": "One Template to Rule Them All",
-    "section": "🚀 The Open Research Data Template",
-    "text": "🚀 The Open Research Data Template\n\nGitHub‑based Quarto framework\n\nMulti‑language: Python · R · Julia · ObservableJS\n\nIntegrates narrative, metadata, code, interactive visualizations"
-  },
-  {
-    "objectID": "src/presentation.html#template-structure-automation",
-    "href": "src/presentation.html#template-structure-automation",
-    "title": "One Template to Rule Them All",
-    "section": "🧱 Template Structure & Automation",
-    "text": "🧱 Template Structure & Automation\nProject layout\n\nanalysis/  | build/  | data/  | docs/\nsrc/       | test/   | assets/ | project-management/\n\nUses GitHub Actions to render and publish\n\nMetadata harmonization across formats"
-  },
-  {
-    "objectID": "src/presentation.html#realworld-case-studies",
-    "href": "src/presentation.html#realworld-case-studies",
-    "title": "One Template to Rule Them All",
-    "section": "💡 Real‑world Case Studies",
-    "text": "💡 Real‑world Case Studies\n\nDigiHistCH24\n\nStadt.Geschichte.Basel\n\nDHBern\n\nDecoding Inequality 2025\n\nEach showcases reproducibility, interactivity, and domain adaptation."
-  },
-  {
-    "objectID": "src/presentation.html#demo-workflow",
-    "href": "src/presentation.html#demo-workflow",
-    "title": "One Template to Rule Them All",
-    "section": "🔧 Demo & Workflow",
-    "text": "🔧 Demo & Workflow\n#| echo: true\nimport pandas as pd\ndf = pd.DataFrame({\"x\":[1,2,3],\"y\":[4,5,6]})\ndf.plot(kind=\"line\") \n\nLive output from code chunk\nLine numbering and incremental reveal"
-  },
-  {
-    "objectID": "src/presentation.html#publishing-sustainability",
-    "href": "src/presentation.html#publishing-sustainability",
-    "title": "One Template to Rule Them All",
-    "section": "📦 Publishing & Sustainability",
-    "text": "📦 Publishing & Sustainability\n\nSelf‑contained HTML output via embed-resources: true\nGitHub Pages deployment from docs/\nFAIR archival using automated DOI issuance via Zenodo"
-  },
-  {
-    "objectID": "src/presentation.html#get-involved",
-    "href": "src/presentation.html#get-involved",
-    "title": "One Template to Rule Them All",
-    "section": "📞 Get Involved",
-    "text": "📞 Get Involved\n\nRepository: github.com/maehr/one-template-to-rule-them-all\nIssues & Discussions welcome\nCompatible with DH workflows and Open Science practices"
-  },
-  {
-    "objectID": "src/presentation.html#thank-you",
-    "href": "src/presentation.html#thank-you",
-    "title": "One Template to Rule Them All",
-    "section": "🔚 Thank You",
-    "text": "🔚 Thank You\nQuestions? Reach out at moritz.maehr@gmail.com"
+    "objectID": "SECURITY.html#reporting-a-vulnerability",
+    "href": "SECURITY.html#reporting-a-vulnerability",
+    "title": "Security Policy",
+    "section": "",
+    "text": "To report a security issue, please email moritz.maehr@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. This project follows a 90 day disclosure timeline.",
+    "crumbs": [
+      "Readme",
+      "one-template-to-rule-them-all",
+      "Security"
+    ]
   },
   {
     "objectID": "LICENSE-AGPL.html",
@@ -248,6 +216,48 @@
     ]
   },
   {
+    "objectID": "documentation/index.html",
+    "href": "documentation/index.html",
+    "title": "One Template to Rule Them All",
+    "section": "",
+    "text": "We present the Open Research Data Template, a modular, GitHub-based framework developed to streamline the publication, documentation, and reuse of open research data. Designed explicitly around the FAIR principles (Findable, Accessible, Interoperable, Reusable), the template addresses a critical challenge facing Digital Humanities projects: while datasets are increasingly shared, the surrounding preprocessing steps, methodological decisions, and potential pathways for reuse are often poorly documented, rendering much “open data” practically unusable.\nOur approach integrates Quarto, a powerful scientific publishing platform that supports multi-programming-language interoperability, enabling researchers to weave Python, R, Julia, and ObservableJS into coherent, executable, and human-readable research narratives. Quarto serves not merely as a documentation tool, but as an infrastructure for creating fully browsable, executable, and sustainably archived research outputs. The template automates publication via GitHub Pages and long-term archiving via Zenodo with DOI assignment, ensuring both accessibility and citability.\nA key innovation of the template is its ability to combine static metadata, narrative descriptions, and executable preprocessing code into a single, integrated website. Unlike traditional supplementary materials or disconnected code repositories, this approach ensures that data, methods, and results remain interconnected, reducing barriers to reuse across different computational environments. By making preprocessing workflows transparent and reproducible, the template transforms static data archives into living, extensible resources.\nIn our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:\n\nDigiHistCH24: The conference website for Historical Research, Digital Literacy, and Algorithmic Criticism (Basel, 2024), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.\nStadt.Geschichte.Basel Documentation: This project documents the data workflows behind Basel’s new city history project, showcasing transparent research data practices in a major public history initiative.\nDHBern Portal: Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.\nDecoding Inequality 2025: This repository contains the materials for the course “Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit” held at the University of Bern in the spring semester 2025.\n\nThese projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.\nWe argue that the Open Research Data Template, powered by Quarto’s cross-language capabilities and GitHub’s collaborative infrastructure, provides a scalable, accessible model for elevating the standard of open data publication in the Digital Humanities. By facilitating executable documentation and integrated archiving, the template empowers researchers to move beyond minimal compliance with open science mandates toward creating genuinely reusable, transparent research outputs.\nThrough this tool presentation, we aim to encourage the broader adoption of automated, executable open data documentation as a foundational practice for responsible, impactful, and sustainable Digital Humanities research."
+  },
+  {
+    "objectID": "documentation/index.html#extended-abstract",
+    "href": "documentation/index.html#extended-abstract",
+    "title": "One Template to Rule Them All",
+    "section": "",
+    "text": "We present the Open Research Data Template, a modular, GitHub-based framework developed to streamline the publication, documentation, and reuse of open research data. Designed explicitly around the FAIR principles (Findable, Accessible, Interoperable, Reusable), the template addresses a critical challenge facing Digital Humanities projects: while datasets are increasingly shared, the surrounding preprocessing steps, methodological decisions, and potential pathways for reuse are often poorly documented, rendering much “open data” practically unusable.\nOur approach integrates Quarto, a powerful scientific publishing platform that supports multi-programming-language interoperability, enabling researchers to weave Python, R, Julia, and ObservableJS into coherent, executable, and human-readable research narratives. Quarto serves not merely as a documentation tool, but as an infrastructure for creating fully browsable, executable, and sustainably archived research outputs. The template automates publication via GitHub Pages and long-term archiving via Zenodo with DOI assignment, ensuring both accessibility and citability.\nA key innovation of the template is its ability to combine static metadata, narrative descriptions, and executable preprocessing code into a single, integrated website. Unlike traditional supplementary materials or disconnected code repositories, this approach ensures that data, methods, and results remain interconnected, reducing barriers to reuse across different computational environments. By making preprocessing workflows transparent and reproducible, the template transforms static data archives into living, extensible resources.\nIn our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:\n\nDigiHistCH24: The conference website for Historical Research, Digital Literacy, and Algorithmic Criticism (Basel, 2024), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.\nStadt.Geschichte.Basel Documentation: This project documents the data workflows behind Basel’s new city history project, showcasing transparent research data practices in a major public history initiative.\nDHBern Portal: Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.\nDecoding Inequality 2025: This repository contains the materials for the course “Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit” held at the University of Bern in the spring semester 2025.\n\nThese projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.\nWe argue that the Open Research Data Template, powered by Quarto’s cross-language capabilities and GitHub’s collaborative infrastructure, provides a scalable, accessible model for elevating the standard of open data publication in the Digital Humanities. By facilitating executable documentation and integrated archiving, the template empowers researchers to move beyond minimal compliance with open science mandates toward creating genuinely reusable, transparent research outputs.\nThrough this tool presentation, we aim to encourage the broader adoption of automated, executable open data documentation as a foundational practice for responsible, impactful, and sustainable Digital Humanities research."
+  },
+  {
+    "objectID": "documentation/index.html#technical-focus-and-features",
+    "href": "documentation/index.html#technical-focus-and-features",
+    "title": "One Template to Rule Them All",
+    "section": "Technical Focus and Features",
+    "text": "Technical Focus and Features\nThe Open Research Data Template enables:\n\nExecutable Documentation: Quarto integrates Python, R, Julia, and ObservableJS seamlessly in a single site.\nReproducible Workflows: Data preprocessing, cleaning, and analysis steps are documented alongside the datasets.\nAutomated Deployment: GitHub Actions handle site building, deadlink checking, and deployment to GitHub Pages.\nPersistent Archiving: Zenodo integration allows datasets and documentation snapshots with DOI minting.\nConsistency and Scalability: The template enforces best practices in open research data management inspired by The Turing Way.\n\nUnlike traditional static documentation approaches, our template ensures that the preprocessing code, documentation, and data are kept in sync and fully transparent for future reuse."
+  },
+  {
+    "objectID": "documentation/index.html#demonstration-plan-10-minutes",
+    "href": "documentation/index.html#demonstration-plan-10-minutes",
+    "title": "One Template to Rule Them All",
+    "section": "Demonstration Plan (10 minutes)",
+    "text": "Demonstration Plan (10 minutes)\n\nOverview: Introduce the repository structure and automation pipeline.\nWalkthrough:\n\nSet up and configure a new open research data project.\nAdd executable documentation with Quarto.\nDemonstrate GitHub Actions automation and publishing.\n\nExamples: Highlight features and design choices in the live examples listed above.\nDiscussion: Benefits for sustainable data reuse, and lessons learned from deployment."
+  },
+  {
+    "objectID": "documentation/index.html#expected-audience-takeaways",
+    "href": "documentation/index.html#expected-audience-takeaways",
+    "title": "One Template to Rule Them All",
+    "section": "Expected Audience Takeaways",
+    "text": "Expected Audience Takeaways\n\nHow to structure and publish open research data for actual reuse, not just archival.\nHow to document preprocessing and analysis workflows with Quarto in an executable and reusable format.\nHow to automate FAIR data publishing with GitHub and Zenodo.\nInsights from real Digital Humanities projects adopting this workflow."
+  },
+  {
+    "objectID": "documentation/index.html#proceeding-article-plan",
+    "href": "documentation/index.html#proceeding-article-plan",
+    "title": "One Template to Rule Them All",
+    "section": "Proceeding Article Plan",
+    "text": "Proceeding Article Plan\nFollowing the symposium, we will submit a 4–6 page proceedings article to the Anthology of Computers and the Humanities, covering:\n\nMotivation for structured, reusable open data publication.\nTechnical overview of the template architecture and workflow.\nLessons learned from real-world projects.\nFuture enhancements for more advanced reuse scenarios, including automatic metadata extraction and enhanced machine-actionable documentation."
+  },
+  {
     "objectID": "CODE_OF_CONDUCT.html",
     "href": "CODE_OF_CONDUCT.html",
     "title": "Contributor Covenant Code of Conduct",
@@ -342,6 +352,111 @@
       "one-template-to-rule-them-all",
       "Code of Conduct"
     ]
+  },
+  {
+    "objectID": "paper/index.html",
+    "href": "paper/index.html",
+    "title": "One Template to Rule Them All",
+    "section": "",
+    "text": "Back to topCitationBibTeX citation:@inproceedings{mähr2025,\n  author = {Mähr, Moritz and Twente, Moritz},\n  editor = {, TBD},\n  title = {One {Template} to {Rule} {Them} {All}},\n  booktitle = {Digital Humanities Tech Symposium (DHTech) at DH2025,\n    NOVA University Lisbon},\n  date = {2025},\n  url = {https://maehr.github.io/one-template-to-rule-them-all/paper/},\n  doi = {TBD},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMähr, Moritz, and Moritz Twente. 2025. “One Template to Rule Them\nAll.” In Digital Humanities Tech Symposium (DHTech) at\nDH2025, NOVA University Lisbon, edited by TBD. https://doi.org/TBD."
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html",
+    "href": "documentation/digital-humanities-tech-symposium-final-extension.html",
+    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "section": "",
+    "text": "by DHTech ·  Apr 1, 2025  · announcement conference whatshappening\n\n\n\nFinal Submission Deadline Extension and Conference Proceedings\nWe have exciting news to share! In collaboration with the new ACH open access conference proceedings series Anthology of Computers and the Humanities, there is now the option to submit a short proceedings article about your Digital Humanities Tech Symposium presentation after the conference.\nHere are the quick facts:\n\nProceedings articles should be 4 to 6 pages in length.\nArticles need to be submitted by August 3, 2025 (we highly recommend having a draft ready in time for the conference).\nArticles will be reviewed with potential requests for revisions.\nYou will likely be asked to be a reviewer for another submission.\nReviewed articles will be published on the proceedings website with a DOI for each article.\n\nTo give everyone interested in this opportunity a chance to submit, we have extended the submission deadline for the Digital Humanities Tech Symposium to April 27, 2025.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost Icon\n\n\n\nDigital Humanities Tech Symposium - Agenda\n\n\n\n\nPost Icon\n\n\n\nThe DH RSE Workshop White Paper by DHTech\n\n\n\n\n\n\n Digital Humanities Tech Symposium - Agenda (Jul 2025)\n\n\n\n\n\n Digital Humanities Tech Symposium - Final Extension and Proceedings Publication\n DHTech February Newsletter\n DHTech April Meetup on Data Longevity\n Digital Humanities Tech Symposium\n DHTech February Meetup\n DHTech Joins Mastodon and Bluesky\n DHTech December Newsletter\n Digital Humanities Research Software Engineering Survey\n\n\n\n\n\n DHTech April Meetup on Data Longevity (Apr 2025)\n DHTech February Meetup (Feb 2025)\n DHTech October Meetup on Code Review and AI (Oct 2024)\n\nBrowse all meetups.\n\n\n\nannouncement 30 whatshappening 25 meetup 20 event 11 recording 11 conference 10 newsletter 9 adayinthelifeof 6 2simple2mention 3 dhippochallenge 2\n\n\n\n\nNews\nBlogs\nAll site content\n:::\n:::::::\n:::::::::::"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#featured-posts",
+    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#featured-posts",
+    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "section": "",
+    "text": "Post Icon\n\n\n\nDigital Humanities Tech Symposium - Agenda\n\n\n\n\nPost Icon\n\n\n\nThe DH RSE Workshop White Paper by DHTech"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#upcoming-events",
+    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#upcoming-events",
+    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "section": "",
+    "text": "Digital Humanities Tech Symposium - Agenda (Jul 2025)"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#recent-posts",
+    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#recent-posts",
+    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "section": "",
+    "text": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication\n DHTech February Newsletter\n DHTech April Meetup on Data Longevity\n Digital Humanities Tech Symposium\n DHTech February Meetup\n DHTech Joins Mastodon and Bluesky\n DHTech December Newsletter\n Digital Humanities Research Software Engineering Survey"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#past-events",
+    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#past-events",
+    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "section": "",
+    "text": "DHTech April Meetup on Data Longevity (Apr 2025)\n DHTech February Meetup (Feb 2025)\n DHTech October Meetup on Code Review and AI (Oct 2024)\n\nBrowse all meetups."
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#tags-section",
+    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#tags-section",
+    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "section": "",
+    "text": "announcement 30 whatshappening 25 meetup 20 event 11 recording 11 conference 10 newsletter 9 adayinthelifeof 6 2simple2mention 3 dhippochallenge 2"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#subscribe-via-rss",
+    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#subscribe-via-rss",
+    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "section": "",
+    "text": "News\nBlogs\nAll site content\n:::\n:::::::\n:::::::::::"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium.html",
+    "href": "documentation/digital-humanities-tech-symposium.html",
+    "title": "Digital Humanities Tech Symposium",
+    "section": "",
+    "text": "by DHTech ·  Feb 19, 2025  · announcement conference whatshappening\n\n\n\nFrom July 14-18, 2025, DH2025 will be held at Nova University in Lisbon, Portugal. DHTech will hold a mini-conference at DH2025, the Digital Humanities Tech Symposium. Typical DH conference presentations are focussed on the research with a slight nod to the technical details; we want to flip that format and dive more deeply into the technical aspects of the work, while still keeping it in context of the research and domain specifics. To that end, we invite submissions of interest to the people who work on the technical aspects of DH projects, such as:\n\nimplementation and design specifics of packages and applications\nlessons learnt regarding the design and implementation of research software\ntool demonstrations from a technical perspective\ncommunity and diversity topics specific to the technical DH community\n\nSubmissions should specify the desired format:\n\nPresentations: 20 minute talks including Q&A with the audience.\nTool presentations: 10 minutes demonstrations followed by 10 minutes discussion with the audience.\nOther: do you have a format in mind you would like to try out? Please describe the format including length and audience engagement.\n\nSubmissions should be 500 to 750 words in length. Links to relevant code and packages should be provided in the submission.\nSubmission deadline is March 15, 2025. March 29, 2025 April 27th, 2025 (final extension) . Please be aware, we may ask you to resubmit to a different platform depending on the number of submissions we receive.\nWe are also looking for reviewers for submission to Digital Humanities Tech Symposium. If you are willing to review two to three submissions between the end of April and beginning of May (concrete dates to follow), please sign up here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost Icon\n\n\n\nDigital Humanities Tech Symposium - Agenda\n\n\n\n\nPost Icon\n\n\n\nThe DH RSE Workshop White Paper by DHTech\n\n\n\n\n\n\n Digital Humanities Tech Symposium - Agenda (Jul 2025)\n\n\n\n\n\n Digital Humanities Tech Symposium - Final Extension and Proceedings Publication\n DHTech February Newsletter\n DHTech April Meetup on Data Longevity\n Digital Humanities Tech Symposium\n DHTech February Meetup\n DHTech Joins Mastodon and Bluesky\n DHTech December Newsletter\n Digital Humanities Research Software Engineering Survey\n\n\n\n\n\n DHTech April Meetup on Data Longevity (Apr 2025)\n DHTech February Meetup (Feb 2025)\n DHTech October Meetup on Code Review and AI (Oct 2024)\n\nBrowse all meetups.\n\n\n\nannouncement 30 whatshappening 25 meetup 20 event 11 recording 11 conference 10 newsletter 9 adayinthelifeof 6 2simple2mention 3 dhippochallenge 2\n\n\n\n\nNews\nBlogs\nAll site content\n:::\n:::::::\n:::::::::::"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium.html#featured-posts",
+    "href": "documentation/digital-humanities-tech-symposium.html#featured-posts",
+    "title": "Digital Humanities Tech Symposium",
+    "section": "",
+    "text": "Post Icon\n\n\n\nDigital Humanities Tech Symposium - Agenda\n\n\n\n\nPost Icon\n\n\n\nThe DH RSE Workshop White Paper by DHTech"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium.html#upcoming-events",
+    "href": "documentation/digital-humanities-tech-symposium.html#upcoming-events",
+    "title": "Digital Humanities Tech Symposium",
+    "section": "",
+    "text": "Digital Humanities Tech Symposium - Agenda (Jul 2025)"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium.html#recent-posts",
+    "href": "documentation/digital-humanities-tech-symposium.html#recent-posts",
+    "title": "Digital Humanities Tech Symposium",
+    "section": "",
+    "text": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication\n DHTech February Newsletter\n DHTech April Meetup on Data Longevity\n Digital Humanities Tech Symposium\n DHTech February Meetup\n DHTech Joins Mastodon and Bluesky\n DHTech December Newsletter\n Digital Humanities Research Software Engineering Survey"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium.html#past-events",
+    "href": "documentation/digital-humanities-tech-symposium.html#past-events",
+    "title": "Digital Humanities Tech Symposium",
+    "section": "",
+    "text": "DHTech April Meetup on Data Longevity (Apr 2025)\n DHTech February Meetup (Feb 2025)\n DHTech October Meetup on Code Review and AI (Oct 2024)\n\nBrowse all meetups."
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium.html#tags-section",
+    "href": "documentation/digital-humanities-tech-symposium.html#tags-section",
+    "title": "Digital Humanities Tech Symposium",
+    "section": "",
+    "text": "announcement 30 whatshappening 25 meetup 20 event 11 recording 11 conference 10 newsletter 9 adayinthelifeof 6 2simple2mention 3 dhippochallenge 2"
+  },
+  {
+    "objectID": "documentation/digital-humanities-tech-symposium.html#subscribe-via-rss",
+    "href": "documentation/digital-humanities-tech-symposium.html#subscribe-via-rss",
+    "title": "Digital Humanities Tech Symposium",
+    "section": "",
+    "text": "News\nBlogs\nAll site content\n:::\n:::::::\n:::::::::::"
   },
   {
     "objectID": "report.html",
@@ -501,27 +616,59 @@
     ]
   },
   {
-    "objectID": "SECURITY.html",
-    "href": "SECURITY.html",
-    "title": "Security Policy",
-    "section": "",
-    "text": "To report a security issue, please email moritz.maehr@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. This project follows a 90 day disclosure timeline.",
-    "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
-      "Security"
-    ]
+    "objectID": "presentation/index.html#motivation",
+    "href": "presentation/index.html#motivation",
+    "title": "One Template to Rule Them All",
+    "section": "🎯 Motivation",
+    "text": "🎯 Motivation\n\nNeed for executable, FAIR‑compliant research data documentation\n\nLowering barriers for reuse, reproducibility, archiving"
   },
   {
-    "objectID": "SECURITY.html#reporting-a-vulnerability",
-    "href": "SECURITY.html#reporting-a-vulnerability",
-    "title": "Security Policy",
-    "section": "",
-    "text": "To report a security issue, please email moritz.maehr@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. This project follows a 90 day disclosure timeline.",
-    "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
-      "Security"
-    ]
+    "objectID": "presentation/index.html#the-open-research-data-template",
+    "href": "presentation/index.html#the-open-research-data-template",
+    "title": "One Template to Rule Them All",
+    "section": "🚀 The Open Research Data Template",
+    "text": "🚀 The Open Research Data Template\n\nGitHub‑based Quarto framework\n\nMulti‑language: Python · R · Julia · ObservableJS\n\nIntegrates narrative, metadata, code, interactive visualizations"
+  },
+  {
+    "objectID": "presentation/index.html#template-structure-automation",
+    "href": "presentation/index.html#template-structure-automation",
+    "title": "One Template to Rule Them All",
+    "section": "🧱 Template Structure & Automation",
+    "text": "🧱 Template Structure & Automation\nProject layout\n\nanalysis/  | build/  | data/  | documentation\nsrc/       | test/   | assets/ | project-management/\n\nUses GitHub Actions to render and publish\n\nMetadata harmonization across formats"
+  },
+  {
+    "objectID": "presentation/index.html#realworld-case-studies",
+    "href": "presentation/index.html#realworld-case-studies",
+    "title": "One Template to Rule Them All",
+    "section": "💡 Real‑world Case Studies",
+    "text": "💡 Real‑world Case Studies\n\nDigiHistCH24\n\nStadt.Geschichte.Basel\n\nDHBern\n\nDecoding Inequality 2025\n\nEach showcases reproducibility, interactivity, and domain adaptation."
+  },
+  {
+    "objectID": "presentation/index.html#demo-workflow",
+    "href": "presentation/index.html#demo-workflow",
+    "title": "One Template to Rule Them All",
+    "section": "🔧 Demo & Workflow",
+    "text": "🔧 Demo & Workflow\n#| echo: true\nimport pandas as pd\ndf = pd.DataFrame({\"x\":[1,2,3],\"y\":[4,5,6]})\ndf.plot(kind=\"line\") \n\nLive output from code chunk\nLine numbering and incremental reveal"
+  },
+  {
+    "objectID": "presentation/index.html#publishing-sustainability",
+    "href": "presentation/index.html#publishing-sustainability",
+    "title": "One Template to Rule Them All",
+    "section": "📦 Publishing & Sustainability",
+    "text": "📦 Publishing & Sustainability\n\nSelf‑contained HTML output via embed-resources: true\nGitHub Pages deployment from docs/\nFAIR archival using automated DOI issuance via Zenodo"
+  },
+  {
+    "objectID": "presentation/index.html#get-involved",
+    "href": "presentation/index.html#get-involved",
+    "title": "One Template to Rule Them All",
+    "section": "📞 Get Involved",
+    "text": "📞 Get Involved\n\nRepository: github.com/maehr/one-template-to-rule-them-all\nIssues & Discussions welcome\nCompatible with DH workflows and Open Science practices"
+  },
+  {
+    "objectID": "presentation/index.html#thank-you",
+    "href": "presentation/index.html#thank-you",
+    "title": "One Template to Rule Them All",
+    "section": "🔚 Thank You",
+    "text": "🔚 Thank You\nQuestions? Reach out at moritz.maehr@gmail.com"
   }
 ]
