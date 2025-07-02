@@ -13,7 +13,7 @@ author:
     orcid: "0009-0005-7187-9774"
     email: "mtwente@protonmail.com"
 date: "July 14, 2025"
-bla: "Tool Presentation (10-minute demonstration + 10-minute discussion)"
+event-type: "Tool Presentation (10-minute demonstration + 10-minute discussion)"
 abstract: |
   We introduce the **Open Research Data Template**, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using **Quarto**. By integrating narrative, metadata, and multi-programming-language code (Python, R, Julia, ObservableJS) into cohesive websites, the template lowers barriers to meaningful reuse and sustainable archiving of research workflows. We will demonstrate the template's structure, automation pipeline, and real-world applications through projects such as **DigiHistCH24**, **Stadt.Geschichte.Basel**, **DHBern**, and **Decoding Inequality 2025**.
 format:
