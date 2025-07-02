@@ -52,7 +52,7 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 
 ## Use
 
-These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in [CITATION.cff](CITATION.cff). The following citation formats are also available through _Zenodo_:
+These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in `CITATION.cff`. The following citation formats are also available through _Zenodo_:
 
 - [BibTeX](https://zenodo.org/record/ZENODO_RECORD/export/hx)
 - [CSL](https://zenodo.org/record/ZENODO_RECORD/export/csl)
