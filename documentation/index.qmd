@@ -30,7 +30,7 @@ We invite submissions from those working on the technical aspects of DH projects
 ### Submission Guidelines
 
 -   Submissions: 500–750 words, including links to relevant code and packages
--   **Final Submission Deadline:** April 27, 2025 (extended)
+-   **Final Submission Deadline:** April 27, 2025 (extended) — submissions are now closed.
 -   Submission platform may change depending on the number of submissions
 -   Reviewers are needed—please sign up if interested
 
