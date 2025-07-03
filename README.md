@@ -39,7 +39,16 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 - `paper/`: Contains the paper files for the DHTech Symposium, including the LaTeX source and any supplementary materials.
 - `presentation/`: Contains the presentation files for the DHTech Symposium, including the Quarto slides and any supplementary materials.
 
-## Use
+## Getting Started
+
+Install [uv](https://astral.sh/uv) to install the dependencies and run the presentation locally:
+
+```bash
+uv sync
+uv run playwright install
+```
+
+## Citation
 
 These resources are openly available to everyone and can be used for any research or educational purpose. If you use this resources in your research, please cite as specified in `CITATION.cff`. The following citation formats are also available through _Zenodo_:
 

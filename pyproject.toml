@@ -1,0 +1,10 @@
+[project]
+name = "one-template-to-rule-them-all"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pathlib>=1.0.1",
+    "playwright>=1.53.0",
+]

@@ -31,92 +31,36 @@ format:
 abstract: "We introduce the Open Research Data Template, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using Quarto. By integrating narrative, metadata, and multi-programming-language code (Python, R, Julia, ObservableJS) into cohesive websites, the template lowers barriers to meaningful reuse and sustainable archiving of research workflows. We will demonstrate the template's structure, automation pipeline, and real-world applications through projects such as DigiHistCH24, Stadt.Geschichte.Basel, DHBern, and Decoding Inequality 2025."
 ---
 
-## 🎯 Motivation
+# {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch.png"}
 
--   Need for executable, FAIR‑compliant research data documentation\
--   Lowering barriers for reuse, reproducibility, archiving
+# {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch_sgb_figures.png"}
 
-------------------------------------------------------------------------
+# {data-background-image="./images/maxvogt_analysis.png"}
 
-## 🚀 The Open Research Data Template
+# {data-background-image="./images/nordatlantisk_ft_report.png"}
 
--   GitHub‑based Quarto framework\
--   Multi‑language: Python · R · Julia · ObservableJS\
--   Integrates narrative, metadata, code, interactive visualizations
+# {data-background-image="./images/modelling_marti.png"}
 
-------------------------------------------------------------------------
+# {data-background-image="./images/digihistch24.png"}
 
-## 🧱 Template Structure & Automation
+# {data-background-image="./images/dhbern.png"}
 
-### Project layout
+# {data-background-image="./images/decoding_inequality_2025.png"}
 
-```         
+# {data-background-image="./images/diskriminierungsfreie_metadaten.png"}
 
-analysis/  | build/  | data/  | documentation
-src/       | test/   | assets/ | project-management/
-```
+# {data-background-image="./images/one_template_to_rule_them_all.png"}
 
--   Uses GitHub Actions to render and publish\
--   Metadata harmonization across formats
+# Get the template
 
-------------------------------------------------------------------------
+:::: {.columns}
 
-## 💡 Real‑world Case Studies
+::: {.column width="40%"}
+![](images/qr-code.png)
+:::
 
--   **DigiHistCH24**\
--   **Stadt.Geschichte.Basel**\
--   **DHBern**\
--   **Decoding Inequality 2025**
+::: {.column width="60%"}
+<https://github.com/maehr/open-research-data-template>
+:::
 
-Each showcases reproducibility, interactivity, and domain adaptation.
-
-------------------------------------------------------------------------
-
-## 🔧 Demo & Workflow
-
-``` python
-#| echo: true
-import pandas as pd
-df = pd.DataFrame({"x":[1,2,3],"y":[4,5,6]})
-df.plot(kind="line") 
-```
-
--   Live output from code chunk
--   Line numbering and incremental reveal
-
-------------------------------------------------------------------------
-
-## 📦 Publishing & Sustainability
-
--   Self‑contained HTML output via `embed-resources: true`
--   GitHub Pages deployment from `docs/`
--   FAIR archival using automated DOI issuance via Zenodo
-
-------------------------------------------------------------------------
-
-## 📞 Get Involved
-
--   Repository: `github.com/maehr/one-template-to-rule-them-all`
--   Issues & Discussions welcome
--   Compatible with DH workflows and Open Science practices
-
-------------------------------------------------------------------------
-
-## 🔚 Thank You
-
-Questions? Reach out at [moritz.maehr\@gmail.com](mailto:moritz.maehr@gmail.com)
-
-```{=html}
-<!-- 
-
-**Notes / Enhancements**
-
-- We use `embed-resources: true` to make fully portable HTML presentations.
-- Slide-level options (`incremental`, code line numbers, transitions) follow best practices.
-- Included speaker-friendly elements: menu, slide numbers, responsive sizing.
-- You can further customize branding via a `_brand.yml` or `.scss` theme.
-
-Feel free to tweak the theme or add plugin options based on your branding or interactivity goals.
-
--->
-```
+::::
