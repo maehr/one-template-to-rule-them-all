@@ -34,25 +34,14 @@ This repository includes slides, demo notebooks, and reference materials to supp
 
 The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
 
-- `analysis/`: scripts and notebooks used to analyze the data
-- `assets/`: images, logos, etc. used in the README and other documentation
-- `build/`: scripts and notebooks used to build the data
-- `data/`: data files
-- `docs/`: documentation for the data and the repository
-- `project-management/`: project management documents (e.g., meeting notes, project plans, etc.)
-- `src/`: source code for the data (e.g., scripts used to collect or process the data)
-- `test/`: tests for the data and source code
-- `report.md`: a report describing the analysis of the data
-
-## Data Description
-
-- TODO Describe the data in this repository, including what it represents, how it was collected or obtained, any preprocessing or cleaning that was done, and any limitations or potential biases.
-- TODO Data models, including field names, descriptions, and controlled values, should be clearly documented in a static document that is maintained with the data and is part of the products.
-- TODO All rights and intellectual property issues should be clearly documented. Where possible, data and products should be released under open licenses (Creative Commons, GNU, BSD, MPL).
+- `abstract/`: Contains the abstract for the DHTech Symposium, including the extended abstract and any supplementary materials.
+- `documentation/`: Contains the Quarto documentation files for the Open Research Data Template, including the main presentation slides and demo notebooks.
+- `paper/`: Contains the paper files for the DHTech Symposium, including the LaTeX source and any supplementary materials.
+- `presentation/`: Contains the presentation files for the DHTech Symposium, including the Quarto slides and any supplementary materials.
 
 ## Use
 
-These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in `CITATION.cff`. The following citation formats are also available through _Zenodo_:
+These resources are openly available to everyone and can be used for any research or educational purpose. If you use this resources in your research, please cite as specified in `CITATION.cff`. The following citation formats are also available through _Zenodo_:
 
 - [BibTeX](https://zenodo.org/record/ZENODO_RECORD/export/hx)
 - [CSL](https://zenodo.org/record/ZENODO_RECORD/export/csl)
@@ -64,7 +53,7 @@ These data are openly available to everyone and can be used for any research or 
 - [GeoJSON](https://zenodo.org/record/ZENODO_RECORD/export/geojson)
 - [MARCXML](https://zenodo.org/record/ZENODO_RECORD/export/xm)
 
-_Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to access the data. For example, the following command will return the metadata for the most recent version of the data
+_Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to access the resources. For example, the following command will return the metadata for the most recent version of the resources
 
 ```bash
 curl -i https://zenodo.org/api/records/ZENODO_RECORD
@@ -89,7 +78,7 @@ No changes are currently planned.
 
 ## Contributing
 
-All contributions to this repository are welcome! If you find errors or problems with the data, or if you want to add new data or features, please open an issue or pull request. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+All contributions to this repository are welcome! If you find errors or problems with the resources, or if you want to add new resources or features, please open an issue or pull request. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## Versioning
 
@@ -98,7 +87,7 @@ We use [SemVer](http://semver.org/) for versioning. The available versions are l
 ## Authors and acknowledgment
 
 - **Moritz Mähr** - _Initial work_ - [maehr](https://github.com/maehr)
-- **Moritz Twente** - _Initial work_ - [mtwente](https://github.com/mtwente)
+- **Moritz Twente** - _Enhancements and contributions_ - [mtwente](https://github.com/mtwente)
 
 See also the list of [contributors](https://github.com/maehr/one-template-to-rule-them-all/graphs/contributors) who contributed to this project.
 

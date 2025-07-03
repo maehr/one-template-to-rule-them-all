@@ -1,80 +1,77 @@
----
-title: "One Template to Rule Them All"
-subtitle: "Interactive Research Data Documentation with Quarto"
-author:
-  - name: "Moritz Mähr"
-    affiliation:
-    - "University of Basel"
-    - "University of Bern"
-    orcid: "0000-0002-1367-1618"
-    email: "moritz.maehr@gmail.com"
-  - name: "Moritz Twente"
-    affiliation: "University of Basel"
-    orcid: "0009-0005-7187-9774"
-    email: "mtwente@protonmail.com"
-date: "July 14, 2025"
-event-type: "Tool Presentation (10-minute demonstration + 10-minute discussion)"
-abstract: |
-  We introduce the **Open Research Data Template**, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using **Quarto**. By integrating narrative, metadata, and multi-programming-language code (Python, R, Julia, ObservableJS) into cohesive websites, the template lowers barriers to meaningful reuse and sustainable archiving of research workflows. We will demonstrate the template's structure, automation pipeline, and real-world applications through projects such as **DigiHistCH24**, **Stadt.Geschichte.Basel**, **DHBern**, and **Decoding Inequality 2025**.
-format:
-    html: default
----
+# Digital Humanities Tech Symposium at DH2025
 
-## Extended Abstract
+## Overview
 
-We present the [Open Research Data Template](https://github.com/maehr/open-research-data-template), a modular, GitHub-based framework developed to streamline the publication, documentation, and reuse of open research data. Designed explicitly around the FAIR principles (Findable, Accessible, Interoperable, Reusable), the template addresses a critical challenge facing Digital Humanities projects: while datasets are increasingly shared, the surrounding preprocessing steps, methodological decisions, and potential pathways for reuse are often poorly documented, rendering much "open data" practically unusable.
+The Digital Humanities Tech Symposium is a mini-conference organized by DHTech as part of [DH2025](https://dh2025.adho.org/), taking place at NOVA University in Lisbon, Portugal, from July 14–18, 2025. The symposium focuses on the technical aspects of Digital Humanities (DH) projects, providing a platform for sharing tools, workflows, and lessons learned by and for the technical DH community.
 
-Our approach integrates [Quarto](https://quarto.org/), a powerful scientific publishing platform that supports **multi-programming-language** interoperability, enabling researchers to weave Python, R, Julia, and ObservableJS into coherent, executable, and human-readable research narratives. Quarto serves not merely as a documentation tool, but as an infrastructure for creating fully browsable, executable, and sustainably archived research outputs. The template automates publication via GitHub Pages and long-term archiving via Zenodo with DOI assignment, ensuring both accessibility and citability.
+## Event Details
 
-A key innovation of the template is its ability to combine static metadata, narrative descriptions, and executable preprocessing code into a single, integrated website. Unlike traditional supplementary materials or disconnected code repositories, this approach ensures that data, methods, and results remain interconnected, reducing barriers to reuse across different computational environments. By making preprocessing workflows transparent and reproducible, the template transforms static data archives into living, extensible resources.
+-   **Date:** Monday, July 14, 2025
+-   **Time:** 1:30pm – 6:30pm (Lisbon time)
+-   **Location:** NOVA University, Lisbon, Portugal
+-   **Organizers:** DHTech (ADHO Special Interest Group)
+-   **Contact:** dhtech.community\@gmail.com \| [DHTech Website](https://dh-tech.github.io/)
 
-In our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:
+## Call for Participation
 
--   [**DigiHistCH24**](https://digihistch24.github.io/): The conference website for *Historical Research, Digital Literacy, and Algorithmic Criticism* (Basel, 2024), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.
--   [**Stadt.Geschichte.Basel Documentation**](https://dokumentation.stadtgeschichtebasel.ch/): This project documents the data workflows behind Basel's new city history project, showcasing transparent research data practices in a major public history initiative.
--   [**DHBern Portal**](https://dhbern.github.io/): Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.
--   [**Decoding Inequality 2025**](https://dhbern.github.io/decoding-inequality-2025/): This repository contains the materials for the course "Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit" held at the University of Bern in the spring semester 2025.
+We invite submissions from those working on the technical aspects of DH projects, including:
 
-These projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.
+-   Implementation and design specifics of packages and applications
+-   Lessons learned regarding the design and implementation of research software
+-   Tool demonstrations from a technical perspective
+-   Community and diversity topics specific to the technical DH community
 
-We argue that the Open Research Data Template, powered by Quarto’s cross-language capabilities and GitHub’s collaborative infrastructure, provides a scalable, accessible model for elevating the standard of open data publication in the Digital Humanities. By facilitating executable documentation and integrated archiving, the template empowers researchers to move beyond minimal compliance with open science mandates toward creating genuinely reusable, transparent research outputs.
+### Presentation Formats
 
-Through this tool presentation, we aim to encourage the broader adoption of automated, executable open data documentation as a foundational practice for responsible, impactful, and sustainable Digital Humanities research.
+-   **Presentations:** 20-minute talks including Q&A
+-   **Tool Presentations:** 10-minute demonstration + 10-minute discussion
+-   **Other:** Propose your own format (describe length and audience engagement)
 
-## Technical Focus and Features
+### Submission Guidelines
 
-The Open Research Data Template enables:
+-   Submissions: 500–750 words, including links to relevant code and packages
+-   **Final Submission Deadline:** April 27, 2025 (extended)
+-   Submission platform may change depending on the number of submissions
+-   Reviewers are needed—please sign up if interested
 
--   **Executable Documentation**: Quarto integrates Python, R, Julia, and ObservableJS seamlessly in a single site.
--   **Reproducible Workflows**: Data preprocessing, cleaning, and analysis steps are documented alongside the datasets.
--   **Automated Deployment**: GitHub Actions handle site building, deadlink checking, and deployment to GitHub Pages.
--   **Persistent Archiving**: Zenodo integration allows datasets and documentation snapshots with DOI minting.
--   **Consistency and Scalability**: The template enforces best practices in open research data management inspired by *The Turing Way*.
+## Proceedings Publication
 
-Unlike traditional static documentation approaches, our template ensures that the preprocessing code, documentation, and data are kept in sync and fully transparent for future reuse.
+In collaboration with the new ACH open access conference proceedings series [Anthology of Computers and the Humanities](https://anthology.ach.org/), presenters may submit a short proceedings article (4–6 pages) after the conference.
 
-## Demonstration Plan (10 minutes)
+-   **Proceedings Article Deadline:** August 3, 2025
+-   Articles will be peer-reviewed and published with a DOI
+-   Use the ACH Anthology LaTeX template (Overleaf available)
 
--   **Overview**: Introduce the repository structure and automation pipeline.
--   **Walkthrough**:
-    -   Set up and configure a new open research data project.
-    -   Add executable documentation with Quarto.
-    -   Demonstrate GitHub Actions automation and publishing.
--   **Examples**: Highlight features and design choices in the live examples listed above.
--   **Discussion**: Benefits for sustainable data reuse, and lessons learned from deployment.
+## Agenda (July 14, 2025)
 
-## Expected Audience Takeaways
+-   1:30–1:40pm: DHTech Steering Committee Introduction
+-   1:40–2:00pm: Andreas Wagner – TEI2Zenodo: Server for TEI files to Zenodo
+-   2:00–2:20pm: Timo Frühwirth – tei-rdfa: Extracting RDFa Data from TEI-XML
+-   2:20–2:40pm: Gregor Middell – Turning an XML Database Inside Out
+-   2:40–2:50pm: Break
+-   2:50–3:10pm: Robert Casties – Data Preservation During Migrations
+-   3:10–3:30pm: Benjamin Kiessling – When Automatic Text Recognition Doesn't Work
+-   3:30–3:50pm: Coffee Break
+-   3:50–4:10pm: Rebecca Koeser – Undate in Action: Temporal Data in DH
+-   4:10–4:30pm: Paul Girard – Visual Exploration of Historical Data with Static Web Tech
+-   4:30–4:50pm: Olivia Wikle – CollectionBuilder for Digital Exhibits
+-   4:50–5:10pm: Moritz Mähr, Moritz Twente – One Template to Rule Them All: Interactive Research Data Documentation with Quarto
+-   5:10–5:20pm: Break
+-   5:20–5:40pm: Jamie Folsom – Extending Recogito Studio with Plugins
+-   5:40–6:00pm: Jose Hernandez – QuantumRandomWalks for Citation Networks
+-   6:00–6:20pm: Tibor Kálmán – Federated AAI for the Digital Humanities
+-   6:20–6:30pm: DHTech Steering Committee Goodbye and Thank You
 
--   How to structure and publish open research data for actual reuse, not just archival.
--   How to document preprocessing and analysis workflows with Quarto in an executable and reusable format.
--   How to automate FAIR data publishing with GitHub and Zenodo.
--   Insights from real Digital Humanities projects adopting this workflow.
+## Important Dates
 
-## Proceeding Article Plan
+-   **Final Submission Deadline:** April 27, 2025
+-   **Conference Date:** July 14, 2025
+-   **Proceedings Article Deadline:** August 3, 2025
 
-Following the symposium, we will submit a 4–6 page proceedings article to the **Anthology of Computers and the Humanities**, covering:
+## Further Information
 
--   Motivation for structured, reusable open data publication.
--   Technical overview of the template architecture and workflow.
--   Lessons learned from real-world projects.
--   Future enhancements for more advanced reuse scenarios, including automatic metadata extraction and enhanced machine-actionable documentation.
+-   [DHTech Website](https://dh-tech.github.io/)
+-   [DH2025 Conference](https://dh2025.adho.org/)
+-   [Anthology of Computers and the Humanities](https://anthology.ach.org/)
+
+For questions or to get involved, contact dhtech.community\@gmail.com.

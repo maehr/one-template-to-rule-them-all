@@ -137,17 +137,17 @@ After creating your project from this template (either via Codespaces or local s
 - [ ] **Add Zenodo DOI to README**: Once you have your Zenodo DOI, add it to the `README.md` file by replacing `ZENODO_RECORD`.
 - [x] **Add Favicons**: Add favicons to the root directory (see [favicon.io](https://favicon.io/)).
 - [ ] **Address TODOs**: Search for `TODO` comments throughout the project files and complete the tasks.
-- [ ] **Finalize README**: Delete this `README.md` and rename `README.template.md` to `README.md`.
-- [ ] **Format Files**: Run `npm run format` to ensure all files are formatted.
-- [ ] **Commit Changes**: Run `npm run commit` to save your changes with a standardized commit message.
+- [x] **Finalize README**: Delete this `README.md` and rename `README.template.md` to `README.md`.
+- [x] **Format Files**: Run `npm run format` to ensure all files are formatted.
+- [x] **Commit Changes**: Run `npm run commit` to save your changes with a standardized commit message.
 - [ ] **Generate Changelog**: Run `npm run changelog` and copy the output into the `CHANGELOG.md` file.
-- [ ] **Publish Documentation**: Run `quarto publish gh-pages` to publish your documentation website.
-- [ ] **Customize Documentation**: Further customize your documentation using [Quarto's features](https://quarto.org/docs/websites/#workflow).
-- [ ] **Enable GitHub Pages**: In your repository settings on GitHub (under "Pages"), configure GitHub Pages to publish from the `gh-pages` branch.
+- [x] **Publish Documentation**: Run `quarto publish gh-pages` to publish your documentation website.
+- [x] **Customize Documentation**: Further customize your documentation using [Quarto's features](https://quarto.org/docs/websites/#workflow).
+- [x] **Enable GitHub Pages**: In your repository settings on GitHub (under "Pages"), configure GitHub Pages to publish from the `gh-pages` branch.
 
 **Optional:**
 
-- [ ] **Add Citation File**: Create a `CITATION.CFF` file (see [citation-file-format.github.io](https://citation-file-format.github.io/)).
+- [x] **Add Citation File**: Create a `CITATION.CFF` file (see [citation-file-format.github.io](https://citation-file-format.github.io/)).
 - [ ] **Add Zenodo Metadata File**: Create a `.zenodo.json` file for Zenodo metadata ([Zenodo developer docs](https://developers.zenodo.org/?python#add-metadata-to-your-github-repository-release)).
 
 ## Use
