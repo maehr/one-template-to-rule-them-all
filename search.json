@@ -6,8 +6,7 @@
     "section": "",
     "text": "To report a security issue, please email moritz.maehr@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. This project follows a 90 day disclosure timeline.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Security"
     ]
   },
@@ -18,8 +17,7 @@
     "section": "",
     "text": "To report a security issue, please email moritz.maehr@gmail.com with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. This project follows a 90 day disclosure timeline.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Security"
     ]
   },
@@ -30,8 +28,7 @@
     "section": "",
     "text": "GNU AFFERO GENERAL PUBLIC LICENSE\n                   Version 3, 19 November 2007\nCopyright (C) 2007 Free Software Foundation, Inc. https://fsf.org/ Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.\n                        Preamble\nThe GNU Affero General Public License is a free, copyleft license for software and other kinds of works, specifically designed to ensure cooperation with the community in the case of network server software.\nThe licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, our General Public Licenses are intended to guarantee your freedom to share and change all versions of a program–to make sure it remains free software for all its users.\nWhen we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things.\nDevelopers that use our General Public Licenses protect your rights with two steps: (1) assert copyright on the software, and (2) offer you this License which gives you legal permission to copy, distribute and/or modify the software.\nA secondary benefit of defending all users’ freedom is that improvements made in alternate versions of the program, if they receive widespread use, become available for other developers to incorporate. Many developers of free software are heartened and encouraged by the resulting cooperation. However, in the case of software used on network servers, this result may fail to come about. The GNU General Public License permits making a modified version and letting the public access it on a server without ever releasing its source code to the public.\nThe GNU Affero General Public License is designed specifically to ensure that, in such cases, the modified source code becomes available to the community. It requires the operator of a network server to provide the source code of the modified version running there to the users of that server. Therefore, public use of a modified version, on a publicly accessible server, gives the public access to the source code of the modified version.\nAn older license, called the Affero General Public License and published by Affero, was designed to accomplish similar goals. This is a different license, not a version of the Affero GPL, but Affero has released a new version of the Affero GPL which permits relicensing under this license.\nThe precise terms and conditions for copying, distribution and modification follow.\n                   TERMS AND CONDITIONS\n\nDefinitions.\n\n“This License” refers to version 3 of the GNU Affero General Public License.\n“Copyright” also means copyright-like laws that apply to other kinds of works, such as semiconductor masks.\n“The Program” refers to any copyrightable work licensed under this License. Each licensee is addressed as “you”. “Licensees” and “recipients” may be individuals or organizations.\nTo “modify” a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy. The resulting work is called a “modified version” of the earlier work or a work “based on” the earlier work.\nA “covered work” means either the unmodified Program or a work based on the Program.\nTo “propagate” a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.\nTo “convey” a work means any kind of propagation that enables other parties to make or receive copies. Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.\nAn interactive user interface displays “Appropriate Legal Notices” to the extent that it includes a convenient and prominently visible feature that (1) displays an appropriate copyright notice, and (2) tells the user that there is no warranty for the work (except to the extent that warranties are provided), that licensees may convey the work under this License, and how to view a copy of this License. If the interface presents a list of user commands or options, such as a menu, a prominent item in the list meets this criterion.\n\nSource Code.\n\nThe “source code” for a work means the preferred form of the work for making modifications to it. “Object code” means any non-source form of a work.\nA “Standard Interface” means an interface that either is an official standard defined by a recognized standards body, or, in the case of interfaces specified for a particular programming language, one that is widely used among developers working in that language.\nThe “System Libraries” of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form. A “Major Component”, in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it.\nThe “Corresponding Source” for a work in object code form means all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. However, it does not include the work’s System Libraries, or general-purpose tools or generally available free programs which are used unmodified in performing those activities but which are not part of the work. For example, Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work.\nThe Corresponding Source need not include anything that users can regenerate automatically from other parts of the Corresponding Source.\nThe Corresponding Source for a work in source code form is that same work.\n\nBasic Permissions.\n\nAll rights granted under this License are granted for the term of copyright on the Program, and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.\nYou may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force. You may convey covered works to others for the sole purpose of having them make modifications exclusively for you, or provide you with facilities for running those works, provided that you comply with the terms of this License in conveying all material for which you do not control copyright. Those thus making or running the covered works for you must do so exclusively on your behalf, under your direction and control, on terms that prohibit them from making any copies of your copyrighted material outside their relationship with you.\nConveying under any other circumstances is permitted solely under the conditions stated below. Sublicensing is not allowed; section 10 makes it unnecessary.\n\nProtecting Users’ Legal Rights From Anti-Circumvention Law.\n\nNo covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.\nWhen you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work’s users, your or third parties’ legal rights to forbid circumvention of technological measures.\n\nConveying Verbatim Copies.\n\nYou may convey verbatim copies of the Program’s source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.\nYou may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.\n\nConveying Modified Source Versions.\n\nYou may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions:\na) The work must carry prominent notices stating that you modified\nit, and giving a relevant date.\n\nb) The work must carry prominent notices stating that it is\nreleased under this License and any conditions added under section\n7.  This requirement modifies the requirement in section 4 to\n\"keep intact all notices\".\n\nc) You must license the entire work, as a whole, under this\nLicense to anyone who comes into possession of a copy.  This\nLicense will therefore apply, along with any applicable section 7\nadditional terms, to the whole of the work, and all its parts,\nregardless of how they are packaged.  This License gives no\npermission to license the work in any other way, but it does not\ninvalidate such permission if you have separately received it.\n\nd) If the work has interactive user interfaces, each must display\nAppropriate Legal Notices; however, if the Program has interactive\ninterfaces that do not display Appropriate Legal Notices, your\nwork need not make them do so.\nA compilation of a covered work with other separate and independent works, which are not by their nature extensions of the covered work, and which are not combined with it such as to form a larger program, in or on a volume of a storage or distribution medium, is called an “aggregate” if the compilation and its resulting copyright are not used to limit the access or legal rights of the compilation’s users beyond what the individual works permit. Inclusion of a covered work in an aggregate does not cause this License to apply to the other parts of the aggregate.\n\nConveying Non-Source Forms.\n\nYou may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:\na) Convey the object code in, or embodied in, a physical product\n(including a physical distribution medium), accompanied by the\nCorresponding Source fixed on a durable physical medium\ncustomarily used for software interchange.\n\nb) Convey the object code in, or embodied in, a physical product\n(including a physical distribution medium), accompanied by a\nwritten offer, valid for at least three years and valid for as\nlong as you offer spare parts or customer support for that product\nmodel, to give anyone who possesses the object code either (1) a\ncopy of the Corresponding Source for all the software in the\nproduct that is covered by this License, on a durable physical\nmedium customarily used for software interchange, for a price no\nmore than your reasonable cost of physically performing this\nconveying of source, or (2) access to copy the\nCorresponding Source from a network server at no charge.\n\nc) Convey individual copies of the object code with a copy of the\nwritten offer to provide the Corresponding Source.  This\nalternative is allowed only occasionally and noncommercially, and\nonly if you received the object code with such an offer, in accord\nwith subsection 6b.\n\nd) Convey the object code by offering access from a designated\nplace (gratis or for a charge), and offer equivalent access to the\nCorresponding Source in the same way through the same place at no\nfurther charge.  You need not require recipients to copy the\nCorresponding Source along with the object code.  If the place to\ncopy the object code is a network server, the Corresponding Source\nmay be on a different server (operated by you or a third party)\nthat supports equivalent copying facilities, provided you maintain\nclear directions next to the object code saying where to find the\nCorresponding Source.  Regardless of what server hosts the\nCorresponding Source, you remain obligated to ensure that it is\navailable for as long as needed to satisfy these requirements.\n\ne) Convey the object code using peer-to-peer transmission, provided\nyou inform other peers where the object code and Corresponding\nSource of the work are being offered to the general public at no\ncharge under subsection 6d.\nA separable portion of the object code, whose source code is excluded from the Corresponding Source as a System Library, need not be included in conveying the object code work.\nA “User Product” is either (1) a “consumer product”, which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling. In determining whether a product is a consumer product, doubtful cases shall be resolved in favor of coverage. For a particular product received by a particular user, “normally used” refers to a typical or common use of that class of product, regardless of the status of the particular user or of the way in which the particular user actually uses, or expects or is expected to use, the product. A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product.\n“Installation Information” for a User Product means any methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source. The information must suffice to ensure that the continued functioning of the modified object code is in no case prevented or interfered with solely because modification has been made.\nIf you convey an object code work under this section in, or with, or specifically for use in, a User Product, and the conveying occurs as part of a transaction in which the right of possession and use of the User Product is transferred to the recipient in perpetuity or for a fixed term (regardless of how the transaction is characterized), the Corresponding Source conveyed under this section must be accompanied by the Installation Information. But this requirement does not apply if neither you nor any third party retains the ability to install modified object code on the User Product (for example, the work has been installed in ROM).\nThe requirement to provide Installation Information does not include a requirement to continue to provide support service, warranty, or updates for a work that has been modified or installed by the recipient, or for the User Product in which it has been modified or installed. Access to a network may be denied when the modification itself materially and adversely affects the operation of the network or violates the rules and protocols for communication across the network.\nCorresponding Source conveyed, and Installation Information provided, in accord with this section must be in a format that is publicly documented (and with an implementation available to the public in source code form), and must require no special password or key for unpacking, reading or copying.\n\nAdditional Terms.\n\n“Additional permissions” are terms that supplement the terms of this License by making exceptions from one or more of its conditions. Additional permissions that are applicable to the entire Program shall be treated as though they were included in this License, to the extent that they are valid under applicable law. If additional permissions apply only to part of the Program, that part may be used separately under those permissions, but the entire Program remains governed by this License without regard to the additional permissions.\nWhen you convey a copy of a covered work, you may at your option remove any additional permissions from that copy, or from any part of it. (Additional permissions may be written to require their own removal in certain cases when you modify the work.) You may place additional permissions on material, added by you to a covered work, for which you have or can give appropriate copyright permission.\nNotwithstanding any other provision of this License, for material you add to a covered work, you may (if authorized by the copyright holders of that material) supplement the terms of this License with terms:\na) Disclaiming warranty or limiting liability differently from the\nterms of sections 15 and 16 of this License; or\n\nb) Requiring preservation of specified reasonable legal notices or\nauthor attributions in that material or in the Appropriate Legal\nNotices displayed by works containing it; or\n\nc) Prohibiting misrepresentation of the origin of that material, or\nrequiring that modified versions of such material be marked in\nreasonable ways as different from the original version; or\n\nd) Limiting the use for publicity purposes of names of licensors or\nauthors of the material; or\n\ne) Declining to grant rights under trademark law for use of some\ntrade names, trademarks, or service marks; or\n\nf) Requiring indemnification of licensors and authors of that\nmaterial by anyone who conveys the material (or modified versions of\nit) with contractual assumptions of liability to the recipient, for\nany liability that these contractual assumptions directly impose on\nthose licensors and authors.\nAll other non-permissive additional terms are considered “further restrictions” within the meaning of section 10. If the Program as you received it, or any part of it, contains a notice stating that it is governed by this License along with a term that is a further restriction, you may remove that term. If a license document contains a further restriction but permits relicensing or conveying under this License, you may add to a covered work material governed by the terms of that license document, provided that the further restriction does not survive such relicensing or conveying.\nIf you add terms to a covered work in accord with this section, you must place, in the relevant source files, a statement of the additional terms that apply to those files, or a notice indicating where to find the applicable terms.\nAdditional terms, permissive or non-permissive, may be stated in the form of a separately written license, or stated as exceptions; the above requirements apply either way.\n\nTermination.\n\nYou may not propagate or modify a covered work except as expressly provided under this License. Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11).\nHowever, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation.\nMoreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice.\nTermination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License. If your rights have been terminated and not permanently reinstated, you do not qualify to receive new licenses for the same material under section 10.\n\nAcceptance Not Required for Having Copies.\n\nYou are not required to accept this License in order to receive or run a copy of the Program. Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance. However, nothing other than this License grants you permission to propagate or modify any covered work. These actions infringe copyright if you do not accept this License. Therefore, by modifying or propagating a covered work, you indicate your acceptance of this License to do so.\n\nAutomatic Licensing of Downstream Recipients.\n\nEach time you convey a covered work, the recipient automatically receives a license from the original licensors, to run, modify and propagate that work, subject to this License. You are not responsible for enforcing compliance by third parties with this License.\nAn “entity transaction” is a transaction transferring control of an organization, or substantially all assets of one, or subdividing an organization, or merging organizations. If propagation of a covered work results from an entity transaction, each party to that transaction who receives a copy of the work also receives whatever licenses to the work the party’s predecessor in interest had or could give under the previous paragraph, plus a right to possession of the Corresponding Source of the work from the predecessor in interest, if the predecessor has it or can get it with reasonable efforts.\nYou may not impose any further restrictions on the exercise of the rights granted or affirmed under this License. For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it.\n\nPatents.\n\nA “contributor” is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based. The work thus licensed is called the contributor’s “contributor version”.\nA contributor’s “essential patent claims” are all patent claims owned or controlled by the contributor, whether already acquired or hereafter acquired, that would be infringed by some manner, permitted by this License, of making, using, or selling its contributor version, but do not include claims that would be infringed only as a consequence of further modification of the contributor version. For purposes of this definition, “control” includes the right to grant patent sublicenses in a manner consistent with the requirements of this License.\nEach contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor’s essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.\nIn the following three paragraphs, a “patent license” is any express agreement or commitment, however denominated, not to enforce a patent (such as an express permission to practice a patent or covenant not to sue for patent infringement). To “grant” such a patent license to a party means to make such an agreement or commitment not to enforce a patent against the party.\nIf you convey a covered work, knowingly relying on a patent license, and the Corresponding Source of the work is not available for anyone to copy, free of charge and under the terms of this License, through a publicly available network server or other readily accessible means, then you must either (1) cause the Corresponding Source to be so available, or (2) arrange to deprive yourself of the benefit of the patent license for this particular work, or (3) arrange, in a manner consistent with the requirements of this License, to extend the patent license to downstream recipients. “Knowingly relying” means you have actual knowledge that, but for the patent license, your conveying the covered work in a country, or your recipient’s use of the covered work in a country, would infringe one or more identifiable patents in that country that you have reason to believe are valid.\nIf, pursuant to or in connection with a single transaction or arrangement, you convey, or propagate by procuring conveyance of, a covered work, and grant a patent license to some of the parties receiving the covered work authorizing them to use, propagate, modify or convey a specific copy of the covered work, then the patent license you grant is automatically extended to all recipients of the covered work and works based on it.\nA patent license is “discriminatory” if it does not include within the scope of its coverage, prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights that are specifically granted under this License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license (a) in connection with copies of the covered work conveyed by you (or copies made from those copies), or (b) primarily for and in connection with specific products or compilations that contain the covered work, unless you entered into that arrangement, or that patent license was granted, prior to 28 March 2007.\nNothing in this License shall be construed as excluding or limiting any implied license or other defenses to infringement that may otherwise be available to you under applicable patent law.\n\nNo Surrender of Others’ Freedom.\n\nIf conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot convey a covered work so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not convey it at all. For example, if you agree to terms that obligate you to collect a royalty for further conveying from those to whom you convey the Program, the only way you could satisfy both those terms and this License would be to refrain entirely from conveying the Program.\n\nRemote Network Interaction; Use with the GNU General Public License.\n\nNotwithstanding any other provision of this License, if you modify the Program, your modified version must prominently offer all users interacting with it remotely through a computer network (if your version supports such interaction) an opportunity to receive the Corresponding Source of your version by providing access to the Corresponding Source from a network server at no charge, through some standard or customary means of facilitating copying of software. This Corresponding Source shall include the Corresponding Source for any work covered by version 3 of the GNU General Public License that is incorporated pursuant to the following paragraph.\nNotwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the work with which it is combined will remain governed by version 3 of the GNU General Public License.\n\nRevised Versions of this License.\n\nThe Free Software Foundation may publish revised and/or new versions of the GNU Affero General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.\nEach version is given a distinguishing version number. If the Program specifies that a certain numbered version of the GNU Affero General Public License “or any later version” applies to it, you have the option of following the terms and conditions either of that numbered version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the GNU Affero General Public License, you may choose any version ever published by the Free Software Foundation.\nIf the Program specifies that a proxy can decide which future versions of the GNU Affero General Public License can be used, that proxy’s public statement of acceptance of a version permanently authorizes you to choose that version for the Program.\nLater license versions may give you additional or different permissions. However, no additional obligations are imposed on any author or copyright holder as a result of your choosing to follow a later version.\n\nDisclaimer of Warranty.\n\nTHERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n\nLimitation of Liability.\n\nIN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\n\nInterpretation of Sections 15 and 16.\n\nIf the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.\n                 END OF TERMS AND CONDITIONS\n\n        How to Apply These Terms to Your New Programs\nIf you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.\nTo do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.\n&lt;one line to give the program's name and a brief idea of what it does.&gt;\nCopyright (C) &lt;year&gt;  &lt;name of author&gt;\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as published\nby the Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.\nAlso add information on how to contact you by electronic and paper mail.\nIf your software can interact with users remotely through a computer network, you should also make sure that it provides a way for users to get its source. For example, if your program is a web application, its interface could display a “Source” link that leads users to an archive of the code. There are many ways you could offer source, and different solutions will be better for different programs; see section 13 for the specific requirements.\nYou should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU AGPL, see https://www.gnu.org/licenses/.\n\n\n\n Back to top",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "License (Code)"
     ]
   },
@@ -42,8 +39,7 @@
     "section": "",
     "text": "When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.\nPlease note we have a code of conduct, please follow it in all your interactions with the project.\n\n\n\nEnsure any install or build dependencies are removed before the end of the layer when doing a build.\nUpdate the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.\nIncrease the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is SemVer.\nYou may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Contributing"
     ]
   },
@@ -54,33 +50,8 @@
     "section": "",
     "text": "Ensure any install or build dependencies are removed before the end of the layer when doing a build.\nUpdate the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.\nIncrease the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is SemVer.\nYou may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Contributing"
-    ]
-  },
-  {
-    "objectID": "project-management/tools.html",
-    "href": "project-management/tools.html",
-    "title": "Tools",
-    "section": "",
-    "text": "Tools\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Readme",
-      "Report",
-      "Tools"
-    ]
-  },
-  {
-    "objectID": "project-management/project-report.html",
-    "href": "project-management/project-report.html",
-    "title": "Project Report",
-    "section": "",
-    "text": "Project Report\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Readme",
-      "Report",
-      "Project Report"
     ]
   },
   {
@@ -174,8 +145,7 @@
     "section": "",
     "text": "All notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning.\n\n\n\n\n\nDocs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n…",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Changelog"
     ]
   },
@@ -186,8 +156,7 @@
     "section": "",
     "text": "Docs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Changelog"
     ]
   },
@@ -198,8 +167,7 @@
     "section": "",
     "text": "…",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Changelog"
     ]
   },
@@ -210,52 +178,9 @@
     "section": "",
     "text": "…",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Changelog"
     ]
-  },
-  {
-    "objectID": "documentation/index.html",
-    "href": "documentation/index.html",
-    "title": "One Template to Rule Them All",
-    "section": "",
-    "text": "We present the Open Research Data Template, a modular, GitHub-based framework developed to streamline the publication, documentation, and reuse of open research data. Designed explicitly around the FAIR principles (Findable, Accessible, Interoperable, Reusable), the template addresses a critical challenge facing Digital Humanities projects: while datasets are increasingly shared, the surrounding preprocessing steps, methodological decisions, and potential pathways for reuse are often poorly documented, rendering much “open data” practically unusable.\nOur approach integrates Quarto, a powerful scientific publishing platform that supports multi-programming-language interoperability, enabling researchers to weave Python, R, Julia, and ObservableJS into coherent, executable, and human-readable research narratives. Quarto serves not merely as a documentation tool, but as an infrastructure for creating fully browsable, executable, and sustainably archived research outputs. The template automates publication via GitHub Pages and long-term archiving via Zenodo with DOI assignment, ensuring both accessibility and citability.\nA key innovation of the template is its ability to combine static metadata, narrative descriptions, and executable preprocessing code into a single, integrated website. Unlike traditional supplementary materials or disconnected code repositories, this approach ensures that data, methods, and results remain interconnected, reducing barriers to reuse across different computational environments. By making preprocessing workflows transparent and reproducible, the template transforms static data archives into living, extensible resources.\nIn our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:\n\nDigiHistCH24: The conference website for Historical Research, Digital Literacy, and Algorithmic Criticism (Basel, 2024), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.\nStadt.Geschichte.Basel Documentation: This project documents the data workflows behind Basel’s new city history project, showcasing transparent research data practices in a major public history initiative.\nDHBern Portal: Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.\nDecoding Inequality 2025: This repository contains the materials for the course “Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit” held at the University of Bern in the spring semester 2025.\n\nThese projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.\nWe argue that the Open Research Data Template, powered by Quarto’s cross-language capabilities and GitHub’s collaborative infrastructure, provides a scalable, accessible model for elevating the standard of open data publication in the Digital Humanities. By facilitating executable documentation and integrated archiving, the template empowers researchers to move beyond minimal compliance with open science mandates toward creating genuinely reusable, transparent research outputs.\nThrough this tool presentation, we aim to encourage the broader adoption of automated, executable open data documentation as a foundational practice for responsible, impactful, and sustainable Digital Humanities research."
-  },
-  {
-    "objectID": "documentation/index.html#extended-abstract",
-    "href": "documentation/index.html#extended-abstract",
-    "title": "One Template to Rule Them All",
-    "section": "",
-    "text": "We present the Open Research Data Template, a modular, GitHub-based framework developed to streamline the publication, documentation, and reuse of open research data. Designed explicitly around the FAIR principles (Findable, Accessible, Interoperable, Reusable), the template addresses a critical challenge facing Digital Humanities projects: while datasets are increasingly shared, the surrounding preprocessing steps, methodological decisions, and potential pathways for reuse are often poorly documented, rendering much “open data” practically unusable.\nOur approach integrates Quarto, a powerful scientific publishing platform that supports multi-programming-language interoperability, enabling researchers to weave Python, R, Julia, and ObservableJS into coherent, executable, and human-readable research narratives. Quarto serves not merely as a documentation tool, but as an infrastructure for creating fully browsable, executable, and sustainably archived research outputs. The template automates publication via GitHub Pages and long-term archiving via Zenodo with DOI assignment, ensuring both accessibility and citability.\nA key innovation of the template is its ability to combine static metadata, narrative descriptions, and executable preprocessing code into a single, integrated website. Unlike traditional supplementary materials or disconnected code repositories, this approach ensures that data, methods, and results remain interconnected, reducing barriers to reuse across different computational environments. By making preprocessing workflows transparent and reproducible, the template transforms static data archives into living, extensible resources.\nIn our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:\n\nDigiHistCH24: The conference website for Historical Research, Digital Literacy, and Algorithmic Criticism (Basel, 2024), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.\nStadt.Geschichte.Basel Documentation: This project documents the data workflows behind Basel’s new city history project, showcasing transparent research data practices in a major public history initiative.\nDHBern Portal: Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.\nDecoding Inequality 2025: This repository contains the materials for the course “Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit” held at the University of Bern in the spring semester 2025.\n\nThese projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.\nWe argue that the Open Research Data Template, powered by Quarto’s cross-language capabilities and GitHub’s collaborative infrastructure, provides a scalable, accessible model for elevating the standard of open data publication in the Digital Humanities. By facilitating executable documentation and integrated archiving, the template empowers researchers to move beyond minimal compliance with open science mandates toward creating genuinely reusable, transparent research outputs.\nThrough this tool presentation, we aim to encourage the broader adoption of automated, executable open data documentation as a foundational practice for responsible, impactful, and sustainable Digital Humanities research."
-  },
-  {
-    "objectID": "documentation/index.html#technical-focus-and-features",
-    "href": "documentation/index.html#technical-focus-and-features",
-    "title": "One Template to Rule Them All",
-    "section": "Technical Focus and Features",
-    "text": "Technical Focus and Features\nThe Open Research Data Template enables:\n\nExecutable Documentation: Quarto integrates Python, R, Julia, and ObservableJS seamlessly in a single site.\nReproducible Workflows: Data preprocessing, cleaning, and analysis steps are documented alongside the datasets.\nAutomated Deployment: GitHub Actions handle site building, deadlink checking, and deployment to GitHub Pages.\nPersistent Archiving: Zenodo integration allows datasets and documentation snapshots with DOI minting.\nConsistency and Scalability: The template enforces best practices in open research data management inspired by The Turing Way.\n\nUnlike traditional static documentation approaches, our template ensures that the preprocessing code, documentation, and data are kept in sync and fully transparent for future reuse."
-  },
-  {
-    "objectID": "documentation/index.html#demonstration-plan-10-minutes",
-    "href": "documentation/index.html#demonstration-plan-10-minutes",
-    "title": "One Template to Rule Them All",
-    "section": "Demonstration Plan (10 minutes)",
-    "text": "Demonstration Plan (10 minutes)\n\nOverview: Introduce the repository structure and automation pipeline.\nWalkthrough:\n\nSet up and configure a new open research data project.\nAdd executable documentation with Quarto.\nDemonstrate GitHub Actions automation and publishing.\n\nExamples: Highlight features and design choices in the live examples listed above.\nDiscussion: Benefits for sustainable data reuse, and lessons learned from deployment."
-  },
-  {
-    "objectID": "documentation/index.html#expected-audience-takeaways",
-    "href": "documentation/index.html#expected-audience-takeaways",
-    "title": "One Template to Rule Them All",
-    "section": "Expected Audience Takeaways",
-    "text": "Expected Audience Takeaways\n\nHow to structure and publish open research data for actual reuse, not just archival.\nHow to document preprocessing and analysis workflows with Quarto in an executable and reusable format.\nHow to automate FAIR data publishing with GitHub and Zenodo.\nInsights from real Digital Humanities projects adopting this workflow."
-  },
-  {
-    "objectID": "documentation/index.html#proceeding-article-plan",
-    "href": "documentation/index.html#proceeding-article-plan",
-    "title": "One Template to Rule Them All",
-    "section": "Proceeding Article Plan",
-    "text": "Proceeding Article Plan\nFollowing the symposium, we will submit a 4–6 page proceedings article to the Anthology of Computers and the Humanities, covering:\n\nMotivation for structured, reusable open data publication.\nTechnical overview of the template architecture and workflow.\nLessons learned from real-world projects.\nFuture enhancements for more advanced reuse scenarios, including automatic metadata extraction and enhanced machine-actionable documentation."
   },
   {
     "objectID": "CODE_OF_CONDUCT.html",
@@ -264,8 +189,7 @@
     "section": "",
     "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n\n\n\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nCommunity leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n\n\n\nThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at moritz.maehr@gmail.com. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n\n\n\nCommunity leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.\n\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Code of Conduct"
     ]
   },
@@ -276,8 +200,7 @@
     "section": "",
     "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Code of Conduct"
     ]
   },
@@ -288,8 +211,7 @@
     "section": "",
     "text": "Examples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Code of Conduct"
     ]
   },
@@ -300,8 +222,7 @@
     "section": "",
     "text": "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Code of Conduct"
     ]
   },
@@ -312,8 +233,7 @@
     "section": "",
     "text": "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Code of Conduct"
     ]
   },
@@ -324,8 +244,7 @@
     "section": "",
     "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at moritz.maehr@gmail.com. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Code of Conduct"
     ]
   },
@@ -336,8 +255,7 @@
     "section": "",
     "text": "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Code of Conduct"
     ]
   },
@@ -348,8 +266,7 @@
     "section": "",
     "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "Code of Conduct"
     ]
   },
@@ -358,150 +275,181 @@
     "href": "paper/index.html",
     "title": "One Template to Rule Them All",
     "section": "",
-    "text": "Back to topCitationBibTeX citation:@inproceedings{mähr2025,\n  author = {Mähr, Moritz and Twente, Moritz},\n  editor = {, TBD},\n  title = {One {Template} to {Rule} {Them} {All}},\n  booktitle = {Digital Humanities Tech Symposium (DHTech) at DH2025,\n    NOVA University Lisbon},\n  date = {2025},\n  url = {https://maehr.github.io/one-template-to-rule-them-all/paper/},\n  doi = {TBD},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMähr, Moritz, and Moritz Twente. 2025. “One Template to Rule Them\nAll.” In Digital Humanities Tech Symposium (DHTech) at\nDH2025, NOVA University Lisbon, edited by TBD. https://doi.org/TBD."
+    "text": "Back to topCitationBibTeX citation:@inproceedings{mähr2025,\n  author = {Mähr, Moritz and Twente, Moritz},\n  editor = {, TBD},\n  title = {One {Template} to {Rule} {Them} {All}},\n  booktitle = {Digital Humanities Tech Symposium (DHTech) at DH2025,\n    NOVA University Lisbon},\n  date = {2025},\n  url = {https://maehr.github.io/one-template-to-rule-them-all/paper/},\n  doi = {TBD},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMähr, Moritz, and Moritz Twente. 2025. “One Template to Rule Them\nAll.” In Digital Humanities Tech Symposium (DHTech) at\nDH2025, NOVA University Lisbon, edited by TBD. https://doi.org/TBD.",
+    "crumbs": [
+      "Home",
+      "Paper"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html",
-    "href": "documentation/digital-humanities-tech-symposium-final-extension.html",
-    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "objectID": "abstract/index.html",
+    "href": "abstract/index.html",
+    "title": "One Template to Rule Them All",
     "section": "",
-    "text": "by DHTech ·  Apr 1, 2025  · announcement conference whatshappening\n\n\n\nFinal Submission Deadline Extension and Conference Proceedings\nWe have exciting news to share! In collaboration with the new ACH open access conference proceedings series Anthology of Computers and the Humanities, there is now the option to submit a short proceedings article about your Digital Humanities Tech Symposium presentation after the conference.\nHere are the quick facts:\n\nProceedings articles should be 4 to 6 pages in length.\nArticles need to be submitted by August 3, 2025 (we highly recommend having a draft ready in time for the conference).\nArticles will be reviewed with potential requests for revisions.\nYou will likely be asked to be a reviewer for another submission.\nReviewed articles will be published on the proceedings website with a DOI for each article.\n\nTo give everyone interested in this opportunity a chance to submit, we have extended the submission deadline for the Digital Humanities Tech Symposium to April 27, 2025.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost Icon\n\n\n\nDigital Humanities Tech Symposium - Agenda\n\n\n\n\nPost Icon\n\n\n\nThe DH RSE Workshop White Paper by DHTech\n\n\n\n\n\n\n Digital Humanities Tech Symposium - Agenda (Jul 2025)\n\n\n\n\n\n Digital Humanities Tech Symposium - Final Extension and Proceedings Publication\n DHTech February Newsletter\n DHTech April Meetup on Data Longevity\n Digital Humanities Tech Symposium\n DHTech February Meetup\n DHTech Joins Mastodon and Bluesky\n DHTech December Newsletter\n Digital Humanities Research Software Engineering Survey\n\n\n\n\n\n DHTech April Meetup on Data Longevity (Apr 2025)\n DHTech February Meetup (Feb 2025)\n DHTech October Meetup on Code Review and AI (Oct 2024)\n\nBrowse all meetups.\n\n\n\nannouncement 30 whatshappening 25 meetup 20 event 11 recording 11 conference 10 newsletter 9 adayinthelifeof 6 2simple2mention 3 dhippochallenge 2\n\n\n\n\nNews\nBlogs\nAll site content\n:::\n:::::::\n:::::::::::"
+    "text": "We present the Open Research Data Template, a modular, GitHub-based framework developed to streamline the publication, documentation, and reuse of open research data. Designed explicitly around the FAIR principles (Findable, Accessible, Interoperable, Reusable), the template addresses a critical challenge facing Digital Humanities projects: while datasets are increasingly shared, the surrounding preprocessing steps, methodological decisions, and potential pathways for reuse are often poorly documented, rendering much “open data” practically unusable.\nOur approach integrates Quarto, a powerful scientific publishing platform that supports multi-programming-language interoperability, enabling researchers to weave Python, R, Julia, and ObservableJS into coherent, executable, and human-readable research narratives. Quarto serves not merely as a documentation tool, but as an infrastructure for creating fully browsable, executable, and sustainably archived research outputs. The template automates publication via GitHub Pages and long-term archiving via Zenodo with DOI assignment, ensuring both accessibility and citability.\nA key innovation of the template is its ability to combine static metadata, narrative descriptions, and executable preprocessing code into a single, integrated website. Unlike traditional supplementary materials or disconnected code repositories, this approach ensures that data, methods, and results remain interconnected, reducing barriers to reuse across different computational environments. By making preprocessing workflows transparent and reproducible, the template transforms static data archives into living, extensible resources.\nIn our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:\n\nDigiHistCH24: The conference website for Historical Research, Digital Literacy, and Algorithmic Criticism (Basel, 2024), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.\nStadt.Geschichte.Basel Documentation: This project documents the data workflows behind Basel’s new city history project, showcasing transparent research data practices in a major public history initiative.\nDHBern Portal: Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.\nDecoding Inequality 2025: This repository contains the materials for the course “Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit” held at the University of Bern in the spring semester 2025.\n\nThese projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.\nWe argue that the Open Research Data Template, powered by Quarto’s cross-language capabilities and GitHub’s collaborative infrastructure, provides a scalable, accessible model for elevating the standard of open data publication in the Digital Humanities. By facilitating executable documentation and integrated archiving, the template empowers researchers to move beyond minimal compliance with open science mandates toward creating genuinely reusable, transparent research outputs.\nThrough this tool presentation, we aim to encourage the broader adoption of automated, executable open data documentation as a foundational practice for responsible, impactful, and sustainable Digital Humanities research.",
+    "crumbs": [
+      "Home",
+      "Abstract"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#featured-posts",
-    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#featured-posts",
-    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "objectID": "abstract/index.html#extended-abstract",
+    "href": "abstract/index.html#extended-abstract",
+    "title": "One Template to Rule Them All",
     "section": "",
-    "text": "Post Icon\n\n\n\nDigital Humanities Tech Symposium - Agenda\n\n\n\n\nPost Icon\n\n\n\nThe DH RSE Workshop White Paper by DHTech"
+    "text": "We present the Open Research Data Template, a modular, GitHub-based framework developed to streamline the publication, documentation, and reuse of open research data. Designed explicitly around the FAIR principles (Findable, Accessible, Interoperable, Reusable), the template addresses a critical challenge facing Digital Humanities projects: while datasets are increasingly shared, the surrounding preprocessing steps, methodological decisions, and potential pathways for reuse are often poorly documented, rendering much “open data” practically unusable.\nOur approach integrates Quarto, a powerful scientific publishing platform that supports multi-programming-language interoperability, enabling researchers to weave Python, R, Julia, and ObservableJS into coherent, executable, and human-readable research narratives. Quarto serves not merely as a documentation tool, but as an infrastructure for creating fully browsable, executable, and sustainably archived research outputs. The template automates publication via GitHub Pages and long-term archiving via Zenodo with DOI assignment, ensuring both accessibility and citability.\nA key innovation of the template is its ability to combine static metadata, narrative descriptions, and executable preprocessing code into a single, integrated website. Unlike traditional supplementary materials or disconnected code repositories, this approach ensures that data, methods, and results remain interconnected, reducing barriers to reuse across different computational environments. By making preprocessing workflows transparent and reproducible, the template transforms static data archives into living, extensible resources.\nIn our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:\n\nDigiHistCH24: The conference website for Historical Research, Digital Literacy, and Algorithmic Criticism (Basel, 2024), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.\nStadt.Geschichte.Basel Documentation: This project documents the data workflows behind Basel’s new city history project, showcasing transparent research data practices in a major public history initiative.\nDHBern Portal: Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.\nDecoding Inequality 2025: This repository contains the materials for the course “Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit” held at the University of Bern in the spring semester 2025.\n\nThese projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.\nWe argue that the Open Research Data Template, powered by Quarto’s cross-language capabilities and GitHub’s collaborative infrastructure, provides a scalable, accessible model for elevating the standard of open data publication in the Digital Humanities. By facilitating executable documentation and integrated archiving, the template empowers researchers to move beyond minimal compliance with open science mandates toward creating genuinely reusable, transparent research outputs.\nThrough this tool presentation, we aim to encourage the broader adoption of automated, executable open data documentation as a foundational practice for responsible, impactful, and sustainable Digital Humanities research.",
+    "crumbs": [
+      "Home",
+      "Abstract"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#upcoming-events",
-    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#upcoming-events",
-    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
-    "section": "",
-    "text": "Digital Humanities Tech Symposium - Agenda (Jul 2025)"
+    "objectID": "abstract/index.html#technical-focus-and-features",
+    "href": "abstract/index.html#technical-focus-and-features",
+    "title": "One Template to Rule Them All",
+    "section": "Technical Focus and Features",
+    "text": "Technical Focus and Features\nThe Open Research Data Template enables:\n\nExecutable Documentation: Quarto integrates Python, R, Julia, and ObservableJS seamlessly in a single site.\nReproducible Workflows: Data preprocessing, cleaning, and analysis steps are documented alongside the datasets.\nAutomated Deployment: GitHub Actions handle site building, deadlink checking, and deployment to GitHub Pages.\nPersistent Archiving: Zenodo integration allows datasets and documentation snapshots with DOI minting.\nConsistency and Scalability: The template enforces best practices in open research data management inspired by The Turing Way.\n\nUnlike traditional static documentation approaches, our template ensures that the preprocessing code, documentation, and data are kept in sync and fully transparent for future reuse.",
+    "crumbs": [
+      "Home",
+      "Abstract"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#recent-posts",
-    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#recent-posts",
-    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
-    "section": "",
-    "text": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication\n DHTech February Newsletter\n DHTech April Meetup on Data Longevity\n Digital Humanities Tech Symposium\n DHTech February Meetup\n DHTech Joins Mastodon and Bluesky\n DHTech December Newsletter\n Digital Humanities Research Software Engineering Survey"
+    "objectID": "abstract/index.html#demonstration-plan-10-minutes",
+    "href": "abstract/index.html#demonstration-plan-10-minutes",
+    "title": "One Template to Rule Them All",
+    "section": "Demonstration Plan (10 minutes)",
+    "text": "Demonstration Plan (10 minutes)\n\nOverview: Introduce the repository structure and automation pipeline.\nWalkthrough:\n\nSet up and configure a new open research data project.\nAdd executable documentation with Quarto.\nDemonstrate GitHub Actions automation and publishing.\n\nExamples: Highlight features and design choices in the live examples listed above.\nDiscussion: Benefits for sustainable data reuse, and lessons learned from deployment.",
+    "crumbs": [
+      "Home",
+      "Abstract"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#past-events",
-    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#past-events",
-    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
-    "section": "",
-    "text": "DHTech April Meetup on Data Longevity (Apr 2025)\n DHTech February Meetup (Feb 2025)\n DHTech October Meetup on Code Review and AI (Oct 2024)\n\nBrowse all meetups."
+    "objectID": "abstract/index.html#expected-audience-takeaways",
+    "href": "abstract/index.html#expected-audience-takeaways",
+    "title": "One Template to Rule Them All",
+    "section": "Expected Audience Takeaways",
+    "text": "Expected Audience Takeaways\n\nHow to structure and publish open research data for actual reuse, not just archival.\nHow to document preprocessing and analysis workflows with Quarto in an executable and reusable format.\nHow to automate FAIR data publishing with GitHub and Zenodo.\nInsights from real Digital Humanities projects adopting this workflow.",
+    "crumbs": [
+      "Home",
+      "Abstract"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#tags-section",
-    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#tags-section",
-    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
-    "section": "",
-    "text": "announcement 30 whatshappening 25 meetup 20 event 11 recording 11 conference 10 newsletter 9 adayinthelifeof 6 2simple2mention 3 dhippochallenge 2"
+    "objectID": "abstract/index.html#proceeding-article-plan",
+    "href": "abstract/index.html#proceeding-article-plan",
+    "title": "One Template to Rule Them All",
+    "section": "Proceeding Article Plan",
+    "text": "Proceeding Article Plan\nFollowing the symposium, we will submit a 4–6 page proceedings article to the Anthology of Computers and the Humanities, covering:\n\nMotivation for structured, reusable open data publication.\nTechnical overview of the template architecture and workflow.\nLessons learned from real-world projects.\nFuture enhancements for more advanced reuse scenarios, including automatic metadata extraction and enhanced machine-actionable documentation.",
+    "crumbs": [
+      "Home",
+      "Abstract"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium-final-extension.html#subscribe-via-rss",
-    "href": "documentation/digital-humanities-tech-symposium-final-extension.html#subscribe-via-rss",
-    "title": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication",
+    "objectID": "documentation/index.html",
+    "href": "documentation/index.html",
+    "title": "Digital Humanities Tech Symposium at DH2025",
     "section": "",
-    "text": "News\nBlogs\nAll site content\n:::\n:::::::\n:::::::::::"
+    "text": "The Digital Humanities Tech Symposium is a mini-conference organized by DHTech as part of DH2025, taking place at NOVA University in Lisbon, Portugal, from July 14–18, 2025. The symposium focuses on the technical aspects of Digital Humanities (DH) projects, providing a platform for sharing tools, workflows, and lessons learned by and for the technical DH community.\n\n\n\n\nDate: Monday, July 14, 2025\nTime: 1:30pm – 6:30pm (Lisbon time)\nLocation: NOVA University, Lisbon, Portugal\nOrganizers: DHTech (ADHO Special Interest Group)\nContact: dhtech.community@gmail.com | DHTech Website\n\n\n\n\nWe invite submissions from those working on the technical aspects of DH projects, including:\n\nImplementation and design specifics of packages and applications\nLessons learned regarding the design and implementation of research software\nTool demonstrations from a technical perspective\nCommunity and diversity topics specific to the technical DH community\n\n\n\n\nPresentations: 20-minute talks including Q&A\nTool Presentations: 10-minute demonstration + 10-minute discussion\nOther: Propose your own format (describe length and audience engagement)\n\n\n\n\n\nSubmissions: 500–750 words, including links to relevant code and packages\nFinal Submission Deadline: April 27, 2025 (extended)\nSubmission platform may change depending on the number of submissions\nReviewers are needed—please sign up if interested\n\n\n\n\n\nIn collaboration with the new ACH open access conference proceedings series Anthology of Computers and the Humanities, presenters may submit a short proceedings article (4–6 pages) after the conference.\n\nProceedings Article Deadline: August 3, 2025\nArticles will be peer-reviewed and published with a DOI\nUse the ACH Anthology LaTeX template (Overleaf available)\n\n\n\n\n\n1:30–1:40pm: DHTech Steering Committee Introduction\n1:40–2:00pm: Andreas Wagner – TEI2Zenodo: Server for TEI files to Zenodo\n2:00–2:20pm: Timo Frühwirth – tei-rdfa: Extracting RDFa Data from TEI-XML\n2:20–2:40pm: Gregor Middell – Turning an XML Database Inside Out\n2:40–2:50pm: Break\n2:50–3:10pm: Robert Casties – Data Preservation During Migrations\n3:10–3:30pm: Benjamin Kiessling – When Automatic Text Recognition Doesn’t Work\n3:30–3:50pm: Coffee Break\n3:50–4:10pm: Rebecca Koeser – Undate in Action: Temporal Data in DH\n4:10–4:30pm: Paul Girard – Visual Exploration of Historical Data with Static Web Tech\n4:30–4:50pm: Olivia Wikle – CollectionBuilder for Digital Exhibits\n4:50–5:10pm: Moritz Mähr, Moritz Twente – One Template to Rule Them All: Interactive Research Data Documentation with Quarto\n5:10–5:20pm: Break\n5:20–5:40pm: Jamie Folsom – Extending Recogito Studio with Plugins\n5:40–6:00pm: Jose Hernandez – QuantumRandomWalks for Citation Networks\n6:00–6:20pm: Tibor Kálmán – Federated AAI for the Digital Humanities\n6:20–6:30pm: DHTech Steering Committee Goodbye and Thank You\n\n\n\n\n\nFinal Submission Deadline: April 27, 2025\nConference Date: July 14, 2025\nProceedings Article Deadline: August 3, 2025\n\n\n\n\n\nDHTech Website\nDH2025 Conference\nAnthology of Computers and the Humanities\n\nFor questions or to get involved, contact dhtech.community@gmail.com.",
+    "crumbs": [
+      "Home",
+      "Documentation"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium.html",
-    "href": "documentation/digital-humanities-tech-symposium.html",
-    "title": "Digital Humanities Tech Symposium",
+    "objectID": "documentation/index.html#overview",
+    "href": "documentation/index.html#overview",
+    "title": "Digital Humanities Tech Symposium at DH2025",
     "section": "",
-    "text": "by DHTech ·  Feb 19, 2025  · announcement conference whatshappening\n\n\n\nFrom July 14-18, 2025, DH2025 will be held at Nova University in Lisbon, Portugal. DHTech will hold a mini-conference at DH2025, the Digital Humanities Tech Symposium. Typical DH conference presentations are focussed on the research with a slight nod to the technical details; we want to flip that format and dive more deeply into the technical aspects of the work, while still keeping it in context of the research and domain specifics. To that end, we invite submissions of interest to the people who work on the technical aspects of DH projects, such as:\n\nimplementation and design specifics of packages and applications\nlessons learnt regarding the design and implementation of research software\ntool demonstrations from a technical perspective\ncommunity and diversity topics specific to the technical DH community\n\nSubmissions should specify the desired format:\n\nPresentations: 20 minute talks including Q&A with the audience.\nTool presentations: 10 minutes demonstrations followed by 10 minutes discussion with the audience.\nOther: do you have a format in mind you would like to try out? Please describe the format including length and audience engagement.\n\nSubmissions should be 500 to 750 words in length. Links to relevant code and packages should be provided in the submission.\nSubmission deadline is March 15, 2025. March 29, 2025 April 27th, 2025 (final extension) . Please be aware, we may ask you to resubmit to a different platform depending on the number of submissions we receive.\nWe are also looking for reviewers for submission to Digital Humanities Tech Symposium. If you are willing to review two to three submissions between the end of April and beginning of May (concrete dates to follow), please sign up here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost Icon\n\n\n\nDigital Humanities Tech Symposium - Agenda\n\n\n\n\nPost Icon\n\n\n\nThe DH RSE Workshop White Paper by DHTech\n\n\n\n\n\n\n Digital Humanities Tech Symposium - Agenda (Jul 2025)\n\n\n\n\n\n Digital Humanities Tech Symposium - Final Extension and Proceedings Publication\n DHTech February Newsletter\n DHTech April Meetup on Data Longevity\n Digital Humanities Tech Symposium\n DHTech February Meetup\n DHTech Joins Mastodon and Bluesky\n DHTech December Newsletter\n Digital Humanities Research Software Engineering Survey\n\n\n\n\n\n DHTech April Meetup on Data Longevity (Apr 2025)\n DHTech February Meetup (Feb 2025)\n DHTech October Meetup on Code Review and AI (Oct 2024)\n\nBrowse all meetups.\n\n\n\nannouncement 30 whatshappening 25 meetup 20 event 11 recording 11 conference 10 newsletter 9 adayinthelifeof 6 2simple2mention 3 dhippochallenge 2\n\n\n\n\nNews\nBlogs\nAll site content\n:::\n:::::::\n:::::::::::"
+    "text": "The Digital Humanities Tech Symposium is a mini-conference organized by DHTech as part of DH2025, taking place at NOVA University in Lisbon, Portugal, from July 14–18, 2025. The symposium focuses on the technical aspects of Digital Humanities (DH) projects, providing a platform for sharing tools, workflows, and lessons learned by and for the technical DH community.",
+    "crumbs": [
+      "Home",
+      "Documentation"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium.html#featured-posts",
-    "href": "documentation/digital-humanities-tech-symposium.html#featured-posts",
-    "title": "Digital Humanities Tech Symposium",
+    "objectID": "documentation/index.html#event-details",
+    "href": "documentation/index.html#event-details",
+    "title": "Digital Humanities Tech Symposium at DH2025",
     "section": "",
-    "text": "Post Icon\n\n\n\nDigital Humanities Tech Symposium - Agenda\n\n\n\n\nPost Icon\n\n\n\nThe DH RSE Workshop White Paper by DHTech"
+    "text": "Date: Monday, July 14, 2025\nTime: 1:30pm – 6:30pm (Lisbon time)\nLocation: NOVA University, Lisbon, Portugal\nOrganizers: DHTech (ADHO Special Interest Group)\nContact: dhtech.community@gmail.com | DHTech Website",
+    "crumbs": [
+      "Home",
+      "Documentation"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium.html#upcoming-events",
-    "href": "documentation/digital-humanities-tech-symposium.html#upcoming-events",
-    "title": "Digital Humanities Tech Symposium",
+    "objectID": "documentation/index.html#call-for-participation",
+    "href": "documentation/index.html#call-for-participation",
+    "title": "Digital Humanities Tech Symposium at DH2025",
     "section": "",
-    "text": "Digital Humanities Tech Symposium - Agenda (Jul 2025)"
+    "text": "We invite submissions from those working on the technical aspects of DH projects, including:\n\nImplementation and design specifics of packages and applications\nLessons learned regarding the design and implementation of research software\nTool demonstrations from a technical perspective\nCommunity and diversity topics specific to the technical DH community\n\n\n\n\nPresentations: 20-minute talks including Q&A\nTool Presentations: 10-minute demonstration + 10-minute discussion\nOther: Propose your own format (describe length and audience engagement)\n\n\n\n\n\nSubmissions: 500–750 words, including links to relevant code and packages\nFinal Submission Deadline: April 27, 2025 (extended)\nSubmission platform may change depending on the number of submissions\nReviewers are needed—please sign up if interested",
+    "crumbs": [
+      "Home",
+      "Documentation"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium.html#recent-posts",
-    "href": "documentation/digital-humanities-tech-symposium.html#recent-posts",
-    "title": "Digital Humanities Tech Symposium",
+    "objectID": "documentation/index.html#proceedings-publication",
+    "href": "documentation/index.html#proceedings-publication",
+    "title": "Digital Humanities Tech Symposium at DH2025",
     "section": "",
-    "text": "Digital Humanities Tech Symposium - Final Extension and Proceedings Publication\n DHTech February Newsletter\n DHTech April Meetup on Data Longevity\n Digital Humanities Tech Symposium\n DHTech February Meetup\n DHTech Joins Mastodon and Bluesky\n DHTech December Newsletter\n Digital Humanities Research Software Engineering Survey"
+    "text": "In collaboration with the new ACH open access conference proceedings series Anthology of Computers and the Humanities, presenters may submit a short proceedings article (4–6 pages) after the conference.\n\nProceedings Article Deadline: August 3, 2025\nArticles will be peer-reviewed and published with a DOI\nUse the ACH Anthology LaTeX template (Overleaf available)",
+    "crumbs": [
+      "Home",
+      "Documentation"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium.html#past-events",
-    "href": "documentation/digital-humanities-tech-symposium.html#past-events",
-    "title": "Digital Humanities Tech Symposium",
+    "objectID": "documentation/index.html#agenda-july-14-2025",
+    "href": "documentation/index.html#agenda-july-14-2025",
+    "title": "Digital Humanities Tech Symposium at DH2025",
     "section": "",
-    "text": "DHTech April Meetup on Data Longevity (Apr 2025)\n DHTech February Meetup (Feb 2025)\n DHTech October Meetup on Code Review and AI (Oct 2024)\n\nBrowse all meetups."
+    "text": "1:30–1:40pm: DHTech Steering Committee Introduction\n1:40–2:00pm: Andreas Wagner – TEI2Zenodo: Server for TEI files to Zenodo\n2:00–2:20pm: Timo Frühwirth – tei-rdfa: Extracting RDFa Data from TEI-XML\n2:20–2:40pm: Gregor Middell – Turning an XML Database Inside Out\n2:40–2:50pm: Break\n2:50–3:10pm: Robert Casties – Data Preservation During Migrations\n3:10–3:30pm: Benjamin Kiessling – When Automatic Text Recognition Doesn’t Work\n3:30–3:50pm: Coffee Break\n3:50–4:10pm: Rebecca Koeser – Undate in Action: Temporal Data in DH\n4:10–4:30pm: Paul Girard – Visual Exploration of Historical Data with Static Web Tech\n4:30–4:50pm: Olivia Wikle – CollectionBuilder for Digital Exhibits\n4:50–5:10pm: Moritz Mähr, Moritz Twente – One Template to Rule Them All: Interactive Research Data Documentation with Quarto\n5:10–5:20pm: Break\n5:20–5:40pm: Jamie Folsom – Extending Recogito Studio with Plugins\n5:40–6:00pm: Jose Hernandez – QuantumRandomWalks for Citation Networks\n6:00–6:20pm: Tibor Kálmán – Federated AAI for the Digital Humanities\n6:20–6:30pm: DHTech Steering Committee Goodbye and Thank You",
+    "crumbs": [
+      "Home",
+      "Documentation"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium.html#tags-section",
-    "href": "documentation/digital-humanities-tech-symposium.html#tags-section",
-    "title": "Digital Humanities Tech Symposium",
+    "objectID": "documentation/index.html#important-dates",
+    "href": "documentation/index.html#important-dates",
+    "title": "Digital Humanities Tech Symposium at DH2025",
     "section": "",
-    "text": "announcement 30 whatshappening 25 meetup 20 event 11 recording 11 conference 10 newsletter 9 adayinthelifeof 6 2simple2mention 3 dhippochallenge 2"
+    "text": "Final Submission Deadline: April 27, 2025\nConference Date: July 14, 2025\nProceedings Article Deadline: August 3, 2025",
+    "crumbs": [
+      "Home",
+      "Documentation"
+    ]
   },
   {
-    "objectID": "documentation/digital-humanities-tech-symposium.html#subscribe-via-rss",
-    "href": "documentation/digital-humanities-tech-symposium.html#subscribe-via-rss",
-    "title": "Digital Humanities Tech Symposium",
+    "objectID": "documentation/index.html#further-information",
+    "href": "documentation/index.html#further-information",
+    "title": "Digital Humanities Tech Symposium at DH2025",
     "section": "",
-    "text": "News\nBlogs\nAll site content\n:::\n:::::::\n:::::::::::"
+    "text": "DHTech Website\nDH2025 Conference\nAnthology of Computers and the Humanities\n\nFor questions or to get involved, contact dhtech.community@gmail.com.",
+    "crumbs": [
+      "Home",
+      "Documentation"
+    ]
   },
   {
     "objectID": "report.html",
     "href": "report.html",
     "title": "Report",
     "section": "",
-    "text": "Report\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Readme",
-      "Report"
-    ]
-  },
-  {
-    "objectID": "project-management/communication.html",
-    "href": "project-management/communication.html",
-    "title": "Communication",
-    "section": "",
-    "text": "Communication\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Readme",
-      "Report",
-      "Communication"
-    ]
-  },
-  {
-    "objectID": "project-management/people.html",
-    "href": "project-management/people.html",
-    "title": "People",
-    "section": "",
-    "text": "People\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Readme",
-      "Report",
-      "People"
-    ]
+    "text": "Report\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Open Resarch Data",
     "section": "",
-    "text": "This repository contains the presentation materials for “One Template to Rule Them All: Interactive Research Data Documentation with Quarto” presented by Moritz Mähr and Moritz Twente at the Digital Humanities Tech Symposium (DHTech), held during DH2025 at NOVA University, Lisbon, Portugal.\nThe DHTech Symposium, a mini-conference embedded within DH2025 (July 14–18, 2025), provides a venue to foreground technical innovation and infrastructure in digital humanities research. Unlike typical DH conferences that prioritize research outcomes over technical process, the DHTech Symposium emphasizes the tools, platforms, and methodologies that underpin digital scholarship.\nOur contribution introduces the Open Research Data Template, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using Quarto. The template supports integration of narrative, metadata, and code in Python, R, Julia, and ObservableJS, enabling researchers to publish cohesive, reproducible, and FAIR-compliant websites directly from their project repositories.\nWe discuss how the template lowers barriers to reuse and sustainable archiving of research workflows by automating documentation pipelines and facilitating seamless publishing. Real-world applications from projects such as DigiHistCH24, Stadt.Geschichte.Basel, DHBern, and Decoding Inequality 2025 are presented to demonstrate its flexibility across domains and use cases.\nThe presentation covers:\n\nThe motivation and need for executable research data documentation in DH.\nThe structure and technical implementation of the template using Quarto and GitHub Actions.\nAutomation strategies for multi-language code integration and metadata harmonization.\nSustainable publishing practices for archiving and interoperability.\nLive demonstrations and case studies.\n\nLinks\n\nDigital Humanities Tech Symposium Agenda\nDH2025, NOVA University Lisbon\n\nThis repository includes slides, demo notebooks, and reference materials to support the talk and foster adoption of the Open Research Data Template in DH and adjacent fields.\n     \n\n\nThe structure of this repository follows the Advanced Structure for Data Analysis of The Turing Way and is organized as follows:\n\nanalysis/: scripts and notebooks used to analyze the data\nassets/: images, logos, etc. used in the README and other documentation\nbuild/: scripts and notebooks used to build the data\ndata/: data files\ndocs/: documentation for the data and the repository\nproject-management/: project management documents (e.g., meeting notes, project plans, etc.)\nsrc/: source code for the data (e.g., scripts used to collect or process the data)\ntest/: tests for the data and source code\nreport.md: a report describing the analysis of the data\n\n\n\n\n\nTODO Describe the data in this repository, including what it represents, how it was collected or obtained, any preprocessing or cleaning that was done, and any limitations or potential biases.\nTODO Data models, including field names, descriptions, and controlled values, should be clearly documented in a static document that is maintained with the data and is part of the products.\nTODO All rights and intellectual property issues should be clearly documented. Where possible, data and products should be released under open licenses (Creative Commons, GNU, BSD, MPL).\n\n\n\n\nThese data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in CITATION.cff. The following citation formats are also available through Zenodo:\n\nBibTeX\nCSL\nDataCite\nDublin Core\nDCAT\nJSON\nJSON-LD\nGeoJSON\nMARCXML\n\nZenodo provides an API (REST & OAI-PMH) to access the data. For example, the following command will return the metadata for the most recent version of the data\ncurl -i https://zenodo.org/api/records/ZENODO_RECORD\n\n\n\nThis project is maintained by @maehr. Please understand that we can’t provide individual support via email. We also believe that help is much more valuable when it’s shared publicly, so more people can benefit from it.\n\n\n\nType\nPlatforms\n\n\n\n\n🚨 Bug Reports\nGitHub Issue Tracker\n\n\n📊 Report bad data\nGitHub Issue Tracker\n\n\n📚 Docs Issue\nGitHub Issue Tracker\n\n\n🎁 Feature Requests\nGitHub Issue Tracker\n\n\n🛡 Report a security vulnerability\nSee SECURITY.md\n\n\n💬 General Questions\nGitHub Discussions\n\n\n\n\n\n\nNo changes are currently planned.\n\n\n\nAll contributions to this repository are welcome! If you find errors or problems with the data, or if you want to add new data or features, please open an issue or pull request. Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.\n\n\n\nWe use SemVer for versioning. The available versions are listed in the tags on this repository.\n\n\n\n\nMoritz Mähr - Initial work - maehr\nMoritz Twente - Initial work - mtwente\n\nSee also the list of contributors who contributed to this project.\n\n\n\nThe data in this repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the LICENSE-CCBY file for details. By using this data, you agree to give appropriate credit to the original author(s) and to indicate if any modifications have been made.\nThe code in this repository is released under the GNU Affero General Public License v3.0 - see the LICENSE-AGPL file for details. By using this code, you agree to make any modifications available under the same license.",
+    "text": "This repository contains the presentation materials for “One Template to Rule Them All: Interactive Research Data Documentation with Quarto” presented by Moritz Mähr and Moritz Twente at the Digital Humanities Tech Symposium (DHTech), held during DH2025 at NOVA University, Lisbon, Portugal.\nThe DHTech Symposium, a mini-conference embedded within DH2025 (July 14–18, 2025), provides a venue to foreground technical innovation and infrastructure in digital humanities research. Unlike typical DH conferences that prioritize research outcomes over technical process, the DHTech Symposium emphasizes the tools, platforms, and methodologies that underpin digital scholarship.\nOur contribution introduces the Open Research Data Template, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using Quarto. The template supports integration of narrative, metadata, and code in Python, R, Julia, and ObservableJS, enabling researchers to publish cohesive, reproducible, and FAIR-compliant websites directly from their project repositories.\nWe discuss how the template lowers barriers to reuse and sustainable archiving of research workflows by automating documentation pipelines and facilitating seamless publishing. Real-world applications from projects such as DigiHistCH24, Stadt.Geschichte.Basel, DHBern, and Decoding Inequality 2025 are presented to demonstrate its flexibility across domains and use cases.\nThe presentation covers:\n\nThe motivation and need for executable research data documentation in DH.\nThe structure and technical implementation of the template using Quarto and GitHub Actions.\nAutomation strategies for multi-language code integration and metadata harmonization.\nSustainable publishing practices for archiving and interoperability.\nLive demonstrations and case studies.\n\nLinks\n\nDigital Humanities Tech Symposium Agenda\nDH2025, NOVA University Lisbon\n\nThis repository includes slides, demo notebooks, and reference materials to support the talk and foster adoption of the Open Research Data Template in DH and adjacent fields.\n     \n\n\nThe structure of this repository follows the Advanced Structure for Data Analysis of The Turing Way and is organized as follows:\n\nabstract/: Contains the abstract for the DHTech Symposium, including the extended abstract and any supplementary materials.\ndocumentation/: Contains the Quarto documentation files for the Open Research Data Template, including the main presentation slides and demo notebooks.\npaper/: Contains the paper files for the DHTech Symposium, including the LaTeX source and any supplementary materials.\npresentation/: Contains the presentation files for the DHTech Symposium, including the Quarto slides and any supplementary materials.\n\n\n\n\nInstall uv to install the dependencies and run the presentation locally:\nuv sync\nuv run playwright install\n\n\n\nThese resources are openly available to everyone and can be used for any research or educational purpose. If you use this resources in your research, please cite as specified in CITATION.cff. The following citation formats are also available through Zenodo:\n\nBibTeX\nCSL\nDataCite\nDublin Core\nDCAT\nJSON\nJSON-LD\nGeoJSON\nMARCXML\n\nZenodo provides an API (REST & OAI-PMH) to access the resources. For example, the following command will return the metadata for the most recent version of the resources\ncurl -i https://zenodo.org/api/records/ZENODO_RECORD\n\n\n\nThis project is maintained by @maehr. Please understand that we can’t provide individual support via email. We also believe that help is much more valuable when it’s shared publicly, so more people can benefit from it.\n\n\n\nType\nPlatforms\n\n\n\n\n🚨 Bug Reports\nGitHub Issue Tracker\n\n\n📊 Report bad data\nGitHub Issue Tracker\n\n\n📚 Docs Issue\nGitHub Issue Tracker\n\n\n🎁 Feature Requests\nGitHub Issue Tracker\n\n\n🛡 Report a security vulnerability\nSee SECURITY.md\n\n\n💬 General Questions\nGitHub Discussions\n\n\n\n\n\n\nNo changes are currently planned.\n\n\n\nAll contributions to this repository are welcome! If you find errors or problems with the resources, or if you want to add new resources or features, please open an issue or pull request. Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.\n\n\n\nWe use SemVer for versioning. The available versions are listed in the tags on this repository.\n\n\n\n\nMoritz Mähr - Initial work - maehr\nMoritz Twente - Enhancements and contributions - mtwente\n\nSee also the list of contributors who contributed to this project.\n\n\n\nThe data in this repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the LICENSE-CCBY file for details. By using this data, you agree to give appropriate credit to the original author(s) and to indicate if any modifications have been made.\nThe code in this repository is released under the GNU Affero General Public License v3.0 - see the LICENSE-AGPL file for details. By using this code, you agree to make any modifications available under the same license.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
@@ -509,32 +457,29 @@
     "href": "index.html#repository-structure",
     "title": "Open Resarch Data",
     "section": "",
-    "text": "The structure of this repository follows the Advanced Structure for Data Analysis of The Turing Way and is organized as follows:\n\nanalysis/: scripts and notebooks used to analyze the data\nassets/: images, logos, etc. used in the README and other documentation\nbuild/: scripts and notebooks used to build the data\ndata/: data files\ndocs/: documentation for the data and the repository\nproject-management/: project management documents (e.g., meeting notes, project plans, etc.)\nsrc/: source code for the data (e.g., scripts used to collect or process the data)\ntest/: tests for the data and source code\nreport.md: a report describing the analysis of the data",
+    "text": "The structure of this repository follows the Advanced Structure for Data Analysis of The Turing Way and is organized as follows:\n\nabstract/: Contains the abstract for the DHTech Symposium, including the extended abstract and any supplementary materials.\ndocumentation/: Contains the Quarto documentation files for the Open Research Data Template, including the main presentation slides and demo notebooks.\npaper/: Contains the paper files for the DHTech Symposium, including the LaTeX source and any supplementary materials.\npresentation/: Contains the presentation files for the DHTech Symposium, including the Quarto slides and any supplementary materials.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
-    "objectID": "index.html#data-description",
-    "href": "index.html#data-description",
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
     "title": "Open Resarch Data",
     "section": "",
-    "text": "TODO Describe the data in this repository, including what it represents, how it was collected or obtained, any preprocessing or cleaning that was done, and any limitations or potential biases.\nTODO Data models, including field names, descriptions, and controlled values, should be clearly documented in a static document that is maintained with the data and is part of the products.\nTODO All rights and intellectual property issues should be clearly documented. Where possible, data and products should be released under open licenses (Creative Commons, GNU, BSD, MPL).",
+    "text": "Install uv to install the dependencies and run the presentation locally:\nuv sync\nuv run playwright install",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
-    "objectID": "index.html#use",
-    "href": "index.html#use",
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
     "title": "Open Resarch Data",
     "section": "",
-    "text": "These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in CITATION.cff. The following citation formats are also available through Zenodo:\n\nBibTeX\nCSL\nDataCite\nDublin Core\nDCAT\nJSON\nJSON-LD\nGeoJSON\nMARCXML\n\nZenodo provides an API (REST & OAI-PMH) to access the data. For example, the following command will return the metadata for the most recent version of the data\ncurl -i https://zenodo.org/api/records/ZENODO_RECORD",
+    "text": "These resources are openly available to everyone and can be used for any research or educational purpose. If you use this resources in your research, please cite as specified in CITATION.cff. The following citation formats are also available through Zenodo:\n\nBibTeX\nCSL\nDataCite\nDublin Core\nDCAT\nJSON\nJSON-LD\nGeoJSON\nMARCXML\n\nZenodo provides an API (REST & OAI-PMH) to access the resources. For example, the following command will return the metadata for the most recent version of the resources\ncurl -i https://zenodo.org/api/records/ZENODO_RECORD",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
@@ -544,8 +489,7 @@
     "section": "",
     "text": "This project is maintained by @maehr. Please understand that we can’t provide individual support via email. We also believe that help is much more valuable when it’s shared publicly, so more people can benefit from it.\n\n\n\nType\nPlatforms\n\n\n\n\n🚨 Bug Reports\nGitHub Issue Tracker\n\n\n📊 Report bad data\nGitHub Issue Tracker\n\n\n📚 Docs Issue\nGitHub Issue Tracker\n\n\n🎁 Feature Requests\nGitHub Issue Tracker\n\n\n🛡 Report a security vulnerability\nSee SECURITY.md\n\n\n💬 General Questions\nGitHub Discussions",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
@@ -555,8 +499,7 @@
     "section": "",
     "text": "No changes are currently planned.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
@@ -564,10 +507,9 @@
     "href": "index.html#contributing",
     "title": "Open Resarch Data",
     "section": "",
-    "text": "All contributions to this repository are welcome! If you find errors or problems with the data, or if you want to add new data or features, please open an issue or pull request. Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.",
+    "text": "All contributions to this repository are welcome! If you find errors or problems with the resources, or if you want to add new resources or features, please open an issue or pull request. Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
@@ -577,8 +519,7 @@
     "section": "",
     "text": "We use SemVer for versioning. The available versions are listed in the tags on this repository.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
@@ -586,10 +527,9 @@
     "href": "index.html#authors-and-acknowledgment",
     "title": "Open Resarch Data",
     "section": "",
-    "text": "Moritz Mähr - Initial work - maehr\nMoritz Twente - Initial work - mtwente\n\nSee also the list of contributors who contributed to this project.",
+    "text": "Moritz Mähr - Initial work - maehr\nMoritz Twente - Enhancements and contributions - mtwente\n\nSee also the list of contributors who contributed to this project.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
@@ -599,8 +539,7 @@
     "section": "",
     "text": "The data in this repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the LICENSE-CCBY file for details. By using this data, you agree to give appropriate credit to the original author(s) and to indicate if any modifications have been made.\nThe code in this repository is released under the GNU Affero General Public License v3.0 - see the LICENSE-AGPL file for details. By using this code, you agree to make any modifications available under the same license.",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all"
+      "Home"
     ]
   },
   {
@@ -610,65 +549,8 @@
     "section": "",
     "text": "Attribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\nwiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More_considerations\n for the public:\nwiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org.\n\n\n\n Back to top",
     "crumbs": [
-      "Readme",
-      "one-template-to-rule-them-all",
+      "Home",
       "License (Data)"
     ]
-  },
-  {
-    "objectID": "presentation/index.html#motivation",
-    "href": "presentation/index.html#motivation",
-    "title": "One Template to Rule Them All",
-    "section": "🎯 Motivation",
-    "text": "🎯 Motivation\n\nNeed for executable, FAIR‑compliant research data documentation\n\nLowering barriers for reuse, reproducibility, archiving"
-  },
-  {
-    "objectID": "presentation/index.html#the-open-research-data-template",
-    "href": "presentation/index.html#the-open-research-data-template",
-    "title": "One Template to Rule Them All",
-    "section": "🚀 The Open Research Data Template",
-    "text": "🚀 The Open Research Data Template\n\nGitHub‑based Quarto framework\n\nMulti‑language: Python · R · Julia · ObservableJS\n\nIntegrates narrative, metadata, code, interactive visualizations"
-  },
-  {
-    "objectID": "presentation/index.html#template-structure-automation",
-    "href": "presentation/index.html#template-structure-automation",
-    "title": "One Template to Rule Them All",
-    "section": "🧱 Template Structure & Automation",
-    "text": "🧱 Template Structure & Automation\nProject layout\n\nanalysis/  | build/  | data/  | documentation\nsrc/       | test/   | assets/ | project-management/\n\nUses GitHub Actions to render and publish\n\nMetadata harmonization across formats"
-  },
-  {
-    "objectID": "presentation/index.html#realworld-case-studies",
-    "href": "presentation/index.html#realworld-case-studies",
-    "title": "One Template to Rule Them All",
-    "section": "💡 Real‑world Case Studies",
-    "text": "💡 Real‑world Case Studies\n\nDigiHistCH24\n\nStadt.Geschichte.Basel\n\nDHBern\n\nDecoding Inequality 2025\n\nEach showcases reproducibility, interactivity, and domain adaptation."
-  },
-  {
-    "objectID": "presentation/index.html#demo-workflow",
-    "href": "presentation/index.html#demo-workflow",
-    "title": "One Template to Rule Them All",
-    "section": "🔧 Demo & Workflow",
-    "text": "🔧 Demo & Workflow\n#| echo: true\nimport pandas as pd\ndf = pd.DataFrame({\"x\":[1,2,3],\"y\":[4,5,6]})\ndf.plot(kind=\"line\") \n\nLive output from code chunk\nLine numbering and incremental reveal"
-  },
-  {
-    "objectID": "presentation/index.html#publishing-sustainability",
-    "href": "presentation/index.html#publishing-sustainability",
-    "title": "One Template to Rule Them All",
-    "section": "📦 Publishing & Sustainability",
-    "text": "📦 Publishing & Sustainability\n\nSelf‑contained HTML output via embed-resources: true\nGitHub Pages deployment from docs/\nFAIR archival using automated DOI issuance via Zenodo"
-  },
-  {
-    "objectID": "presentation/index.html#get-involved",
-    "href": "presentation/index.html#get-involved",
-    "title": "One Template to Rule Them All",
-    "section": "📞 Get Involved",
-    "text": "📞 Get Involved\n\nRepository: github.com/maehr/one-template-to-rule-them-all\nIssues & Discussions welcome\nCompatible with DH workflows and Open Science practices"
-  },
-  {
-    "objectID": "presentation/index.html#thank-you",
-    "href": "presentation/index.html#thank-you",
-    "title": "One Template to Rule Them All",
-    "section": "🔚 Thank You",
-    "text": "🔚 Thank You\nQuestions? Reach out at moritz.maehr@gmail.com"
   }
 ]

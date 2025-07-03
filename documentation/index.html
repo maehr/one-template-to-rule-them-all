@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Moritz Mähr">
-<meta name="author" content="Moritz Twente">
-<meta name="dcterms.date" content="2025-07-14">
 
-<title>One Template to Rule Them All – one-template-to-rule-them-all</title>
+<title>index – one-template-to-rule-them-all</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../paper/index.html" rel="next">
+<link href="../abstract/index.html" rel="prev">
 <link href="../android-chrome-512x512.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -74,14 +73,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="One Template to Rule Them All – one-template-to-rule-them-all">
-<meta property="og:description" content="We introduce the&nbsp;Open Research Data Template, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using&nbsp;Quarto. By integrating narrative, metadata, and multi-programming-language code (Python, R, Julia, ObservableJS) into cohesive websites, the template lowers barriers to meaningful reuse and sustainable archiving of research workflows. We will demonstrate the template’s structure, automation pipeline, and real-world applications through projects such as&nbsp;DigiHistCH24,&nbsp;Stadt.Geschichte.Basel,&nbsp;DHBern, and&nbsp;Decoding Inequality 2025.">
-<meta property="og:image" content="https://maehr.github.io/one-template-to-rule-them-all/documentation/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:title" content="one-template-to-rule-them-all">
 <meta property="og:site_name" content="one-template-to-rule-them-all">
-<meta name="twitter:title" content="One Template to Rule Them All – one-template-to-rule-them-all">
-<meta name="twitter:description" content="We introduce the&nbsp;Open Research Data Template, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using&nbsp;Quarto. By integrating narrative, metadata, and multi-programming-language code (Python, R, Julia, ObservableJS) into cohesive websites, the template lowers barriers to meaningful reuse and sustainable archiving of research workflows. We will demonstrate the template’s structure, automation pipeline, and real-world applications through projects such as&nbsp;DigiHistCH24,&nbsp;Stadt.Geschichte.Basel,&nbsp;DHBern, and&nbsp;Decoding Inequality 2025.">
-<meta name="twitter:image" content="https://maehr.github.io/one-template-to-rule-them-all/documentation/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="one-template-to-rule-them-all">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -106,11 +101,23 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="../index.html" aria-current="page"> 
-<span class="menu-text">Readme</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../report.html"> 
-<span class="menu-text">Report</span></a>
+    <a class="nav-link" href="../abstract/index.html"> 
+<span class="menu-text">Abstract</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../documentation/index.html"> 
+<span class="menu-text">Documentation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../paper/index.html"> 
+<span class="menu-text">Paper</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../presentation/index.html"> 
+<span class="menu-text">Presentation</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -124,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">One Template to Rule Them All</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../documentation/index.html">Documentation</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -139,12 +146,12 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">one-template-to-rule-them-all</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+ <span class="menu-text">Home</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../CHANGELOG.html" class="sidebar-item-text sidebar-link">
@@ -183,41 +190,30 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../report.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Report</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-management/communication.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Communication</span></a>
+  <a href="../abstract/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Abstract</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-management/people.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">People</span></a>
+  <a href="../documentation/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Documentation</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-management/project-report.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Report</span></a>
+  <a href="../paper/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paper</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../project-management/tools.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tools</span></a>
+  <a href="../presentation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation</span></a>
   </div>
 </li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -228,135 +224,122 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#extended-abstract" id="toc-extended-abstract" class="nav-link active" data-scroll-target="#extended-abstract">Extended Abstract</a></li>
-  <li><a href="#technical-focus-and-features" id="toc-technical-focus-and-features" class="nav-link" data-scroll-target="#technical-focus-and-features">Technical Focus and Features</a></li>
-  <li><a href="#demonstration-plan-10-minutes" id="toc-demonstration-plan-10-minutes" class="nav-link" data-scroll-target="#demonstration-plan-10-minutes">Demonstration Plan (10 minutes)</a></li>
-  <li><a href="#expected-audience-takeaways" id="toc-expected-audience-takeaways" class="nav-link" data-scroll-target="#expected-audience-takeaways">Expected Audience Takeaways</a></li>
-  <li><a href="#proceeding-article-plan" id="toc-proceeding-article-plan" class="nav-link" data-scroll-target="#proceeding-article-plan">Proceeding Article Plan</a></li>
+  <li><a href="#digital-humanities-tech-symposium-at-dh2025" id="toc-digital-humanities-tech-symposium-at-dh2025" class="nav-link active" data-scroll-target="#digital-humanities-tech-symposium-at-dh2025">Digital Humanities Tech Symposium at DH2025</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#event-details" id="toc-event-details" class="nav-link" data-scroll-target="#event-details">Event Details</a></li>
+  <li><a href="#call-for-participation" id="toc-call-for-participation" class="nav-link" data-scroll-target="#call-for-participation">Call for Participation</a>
+  <ul class="collapse">
+  <li><a href="#presentation-formats" id="toc-presentation-formats" class="nav-link" data-scroll-target="#presentation-formats">Presentation Formats</a></li>
+  <li><a href="#submission-guidelines" id="toc-submission-guidelines" class="nav-link" data-scroll-target="#submission-guidelines">Submission Guidelines</a></li>
+  </ul></li>
+  <li><a href="#proceedings-publication" id="toc-proceedings-publication" class="nav-link" data-scroll-target="#proceedings-publication">Proceedings Publication</a></li>
+  <li><a href="#agenda-july-14-2025" id="toc-agenda-july-14-2025" class="nav-link" data-scroll-target="#agenda-july-14-2025">Agenda (July 14, 2025)</a></li>
+  <li><a href="#important-dates" id="toc-important-dates" class="nav-link" data-scroll-target="#important-dates">Important Dates</a></li>
+  <li><a href="#further-information" id="toc-further-information" class="nav-link" data-scroll-target="#further-information">Further Information</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/maehr/one-template-to-rule-them-all/edit/main/documentation/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/maehr/one-template-to-rule-them-all/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">One Template to Rule Them All</h1>
-<p class="subtitle lead">Interactive Research Data Documentation with Quarto</p>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Authors</div>
-  <div class="quarto-title-meta-heading">Affiliations</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Moritz Mähr <a href="mailto:moritz.maehr@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-1367-1618" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            University of Basel
-          </p>
-        <p class="affiliation">
-            University of Bern
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Moritz Twente <a href="mailto:mtwente@protonmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0005-7187-9774" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            University of Basel
-          </p>
-      </div>
-  </div>
-
-<div class="quarto-title-meta">
-
-      
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 14, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-<div>
-  <div class="abstract">
-    <div class="block-title">Abstract</div>
-    <p>We introduce the&nbsp;<strong>Open Research Data Template</strong>, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using&nbsp;<strong>Quarto</strong>. By integrating narrative, metadata, and multi-programming-language code (Python, R, Julia, ObservableJS) into cohesive websites, the template lowers barriers to meaningful reuse and sustainable archiving of research workflows. We will demonstrate the template’s structure, automation pipeline, and real-world applications through projects such as&nbsp;<strong>DigiHistCH24</strong>,&nbsp;<strong>Stadt.Geschichte.Basel</strong>,&nbsp;<strong>DHBern</strong>, and&nbsp;<strong>Decoding Inequality 2025</strong>.</p>
-  </div>
-</div>
 
 
-</header>
-
-
-<section id="extended-abstract" class="level2">
-<h2 class="anchored" data-anchor-id="extended-abstract">Extended Abstract</h2>
-<p>We present the&nbsp;<a href="https://github.com/maehr/open-research-data-template">Open Research Data Template</a>, a modular, GitHub-based framework developed to streamline the publication, documentation, and reuse of open research data. Designed explicitly around the FAIR principles (Findable, Accessible, Interoperable, Reusable), the template addresses a critical challenge facing Digital Humanities projects: while datasets are increasingly shared, the surrounding preprocessing steps, methodological decisions, and potential pathways for reuse are often poorly documented, rendering much “open data” practically unusable.</p>
-<p>Our approach integrates&nbsp;<a href="https://quarto.org/">Quarto</a>, a powerful scientific publishing platform that supports&nbsp;<strong>multi-programming-language</strong>&nbsp;interoperability, enabling researchers to weave Python, R, Julia, and ObservableJS into coherent, executable, and human-readable research narratives. Quarto serves not merely as a documentation tool, but as an infrastructure for creating fully browsable, executable, and sustainably archived research outputs. The template automates publication via GitHub Pages and long-term archiving via Zenodo with DOI assignment, ensuring both accessibility and citability.</p>
-<p>A key innovation of the template is its ability to combine static metadata, narrative descriptions, and executable preprocessing code into a single, integrated website. Unlike traditional supplementary materials or disconnected code repositories, this approach ensures that data, methods, and results remain interconnected, reducing barriers to reuse across different computational environments. By making preprocessing workflows transparent and reproducible, the template transforms static data archives into living, extensible resources.</p>
-<p>In our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:</p>
-<ul>
-<li><a href="https://digihistch24.github.io/"><strong>DigiHistCH24</strong></a>: The conference website for&nbsp;<em>Historical Research, Digital Literacy, and Algorithmic Criticism</em>&nbsp;(Basel, 2024), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.</li>
-<li><a href="https://dokumentation.stadtgeschichtebasel.ch/"><strong>Stadt.Geschichte.Basel Documentation</strong></a>: This project documents the data workflows behind Basel’s new city history project, showcasing transparent research data practices in a major public history initiative.</li>
-<li><a href="https://dhbern.github.io/"><strong>DHBern Portal</strong></a>: Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.</li>
-<li><a href="https://dhbern.github.io/decoding-inequality-2025/"><strong>Decoding Inequality 2025</strong></a>:&nbsp;This repository contains the materials for the course “Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit” held at the University of Bern in the spring semester 2025.</li>
-</ul>
-<p>These projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.</p>
-<p>We argue that the Open Research Data Template, powered by Quarto’s cross-language capabilities and GitHub’s collaborative infrastructure, provides a scalable, accessible model for elevating the standard of open data publication in the Digital Humanities. By facilitating executable documentation and integrated archiving, the template empowers researchers to move beyond minimal compliance with open science mandates toward creating genuinely reusable, transparent research outputs.</p>
-<p>Through this tool presentation, we aim to encourage the broader adoption of automated, executable open data documentation as a foundational practice for responsible, impactful, and sustainable Digital Humanities research.</p>
+<section id="digital-humanities-tech-symposium-at-dh2025" class="level1">
+<h1>Digital Humanities Tech Symposium at DH2025</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The Digital Humanities Tech Symposium is a mini-conference organized by DHTech as part of <a href="https://dh2025.adho.org/">DH2025</a>, taking place at NOVA University in Lisbon, Portugal, from July 14–18, 2025. The symposium focuses on the technical aspects of Digital Humanities (DH) projects, providing a platform for sharing tools, workflows, and lessons learned by and for the technical DH community.</p>
 </section>
-<section id="technical-focus-and-features" class="level2">
-<h2 class="anchored" data-anchor-id="technical-focus-and-features">Technical Focus and Features</h2>
-<p>The Open Research Data Template enables:</p>
+<section id="event-details" class="level2">
+<h2 class="anchored" data-anchor-id="event-details">Event Details</h2>
 <ul>
-<li><strong>Executable Documentation</strong>: Quarto integrates Python, R, Julia, and ObservableJS seamlessly in a single site.</li>
-<li><strong>Reproducible Workflows</strong>: Data preprocessing, cleaning, and analysis steps are documented alongside the datasets.</li>
-<li><strong>Automated Deployment</strong>: GitHub Actions handle site building, deadlink checking, and deployment to GitHub Pages.</li>
-<li><strong>Persistent Archiving</strong>: Zenodo integration allows datasets and documentation snapshots with DOI minting.</li>
-<li><strong>Consistency and Scalability</strong>: The template enforces best practices in open research data management inspired by&nbsp;<em>The Turing Way</em>.</li>
-</ul>
-<p>Unlike traditional static documentation approaches, our template ensures that the preprocessing code, documentation, and data are kept in sync and fully transparent for future reuse.</p>
-</section>
-<section id="demonstration-plan-10-minutes" class="level2">
-<h2 class="anchored" data-anchor-id="demonstration-plan-10-minutes">Demonstration Plan (10 minutes)</h2>
-<ul>
-<li><strong>Overview</strong>: Introduce the repository structure and automation pipeline.</li>
-<li><strong>Walkthrough</strong>:
-<ul>
-<li>Set up and configure a new open research data project.</li>
-<li>Add executable documentation with Quarto.</li>
-<li>Demonstrate GitHub Actions automation and publishing.</li>
-</ul></li>
-<li><strong>Examples</strong>: Highlight features and design choices in the live examples listed above.</li>
-<li><strong>Discussion</strong>: Benefits for sustainable data reuse, and lessons learned from deployment.</li>
+<li><strong>Date:</strong> Monday, July 14, 2025</li>
+<li><strong>Time:</strong> 1:30pm – 6:30pm (Lisbon time)</li>
+<li><strong>Location:</strong> NOVA University, Lisbon, Portugal</li>
+<li><strong>Organizers:</strong> DHTech (ADHO Special Interest Group)</li>
+<li><strong>Contact:</strong> dhtech.community@gmail.com | <a href="https://dh-tech.github.io/">DHTech Website</a></li>
 </ul>
 </section>
-<section id="expected-audience-takeaways" class="level2">
-<h2 class="anchored" data-anchor-id="expected-audience-takeaways">Expected Audience Takeaways</h2>
+<section id="call-for-participation" class="level2">
+<h2 class="anchored" data-anchor-id="call-for-participation">Call for Participation</h2>
+<p>We invite submissions from those working on the technical aspects of DH projects, including:</p>
 <ul>
-<li>How to structure and publish open research data for actual reuse, not just archival.</li>
-<li>How to document preprocessing and analysis workflows with Quarto in an executable and reusable format.</li>
-<li>How to automate FAIR data publishing with GitHub and Zenodo.</li>
-<li>Insights from real Digital Humanities projects adopting this workflow.</li>
+<li>Implementation and design specifics of packages and applications</li>
+<li>Lessons learned regarding the design and implementation of research software</li>
+<li>Tool demonstrations from a technical perspective</li>
+<li>Community and diversity topics specific to the technical DH community</li>
+</ul>
+<section id="presentation-formats" class="level3">
+<h3 class="anchored" data-anchor-id="presentation-formats">Presentation Formats</h3>
+<ul>
+<li><strong>Presentations:</strong> 20-minute talks including Q&amp;A</li>
+<li><strong>Tool Presentations:</strong> 10-minute demonstration + 10-minute discussion</li>
+<li><strong>Other:</strong> Propose your own format (describe length and audience engagement)</li>
 </ul>
 </section>
-<section id="proceeding-article-plan" class="level2">
-<h2 class="anchored" data-anchor-id="proceeding-article-plan">Proceeding Article Plan</h2>
-<p>Following the symposium, we will submit a 4–6 page proceedings article to the&nbsp;<strong>Anthology of Computers and the Humanities</strong>, covering:</p>
+<section id="submission-guidelines" class="level3">
+<h3 class="anchored" data-anchor-id="submission-guidelines">Submission Guidelines</h3>
 <ul>
-<li>Motivation for structured, reusable open data publication.</li>
-<li>Technical overview of the template architecture and workflow.</li>
-<li>Lessons learned from real-world projects.</li>
-<li>Future enhancements for more advanced reuse scenarios, including automatic metadata extraction and enhanced machine-actionable documentation.</li>
+<li>Submissions: 500–750 words, including links to relevant code and packages</li>
+<li><strong>Final Submission Deadline:</strong> April 27, 2025 (extended)</li>
+<li>Submission platform may change depending on the number of submissions</li>
+<li>Reviewers are needed—please sign up if interested</li>
 </ul>
+</section>
+</section>
+<section id="proceedings-publication" class="level2">
+<h2 class="anchored" data-anchor-id="proceedings-publication">Proceedings Publication</h2>
+<p>In collaboration with the new ACH open access conference proceedings series <a href="https://anthology.ach.org/">Anthology of Computers and the Humanities</a>, presenters may submit a short proceedings article (4–6 pages) after the conference.</p>
+<ul>
+<li><strong>Proceedings Article Deadline:</strong> August 3, 2025</li>
+<li>Articles will be peer-reviewed and published with a DOI</li>
+<li>Use the ACH Anthology LaTeX template (Overleaf available)</li>
+</ul>
+</section>
+<section id="agenda-july-14-2025" class="level2">
+<h2 class="anchored" data-anchor-id="agenda-july-14-2025">Agenda (July 14, 2025)</h2>
+<ul>
+<li>1:30–1:40pm: DHTech Steering Committee Introduction</li>
+<li>1:40–2:00pm: Andreas Wagner – TEI2Zenodo: Server for TEI files to Zenodo</li>
+<li>2:00–2:20pm: Timo Frühwirth – tei-rdfa: Extracting RDFa Data from TEI-XML</li>
+<li>2:20–2:40pm: Gregor Middell – Turning an XML Database Inside Out</li>
+<li>2:40–2:50pm: Break</li>
+<li>2:50–3:10pm: Robert Casties – Data Preservation During Migrations</li>
+<li>3:10–3:30pm: Benjamin Kiessling – When Automatic Text Recognition Doesn’t Work</li>
+<li>3:30–3:50pm: Coffee Break</li>
+<li>3:50–4:10pm: Rebecca Koeser – Undate in Action: Temporal Data in DH</li>
+<li>4:10–4:30pm: Paul Girard – Visual Exploration of Historical Data with Static Web Tech</li>
+<li>4:30–4:50pm: Olivia Wikle – CollectionBuilder for Digital Exhibits</li>
+<li>4:50–5:10pm: Moritz Mähr, Moritz Twente – One Template to Rule Them All: Interactive Research Data Documentation with Quarto</li>
+<li>5:10–5:20pm: Break</li>
+<li>5:20–5:40pm: Jamie Folsom – Extending Recogito Studio with Plugins</li>
+<li>5:40–6:00pm: Jose Hernandez – QuantumRandomWalks for Citation Networks</li>
+<li>6:00–6:20pm: Tibor Kálmán – Federated AAI for the Digital Humanities</li>
+<li>6:20–6:30pm: DHTech Steering Committee Goodbye and Thank You</li>
+</ul>
+</section>
+<section id="important-dates" class="level2">
+<h2 class="anchored" data-anchor-id="important-dates">Important Dates</h2>
+<ul>
+<li><strong>Final Submission Deadline:</strong> April 27, 2025</li>
+<li><strong>Conference Date:</strong> July 14, 2025</li>
+<li><strong>Proceedings Article Deadline:</strong> August 3, 2025</li>
+</ul>
+</section>
+<section id="further-information" class="level2">
+<h2 class="anchored" data-anchor-id="further-information">Further Information</h2>
+<ul>
+<li><a href="https://dh-tech.github.io/">DHTech Website</a></li>
+<li><a href="https://dh2025.adho.org/">DH2025 Conference</a></li>
+<li><a href="https://anthology.ach.org/">Anthology of Computers and the Humanities</a></li>
+</ul>
+<p>For questions or to get involved, contact dhtech.community@gmail.com.</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -759,6 +742,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../abstract/index.html" class="pagination-link" aria-label="Abstract">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Abstract</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../paper/index.html" class="pagination-link" aria-label="Paper">
+        <span class="nav-page-text">Paper</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
