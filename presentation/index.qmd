@@ -31,30 +31,47 @@ format:
 abstract: "We introduce the Open Research Data Template, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using Quarto. By integrating narrative, metadata, and multi-programming-language code (Python, R, Julia, ObservableJS) into cohesive websites, the template lowers barriers to meaningful reuse and sustainable archiving of research workflows. We will demonstrate the template's structure, automation pipeline, and real-world applications through projects such as DigiHistCH24, Stadt.Geschichte.Basel, DHBern, and Decoding Inequality 2025."
 ---
 
-# {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch.png"}
+##  Open Research Data Template
 
-# {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch_sgb_figures.png"}
+-   **Purpose**: A reusable GitHub template for FAIR and open research data
+-   **Best Practices**: Follows [The Turing Way](https://the-turing-way.netlify.app/) and [FAIR principles](https://www.go-fair.org/fair-principles/)
+-   **Automation**: Leverages GitHub Actions, GitHub Codespaces, GitHub issues, GitHub Pages, Husky, Prettier, Quarto, Semantic Versioning, and Zenodo
 
-# {data-background-image="./images/maxvogt_analysis.png"}
+#  Setup
 
-# {data-background-image="./images/nordatlantisk_ft_report.png"}
+#  {data-background-image="./images/open_research_data_template.png"}
 
-# {data-background-image="./images/modelling_marti.png"}
+#  {data-background-image="./images/open_research_data_template_new_repo.png"}
 
-# {data-background-image="./images/digihistch24.png"}
+#  {data-background-image="./images/open_research_data_template_codespace.png"}
 
-# {data-background-image="./images/dhbern.png"}
+#  {data-background-image="./images/open_research_data_template_readme.png"}
 
-# {data-background-image="./images/decoding_inequality_2025.png"}
+# Use cases
 
-# {data-background-image="./images/diskriminierungsfreie_metadaten.png"}
+#  {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch.png"}
 
-# {data-background-image="./images/one_template_to_rule_them_all.png"}
+#  {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch_sgb_figures.png"}
+
+#  {data-background-image="./images/maxvogt_analysis.png"}
+
+#  {data-background-image="./images/nordatlantisk_ft_report.png"}
+
+#  {data-background-image="./images/modelling_marti.png"}
+
+#  {data-background-image="./images/digihistch24.png"}
+
+#  {data-background-image="./images/dhbern.png"}
+
+#  {data-background-image="./images/decoding_inequality_2025.png"}
+
+#  {data-background-image="./images/diskriminierungsfreie_metadaten.png"}
+
+#  {data-background-image="./images/one_template_to_rule_them_all.png"}
 
 # Get the template
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="40%"}
 ![](images/qr-code.png)
 :::
@@ -62,5 +79,4 @@ abstract: "We introduce the Open Research Data Template, a GitHub-based framewor
 ::: {.column width="60%"}
 <https://github.com/maehr/open-research-data-template>
 :::
-
-::::
+:::::

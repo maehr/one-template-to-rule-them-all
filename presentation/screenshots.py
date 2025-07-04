@@ -3,6 +3,9 @@ from pathlib import Path
 
 # ↪️ Define URLs and filenames
 urls = [
+    "https://github.com/maehr/open-research-data-template/",
+    "https://github.com/new?template_name=open-research-data-template&template_owner=maehr",
+    # "https://codespaces.new/maehr/dh25-showcase",
     "https://dokumentation.stadtgeschichtebasel.ch/",
     "https://dokumentation.stadtgeschichtebasel.ch/sgb-figures/",
     "https://mtwente.github.io/maxvogt-analysis/",
@@ -15,6 +18,9 @@ urls = [
     "https://maehr.github.io/one-template-to-rule-them-all/"
 ]
 filenames = [
+    "open_research_data_template.png",
+    # "open_research_data_template_repo.png",
+    # "open_research_data_template_codespace.png",
     "dokumentation_stadtgeschichtebasel_ch.png",
     "dokumentation_stadtgeschichtebasel_ch_sgb_figures.png",
     "maxvogt_analysis.png",
@@ -43,6 +49,18 @@ with sync_playwright() as p:
         page = context.new_page()
         page.goto(url, wait_until="networkidle")
         page.evaluate("document.body.style.zoom=2.0")
+
+        # Example: Click a button
+        # Replace 'button_selector' with the actual selector for the button
+        # page.click('button_selector')
+        
+        # Example: Scroll down to a specific element
+        # Replace 'element_selector' with the actual selector for the element
+        # page.scroll_into_view('element_selector')
+        
+        # Example: Scroll down by a certain amount
+        # page.evaluate("window.scrollBy(0, 1000)")  # Scroll down by 1000 pixels
+
         path = output_dir / fname
         page.screenshot(path=path)
         print(f"✅ Saved {path} for {url}")
