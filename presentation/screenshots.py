@@ -4,7 +4,7 @@ from pathlib import Path
 # ↪️ Define URLs and filenames
 urls = [
     "https://github.com/maehr/open-research-data-template/",
-    "https://github.com/new?template_name=open-research-data-template&template_owner=maehr",
+    # "https://github.com/new?template_name=open-research-data-template&template_owner=maehr",
     # "https://codespaces.new/maehr/dh25-showcase",
     "https://dokumentation.stadtgeschichtebasel.ch/",
     "https://dokumentation.stadtgeschichtebasel.ch/sgb-figures/",
