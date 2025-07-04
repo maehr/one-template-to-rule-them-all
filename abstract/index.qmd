@@ -1,0 +1,80 @@
+---
+title: "One Template to Rule Them All"
+subtitle: "Interactive Research Data Documentation with Quarto"
+author:
+  - name: "Moritz Mähr"
+    affiliation:
+    - "University of Basel"
+    - "University of Bern"
+    orcid: "0000-0002-1367-1618"
+    email: "moritz.maehr@gmail.com"
+  - name: "Moritz Twente"
+    affiliation: "University of Basel"
+    orcid: "0009-0005-7187-9774"
+    email: "mtwente@protonmail.com"
+date: "July 14, 2025"
+event-type: "Tool Presentation (10-minute demonstration + 10-minute discussion)"
+abstract: |
+  We introduce the **Open Research Data Template**, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using **Quarto**. By integrating narrative, metadata, and multi-programming-language code (Python, R, Julia, ObservableJS) into cohesive websites, the template lowers barriers to meaningful reuse and sustainable archiving of research workflows. We will demonstrate the template's structure, automation pipeline, and real-world applications through projects such as **DigiHistCH24**, **Stadt.Geschichte.Basel**, **DHBern**, and **Decoding Inequality 2025**.
+format:
+    html: default
+---
+
+## Extended Abstract
+
+We present the [Open Research Data Template](https://github.com/maehr/open-research-data-template), a modular, GitHub-based framework developed to streamline the publication, documentation, and reuse of open research data. Designed explicitly around the FAIR principles (Findable, Accessible, Interoperable, Reusable), the template addresses a critical challenge facing Digital Humanities projects: while datasets are increasingly shared, the surrounding preprocessing steps, methodological decisions, and potential pathways for reuse are often poorly documented, rendering much "open data" practically unusable.
+
+Our approach integrates [Quarto](https://quarto.org/), a powerful scientific publishing platform that supports **multi-programming-language** interoperability, enabling researchers to weave Python, R, Julia, and ObservableJS into coherent, executable, and human-readable research narratives. Quarto serves not merely as a documentation tool, but as an infrastructure for creating fully browsable, executable, and sustainably archived research outputs. The template automates publication via GitHub Pages and long-term archiving via Zenodo with DOI assignment, ensuring both accessibility and citability.
+
+A key innovation of the template is its ability to combine static metadata, narrative descriptions, and executable preprocessing code into a single, integrated website. Unlike traditional supplementary materials or disconnected code repositories, this approach ensures that data, methods, and results remain interconnected, reducing barriers to reuse across different computational environments. By making preprocessing workflows transparent and reproducible, the template transforms static data archives into living, extensible resources.
+
+In our demonstration, we will show not only the technical architecture and GitHub Actions automation behind the template, but also real-world examples where it has been successfully deployed:
+
+-   [**DigiHistCH24**](https://digihistch24.github.io/): The conference website for *Historical Research, Digital Literacy, and Algorithmic Criticism* (Basel, 2024), built with the template, includes an interactive book of abstracts and serves as a structured record of contemporary research in digital history.
+-   [**Stadt.Geschichte.Basel Documentation**](https://dokumentation.stadtgeschichtebasel.ch/): This project documents the data workflows behind Basel's new city history project, showcasing transparent research data practices in a major public history initiative.
+-   [**DHBern Portal**](https://dhbern.github.io/): Acting as a hub for digital humanities projects at the University of Bern, the portal demonstrates how multiple datasets and methodologies can be harmonized under a single, sustainable open data framework.
+-   [**Decoding Inequality 2025**](https://dhbern.github.io/decoding-inequality-2025/): This repository contains the materials for the course "Decoding Inequality: Kritische Perspektiven auf Machine Learning und gesellschaftliche Ungleichheit" held at the University of Bern in the spring semester 2025.
+
+These projects illustrate how reusable research data publication can be seamlessly integrated into active Digital Humanities workflows without imposing additional technical barriers on researchers.
+
+We argue that the Open Research Data Template, powered by Quarto’s cross-language capabilities and GitHub’s collaborative infrastructure, provides a scalable, accessible model for elevating the standard of open data publication in the Digital Humanities. By facilitating executable documentation and integrated archiving, the template empowers researchers to move beyond minimal compliance with open science mandates toward creating genuinely reusable, transparent research outputs.
+
+Through this tool presentation, we aim to encourage the broader adoption of automated, executable open data documentation as a foundational practice for responsible, impactful, and sustainable Digital Humanities research.
+
+## Technical Focus and Features
+
+The Open Research Data Template enables:
+
+-   **Executable Documentation**: Quarto integrates Python, R, Julia, and ObservableJS seamlessly in a single site.
+-   **Reproducible Workflows**: Data preprocessing, cleaning, and analysis steps are documented alongside the datasets.
+-   **Automated Deployment**: GitHub Actions handle site building, deadlink checking, and deployment to GitHub Pages.
+-   **Persistent Archiving**: Zenodo integration allows datasets and documentation snapshots with DOI minting.
+-   **Consistency and Scalability**: The template enforces best practices in open research data management inspired by *The Turing Way*.
+
+Unlike traditional static documentation approaches, our template ensures that the preprocessing code, documentation, and data are kept in sync and fully transparent for future reuse.
+
+## Demonstration Plan (10 minutes)
+
+-   **Overview**: Introduce the repository structure and automation pipeline.
+-   **Walkthrough**:
+    -   Set up and configure a new open research data project.
+    -   Add executable documentation with Quarto.
+    -   Demonstrate GitHub Actions automation and publishing.
+-   **Examples**: Highlight features and design choices in the live examples listed above.
+-   **Discussion**: Benefits for sustainable data reuse, and lessons learned from deployment.
+
+## Expected Audience Takeaways
+
+-   How to structure and publish open research data for actual reuse, not just archival.
+-   How to document preprocessing and analysis workflows with Quarto in an executable and reusable format.
+-   How to automate FAIR data publishing with GitHub and Zenodo.
+-   Insights from real Digital Humanities projects adopting this workflow.
+
+## Proceeding Article Plan
+
+Following the symposium, we will submit a 4–6 page proceedings article to the **Anthology of Computers and the Humanities**, covering:
+
+-   Motivation for structured, reusable open data publication.
+-   Technical overview of the template architecture and workflow.
+-   Lessons learned from real-world projects.
+-   Future enhancements for more advanced reuse scenarios, including automatic metadata extraction and enhanced machine-actionable documentation.

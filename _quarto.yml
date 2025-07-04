@@ -24,30 +24,44 @@ website:
       - icon: github
         url: https://github.com/maehr/one-template-to-rule-them-all/
     left:
-      - text: Readme
+      - text: Home
         href: index.qmd
-      - text: Report
-        href: report.md
+      - text: Abstract
+        href: abstract/index.qmd
+      - text: Documentation
+        href: documentation/index.qmd
+      - text: Paper
+        href: paper/index.qmd
+      - text: Presentation
+        href: presentation/index.qmd
 
   sidebar:
-    contents:
-      - section: one-template-to-rule-them-all
-        href: index.qmd
-        contents:
-          - text: Changelog
-            href: CHANGELOG.md
-          - text: Code of Conduct
-            href: CODE_OF_CONDUCT.md
-          - text: Contributing
-            href: CONTRIBUTING.md
-          - text: License (Data)
-            href: LICENSE-CCBY.md
-          - text: License (Code)
-            href: LICENSE-AGPL.md
-          - text: Security
-            href: SECURITY.md
-      - href: report.md
-        contents: project-management/*
+    - id: main
+      collapse-level: 1
+      contents:
+        - section: Home
+          href: index.qmd
+          contents:
+            - text: Changelog
+              href: CHANGELOG.md
+            - text: Code of Conduct
+              href: CODE_OF_CONDUCT.md
+            - text: Contributing
+              href: CONTRIBUTING.md
+            - text: License (Data)
+              href: LICENSE-CCBY.md
+            - text: License (Code)
+              href: LICENSE-AGPL.md
+            - text: Security
+              href: SECURITY.md
+        - text: Abstract
+          href: abstract/index.qmd
+        - text: Documentation
+          href: documentation/index.qmd
+        - text: Paper
+          href: paper/index.qmd
+        - text: Presentation
+          href: presentation/index.qmd
 
 format:
   html:
