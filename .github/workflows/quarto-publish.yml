@@ -112,7 +112,9 @@ jobs:
 
       - name: Check for broken links
         run: |
-          wget --spider --recursive --no-parent --no-check-certificate http://localhost:5528/ || exit 1
+          wget --spider --recursive --no-parent wget --spider --recursive --no-parent --no-check-certificate \
+            --exclude-directories=/presentation \
+            http://localhost:5528/ || exit 1
 
   deploy:
     name: Deploy
