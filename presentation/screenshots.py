@@ -8,7 +8,7 @@ urls = [
     # "https://codespaces.new/maehr/dh25-showcase",
     "https://dokumentation.stadtgeschichtebasel.ch/",
     "https://dokumentation.stadtgeschichtebasel.ch/sgb-figures/",
-    "https://mtwente.github.io/maxvogt-analysis/",
+    "https://mtwente.github.io/maxvogt-analysis/docs/workflow.html",
     "https://mtwente.github.io/nordatlantisk-ft/report.html",
     "https://mtwente.github.io/modelling-marti/",
     "https://digihistch24.github.io/",
