@@ -552,5 +552,16 @@
       "Home",
       "License (Data)"
     ]
+  },
+  {
+    "objectID": "presentation/index.html#open-research-data-template",
+    "href": "presentation/index.html#open-research-data-template",
+    "title": "One Template to Rule Them All",
+    "section": " Open Research Data Template",
+    "text": "Open Research Data Template\n\nPurpose: A reusable GitHub template for FAIR and open research data\nBest Practices: Follows The Turing Way and FAIR principles\nAutomation: Leverages GitHub Actions, GitHub Codespaces, GitHub issues, GitHub Pages, Husky, Prettier, Quarto, Semantic Versioning, and Zenodo",
+    "crumbs": [
+      "Home",
+      "Presentation"
+    ]
   }
 ]
