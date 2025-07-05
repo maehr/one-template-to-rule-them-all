@@ -52,10 +52,6 @@ format:
 
 # Use cases
 
-<!-- # Research Projects
-
-[Stadt.Geschichte.Basel](https://dokumentation.stadtgeschichtebasel.ch){preview-link="true"}  -->
-
 #  [🌐](https://dokumentation.stadtgeschichtebasel.ch){preview-link="true"} {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch.png"}
 
 #  [🌐](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures/){preview-link="true"} {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch_sgb_figures.png"}
