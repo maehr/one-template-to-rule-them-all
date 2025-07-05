@@ -20,7 +20,7 @@ format:
     theme: simple
     slide-number: true
     incremental: true
-    transition: slide
+    # transition: slide
     code-line-numbers: true
     embed-resources: true
     menu:
@@ -56,25 +56,25 @@ format:
 
 [Stadt.Geschichte.Basel](https://dokumentation.stadtgeschichtebasel.ch){preview-link="true"}  -->
 
-#  {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch.png"}
+#  [🌐](https://dokumentation.stadtgeschichtebasel.ch){preview-link="true"} {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch.png"}
 
-#  {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch_sgb_figures.png"}
+#  [🌐](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures/){preview-link="true"} {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch_sgb_figures.png"}
 
-#  {data-background-image="./images/maxvogt_analysis.png"}
+#  [🌐](https://mtwente.github.io/maxvogt-analysis/docs/workflow.html){preview-link="true"} {data-background-image="./images/maxvogt_analysis.png"}
 
-#  {data-background-image="./images/nordatlantisk_ft_report.png"}
+#  [🌐](https://mtwente.github.io/nordatlantisk-ft/report.html){preview-link="true"} {data-background-image="./images/nordatlantisk_ft_report.png"}
 
-#  {data-background-image="./images/modelling_marti.png"}
+#  [🌐](https://mtwente.github.io/modelling-marti/){preview-link="true"} {data-background-image="./images/modelling_marti.png"}
 
-#  {data-background-image="./images/digihistch24.png"}
+#  [🌐](https://digihistch24.github.io/){preview-link="true"} {data-background-image="./images/digihistch24.png"}
 
-#  {data-background-image="./images/dhbern.png"}
+#  [🌐](https://dhbern.github.io/){preview-link="true"} {data-background-image="./images/dhbern.png"}
 
-#  {data-background-image="./images/decoding_inequality_2025.png"}
+#  [🌐](https://dhbern.github.io/decoding-inequality-2025/){preview-link="true"} {data-background-image="./images/decoding_inequality_2025.png"}
 
-#  {data-background-image="./images/diskriminierungsfreie_metadaten.png"}
+#  [🌐](https://maehr.github.io/diskriminierungsfreie-metadaten/){preview-link="true"} {data-background-image="./images/diskriminierungsfreie_metadaten.png"}
 
-#  {data-background-image="./images/one_template_to_rule_them_all.png"}
+#  [🌐](https://maehr.github.io/one-template-to-rule-them-all/){preview-link="true"} {data-background-image="./images/one_template_to_rule_them_all.png"}
 
 # Get the template
 
