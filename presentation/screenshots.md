@@ -1,12 +1,12 @@
 ## Screenshots.py
 
-This script generates screenshots of the presentation slides.
+This script generates screenshots for the presentation slides.
 
 ```python
 {{< include screenshots.py >}}
 ```
 
-The script uses playwright to take screenshots of the slides in different formats.
+The script uses playwright to take screenshots in different formats. These are used in the presentation slides.
 
 ```toml
 {{< include ./../pyproject.toml >}}
