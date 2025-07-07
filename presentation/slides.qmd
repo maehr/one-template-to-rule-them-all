@@ -18,6 +18,7 @@ abstract: "We introduce the Open Research Data Template, a GitHub-based framewor
 format:
   revealjs:
     theme: simple
+    css: /styles.css
     slide-number: true
     incremental: true
     # transition: slide
@@ -52,25 +53,85 @@ format:
 
 # Use cases
 
-#  [🌐](https://dokumentation.stadtgeschichtebasel.ch){preview-link="true"} {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch.png"}
+#  {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch.png"}
 
-#  [🌐](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures/){preview-link="true"} {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch_sgb_figures.png"}
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 dokumentation.stadtgeschichtebasel.ch](https://dokumentation.stadtgeschichtebasel.ch){.footer-link-box preview-link="true"}
+:::
+::::
 
-#  [🌐](https://mtwente.github.io/maxvogt-analysis/docs/workflow.html){preview-link="true"} {data-background-image="./images/maxvogt_analysis.png"}
+#  {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch_sgb_figures.png"}
 
-#  [🌐](https://mtwente.github.io/nordatlantisk-ft/report.html){preview-link="true"} {data-background-image="./images/nordatlantisk_ft_report.png"}
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 dokumentation.stadtgeschichtebasel.ch/sgb-figures](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures){.footer-link-box preview-link="true"}
+:::
+::::
 
-#  [🌐](https://mtwente.github.io/modelling-marti/){preview-link="true"} {data-background-image="./images/modelling_marti.png"}
+#  {data-background-image="./images/maxvogt_analysis.png"}
 
-#  [🌐](https://digihistch24.github.io/){preview-link="true"} {data-background-image="./images/digihistch24.png"}
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 mtwente.github.io/maxvogt-analysis](https://mtwente.github.io/maxvogt-analysis){.footer-link-box preview-link="true"}
+:::
+::::
 
-#  [🌐](https://dhbern.github.io/){preview-link="true"} {data-background-image="./images/dhbern.png"}
+#  {data-background-image="./images/nordatlantisk_ft_report.png"}
 
-#  [🌐](https://dhbern.github.io/decoding-inequality-2025/){preview-link="true"} {data-background-image="./images/decoding_inequality_2025.png"}
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 mtwente.github.io/nordatlantisk-ft](https://mtwente.github.io/nordatlantisk-ft){.footer-link-box preview-link="true"}
+:::
+::::
 
-#  [🌐](https://maehr.github.io/diskriminierungsfreie-metadaten/){preview-link="true"} {data-background-image="./images/diskriminierungsfreie_metadaten.png"}
+#  {data-background-image="./images/modelling_marti.png"}
 
-#  [🌐](https://maehr.github.io/one-template-to-rule-them-all/){preview-link="true"} {data-background-image="./images/one_template_to_rule_them_all.png"}
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 mtwente.github.io/modelling-marti](https://mtwente.github.io/modelling-marti){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/digihistch24.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 digihistch24.github.io](https://digihistch24.github.io/){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/dhbern.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 dhbern.github.io](https://dhbern.github.io/){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/decoding_inequality_2025.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 dhbern.github.io/decoding-inequality-2025](https://dhbern.github.io/decoding-inequality-2025/){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/diskriminierungsfreie_metadaten.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 maehr.github.io/diskriminierungsfreie-metadaten](https://maehr.github.io/diskriminierungsfreie-metadaten){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/one_template_to_rule_them_all.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 maehr.github.io/one-template-to-rule-them-all](https://maehr.github.io/one-template-to-rule-them-all){.footer-link-box preview-link="true"}
+:::
+::::
 
 # Get the template
 
