@@ -1,1 +1,8 @@
-/* css styles */
+.footer-link-box {
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.7) !important;
+	padding: 0.4em 0.8em;
+	border-radius: 6px;
+	color: rgba(255, 255, 255) !important;
+	font-size: 0.85em;
+}

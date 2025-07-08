@@ -1,0 +1,146 @@
+---
+title: "One Template to Rule Them All"
+subtitle: "Interactive Research Data Documentation with Quarto"
+author:
+  - name: "Moritz Mähr"
+    affiliation:
+    - "University of Basel"
+    - "University of Bern"
+    orcid: "0000-0002-1367-1618"
+    email: "moritz.maehr@gmail.com"
+  - name: "Moritz Twente"
+    affiliation: "University of Basel"
+    orcid: "0009-0005-7187-9774"
+    email: "mtwente@protonmail.com"
+date: "July 14, 2025"
+# institute: "Digital Humanities Tech Symposium (DHTech) at DH2025, NOVA University Lisbon"
+abstract: "We introduce the Open Research Data Template, a GitHub-based framework designed to streamline the publication and reuse of open research data through executable, interactive documentation using Quarto. By integrating narrative, metadata, and multi-programming-language code (Python, R, Julia, ObservableJS) into cohesive websites, the template lowers barriers to meaningful reuse and sustainable archiving of research workflows. We will demonstrate the template's structure, automation pipeline, and real-world applications through projects such as DigiHistCH24, Stadt.Geschichte.Basel, DHBern, and Decoding Inequality 2025."
+format:
+  revealjs:
+    theme: simple
+    css: /styles.css
+    slide-number: true
+    incremental: true
+    # transition: slide
+    code-line-numbers: true
+    embed-resources: true
+    menu:
+      side: right
+      width: normal
+    height: 900
+    width: 1600
+    preview-links: auto
+  pptx:
+    reference-doc: "SGB_PowerPoint_Vorlage.potx"
+# bibliography: references.bib
+---
+
+##  Open Research Data Template
+
+-   **Purpose**: A reusable GitHub template for FAIR and open research data
+-   **Best Practices**: Follows [The Turing Way](https://the-turing-way.netlify.app/) and [FAIR principles](https://www.go-fair.org/fair-principles/)
+-   **Automation**: Leverages GitHub Actions, GitHub Codespaces, GitHub issues, GitHub Pages, Husky, Prettier, Quarto, Semantic Versioning, and Zenodo
+
+#  Setup
+
+#  {data-background-image="./images/open_research_data_template.png"}
+
+#  {data-background-image="./images/open_research_data_template_new_repo.png"}
+
+#  {data-background-image="./images/open_research_data_template_codespace.png"}
+
+#  {data-background-image="./images/open_research_data_template_readme.png"}
+
+# Use cases
+
+#  {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 dokumentation.stadtgeschichtebasel.ch](https://dokumentation.stadtgeschichtebasel.ch){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/dokumentation_stadtgeschichtebasel_ch_sgb_figures.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 dokumentation.stadtgeschichtebasel.ch/sgb-figures](https://dokumentation.stadtgeschichtebasel.ch/sgb-figures){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/maxvogt_analysis.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 mtwente.github.io/maxvogt-analysis](https://mtwente.github.io/maxvogt-analysis){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/nordatlantisk_ft_report.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 mtwente.github.io/nordatlantisk-ft](https://mtwente.github.io/nordatlantisk-ft){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/modelling_marti.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 mtwente.github.io/modelling-marti](https://mtwente.github.io/modelling-marti){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/digihistch24.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 digihistch24.github.io](https://digihistch24.github.io/){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/dhbern.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 dhbern.github.io](https://dhbern.github.io/){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/decoding_inequality_2025.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 dhbern.github.io/decoding-inequality-2025](https://dhbern.github.io/decoding-inequality-2025/){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/diskriminierungsfreie_metadaten.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 maehr.github.io/diskriminierungsfreie-metadaten](https://maehr.github.io/diskriminierungsfreie-metadaten){.footer-link-box preview-link="true"}
+:::
+::::
+
+#  {data-background-image="./images/one_template_to_rule_them_all.png"}
+
+:::: {.content-hidden when-format="pptx"}
+::: footer
+[🔗 maehr.github.io/one-template-to-rule-them-all](https://maehr.github.io/one-template-to-rule-them-all){.footer-link-box preview-link="true"}
+:::
+::::
+
+# Get the template
+
+::::: columns
+::: {.column width="40%"}
+![](images/qr-code.png)
+:::
+
+::: {.column width="60%"}
+<https://github.com/maehr/open-research-data-template>
+:::
+:::::
