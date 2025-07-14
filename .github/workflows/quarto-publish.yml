@@ -85,7 +85,7 @@ jobs:
       - name: Install Euclid Circular B fonts
         run: |
           mkdir -p ~/.fonts
-          cp ./fonts/EuclidCircularB-*.ttf ~/.fonts/
+          cp ./.fonts/EuclidCircularB-*.ttf ~/.fonts/
           fc-cache -fv
 
       - name: Sanitize pptx and convert to pdf using headless soffice
