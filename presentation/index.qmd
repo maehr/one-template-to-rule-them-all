@@ -24,7 +24,7 @@ other-links:
     icon: file-slides
     href: slides.pptx
   - text: PDF slides
-    icon: file-slides
+    icon: file-pdf
     href: slides.pdf
 code-links:
   - text: Screenshot script
