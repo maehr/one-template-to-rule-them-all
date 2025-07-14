@@ -10,7 +10,7 @@ urls = [
     "https://dokumentation.stadtgeschichtebasel.ch/sgb-figures/",
     "https://mtwente.github.io/maxvogt-analysis/docs/workflow.html",
     "https://mtwente.github.io/nordatlantisk-ft/report.html",
-    "https://mtwente.github.io/modelling-marti/",
+    "https://mtwente.github.io/modelling-marti/docs/work.html",
     "https://digihistch24.github.io/",
     "https://dhbern.github.io/",
     "https://dhbern.github.io/decoding-inequality-2025/",
