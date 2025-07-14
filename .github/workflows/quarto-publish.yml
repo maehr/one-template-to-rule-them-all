@@ -82,6 +82,12 @@ jobs:
           sudo apt-get install -y libreoffice-core libreoffice-impress
           sudo apt-get clean
 
+      - name: Install Euclid Circular B fonts
+        run: |
+          mkdir -p ~/.fonts
+          cp ./fonts/EuclidCircularB-*.ttf ~/.fonts/
+          fc-cache -fv
+
       - name: Sanitize pptx and convert to pdf using headless soffice
         run: |
           mkdir -p ./_site/presentation/tmp/
