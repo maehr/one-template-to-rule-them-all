@@ -32,6 +32,7 @@ format:
     preview-links: auto
   pptx:
     reference-doc: "SGB_PowerPoint_Vorlage.potx"
+  pdf: default
 # bibliography: references.bib
 ---
 
