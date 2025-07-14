@@ -42,7 +42,7 @@ This browser does not support iframes. Please open the <a href="slides.html">HTM
 </iframe>
 :::
 
-::: {.callout-tip title="Slide deck (PowerPoint)" collapse="true"}
+::: {.callout-tip title="Slide deck (PDF)" collapse="true"}
 <iframe src="slides.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Slide deck">
 
 This browser does not support PDF. Please download the <a href="slides.pdf">PDF slides</a> to view it.
