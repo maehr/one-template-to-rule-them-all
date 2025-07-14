@@ -23,6 +23,9 @@ other-links:
   - text: PowerPoint slides
     icon: file-slides
     href: slides.pptx
+  - text: PDF slides
+    icon: file-pdf
+    href: slides.pdf
 code-links:
   - text: Screenshot script
     icon: file-code

@@ -76,6 +76,20 @@ jobs:
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
 
+      - name: Install LibreOffice
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-core libreoffice-impress
+          sudo apt-get clean
+
+      - name: Sanitize pptx and convert to pdf using headless soffice
+        run: |
+          mkdir -p ./_site/presentation/tmp/
+          soffice --headless --convert-to pptx ./_site/presentation/slides.pptx --outdir ./_site/presentation/tmp/
+          mv ./_site/presentation/tmp/slides.pptx ./_site/presentation/slides.pptx
+          rm -Rf ./_site/presentation/tmp/
+          soffice --headless --convert-to pdf ./_site/presentation/slides.pptx --outdir ./_site/presentation/
+
       - name: JamPack Optimization
         run: |
           npx @divriots/jampack ./_site
