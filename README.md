@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/stargazers)
 [![Code license](https://img.shields.io/github/license/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/blob/main/LICENSE-AGPL.md)
 [![Data license](https://img.shields.io/github/license/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/blob/main/LICENSE-CCBY.md)
-[![DOI](https://zenodo.org/badge/1005363413.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD)
+[![DOI](https://zenodo.org/badge/1005363413.svg)](https://zenodo.org/badge/latestdoi/15920516)
 
 This repository contains the presentation materials for **"One Template to Rule Them All: Interactive Research Data Documentation with Quarto"** presented by Moritz Mähr and Moritz Twente at the **Digital Humanities Tech Symposium** (DHTech), held during DH2025 at NOVA University, Lisbon, Portugal.
 
@@ -52,20 +52,20 @@ uv run playwright install
 
 These resources are openly available to everyone and can be used for any research or educational purpose. If you use these resources in your research, please cite as specified in `CITATION.cff`. The following citation formats are also available through _Zenodo_:
 
-- [BibTeX](https://zenodo.org/record/ZENODO_RECORD/export/hx)
-- [CSL](https://zenodo.org/record/ZENODO_RECORD/export/csl)
-- [DataCite](https://zenodo.org/record/ZENODO_RECORD/export/dcite4)
-- [Dublin Core](https://zenodo.org/record/ZENODO_RECORD/export/xd)
-- [DCAT](https://zenodo.org/record/ZENODO_RECORD/export/dcat)
-- [JSON](https://zenodo.org/record/ZENODO_RECORD/export/json)
-- [JSON-LD](https://zenodo.org/record/ZENODO_RECORD/export/schemaorg_jsonld)
-- [GeoJSON](https://zenodo.org/record/ZENODO_RECORD/export/geojson)
-- [MARCXML](https://zenodo.org/record/ZENODO_RECORD/export/xm)
+- [BibTeX](https://zenodo.org/record/15920516/export/hx)
+- [CSL](https://zenodo.org/record/15920516/export/csl)
+- [DataCite](https://zenodo.org/record/15920516/export/dcite4)
+- [Dublin Core](https://zenodo.org/record/15920516/export/xd)
+- [DCAT](https://zenodo.org/record/15920516/export/dcat)
+- [JSON](https://zenodo.org/record/15920516/export/json)
+- [JSON-LD](https://zenodo.org/record/15920516/export/schemaorg_jsonld)
+- [GeoJSON](https://zenodo.org/record/15920516/export/geojson)
+- [MARCXML](https://zenodo.org/record/15920516/export/xm)
 
 _Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to access the resources. For example, the following command will return the metadata for the most recent version of the resources
 
 ```bash
-curl -i https://zenodo.org/api/records/ZENODO_RECORD
+curl -i https://zenodo.org/api/records/15920516
 ```
 
 ## Support

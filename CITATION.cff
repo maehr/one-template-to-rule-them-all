@@ -19,8 +19,8 @@ authors:
     affiliation: University of Basel
     email: mtwente@protonmail.com
 identifiers:
-  # - type: doi
-  #   value: ZENODO_RECORD
+  - type: doi
+    value: 10.5281/zenodo.15920515
   - type: url
     value: >-
       https://maehr.github.io/one-template-to-rule-them-all/presentation/slides.html
