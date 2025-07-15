@@ -1,5 +1,12 @@
 # One Template to Rule Them All: Interactive Research Data Documentation with Quarto
 
+[![GitHub issues](https://img.shields.io/github/issues/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/issues)
+[![GitHub forks](https://img.shields.io/github/forks/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/network)
+[![GitHub stars](https://img.shields.io/github/stars/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/stargazers)
+[![Code license](https://img.shields.io/github/license/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/blob/main/LICENSE-AGPL.md)
+[![Data license](https://img.shields.io/github/license/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/blob/main/LICENSE-CCBY.md)
+[![DOI](https://zenodo.org/badge/1005363413.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD)
+
 This repository contains the presentation materials for **"One Template to Rule Them All: Interactive Research Data Documentation with Quarto"** presented by Moritz Mähr and Moritz Twente at the **Digital Humanities Tech Symposium** (DHTech), held during DH2025 at NOVA University, Lisbon, Portugal.
 
 The DHTech Symposium, a mini-conference embedded within DH2025 (July 14–18, 2025), provides a venue to foreground technical innovation and infrastructure in digital humanities research. Unlike typical DH conferences that prioritize research outcomes over technical process, the DHTech Symposium emphasizes the tools, platforms, and methodologies that underpin digital scholarship.
@@ -22,13 +29,6 @@ The presentation covers:
 - [DH2025, NOVA University Lisbon](https://dh2025.pt)
 
 This repository includes slides, demo notebooks, and reference materials to support the talk and foster adoption of the Open Research Data Template in DH and adjacent fields.
-
-[![GitHub issues](https://img.shields.io/github/issues/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/issues)
-[![GitHub forks](https://img.shields.io/github/forks/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/network)
-[![GitHub stars](https://img.shields.io/github/stars/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/stargazers)
-[![Code license](https://img.shields.io/github/license/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/blob/main/LICENSE-AGPL.md)
-[![Data license](https://img.shields.io/github/license/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/blob/main/LICENSE-CCBY.md)
-[![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD)
 
 ## Repository Structure
 

@@ -11,13 +11,23 @@ authors:
   - family-names: Mähr
     given-names: Moritz
     orcid: 'https://orcid.org/0000-0002-1367-1618'
+    affiliation: University of Basel; University of Bern
+    email: moritz.maehr@gmail.com
   - family-names: Twente
     given-names: Moritz
     orcid: 'https://orcid.org/0009-0005-7187-9774'
+    affiliation: University of Basel
+    email: mtwente@protonmail.com
 identifiers:
   - type: doi
     value: ZENODO_RECORD
+  - type: url
+    value: >-
+      https://maehr.github.io/one-template-to-rule-them-all/presentation/slides.html
+    description: Slides
 repository-code: 'https://github.com/maehr/one-template-to-rule-them-all'
+url: >-
+  https://maehr.github.io/one-template-to-rule-them-all/presentation/slides.html
 abstract: >
   This repository contains the presentation materials for
   "One Template to Rule Them All: Interactive Research Data
@@ -43,4 +53,4 @@ license:
   - CC-BY-4.0
   - AGPL-3.0-only
 version: 1.0.0
-date-released: '2025-07-14'
+date-released: '2025-07-15'

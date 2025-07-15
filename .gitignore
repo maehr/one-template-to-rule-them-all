@@ -3,6 +3,9 @@
 _site/
 _freeze/
 
+# JamPack
+.jampack/
+
 # Exclude example.env
 !example.env
 
