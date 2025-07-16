@@ -3,9 +3,9 @@
 [![GitHub issues](https://img.shields.io/github/issues/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/issues)
 [![GitHub forks](https://img.shields.io/github/forks/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/network)
 [![GitHub stars](https://img.shields.io/github/stars/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/stargazers)
-[![Code license](https://img.shields.io/github/license/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/blob/main/LICENSE-AGPL.md)
-[![Data license](https://img.shields.io/github/license/maehr/one-template-to-rule-them-all.svg)](https://github.com/maehr/one-template-to-rule-them-all/blob/main/LICENSE-CCBY.md)
 [![DOI](https://zenodo.org/badge/1005363413.svg)](https://zenodo.org/badge/latestdoi/15920516)
+[![Code license](https://img.shields.io/badge/Code-AGPL_3.0-orange)](LICENSE-AGPL.md)
+[![Data license](https://img.shields.io/badge/Data-CC_BY_4.0-green)](LICENSE-CCBY.md)
 
 This repository contains the presentation materials for **"One Template to Rule Them All: Interactive Research Data Documentation with Quarto"** presented by Moritz Mähr and Moritz Twente at the **Digital Humanities Tech Symposium** (DHTech), held during DH2025 at NOVA University, Lisbon, Portugal.
 
