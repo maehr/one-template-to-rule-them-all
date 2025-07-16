@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/maehr/one-template-to-rule-them-all/compare/...HEAD)
 
+## [1.0.0] - 2025-07-16
+
 ### Features
 
 - Added abstract and slide deck introducing the Open Research Data Template with real-world use cases.
