@@ -1,4 +1,5 @@
 {
+	"version": "1.0.0",
 	"name": "one-template-to-rule-them-all",
 	"description": "Presentation for the Digital Humanities Tech Symposium at DH2025 (Lisbon): introducing the Open Research Data Template, a GitHub-based Quarto framework for interactive, executable, and reusable research data documentation. Includes real-world DH project examples and details on automation and multi-language support.",
 	"author": "Moritz Mähr <moritz.maehr@gmail.com> (https://github.com/maehr/)",
