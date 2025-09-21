@@ -24,7 +24,7 @@ keywords: [open research data, documentation, reproducibility, Digital Humanitie
 bibliography: bibliography.bib
 format:
   html: default
-  pdf: default
+  # pdf: default
 ---
 
 ## Introduction and Project Background
