@@ -1,6 +1,10 @@
 project:
   type: website
 
+resources:
+  - paper/paper.pdf
+  - paper/paper.tex
+
 website:
   title: one-template-to-rule-them-all
   favicon: android-chrome-512x512.png
