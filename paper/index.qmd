@@ -1,5 +1,6 @@
 ---
 title: "One Template to Rule Them All"
+subtitle: "Interactive Research Data Documentation with Quarto"
 author:
   - name: Moritz Mähr
     affiliation:
