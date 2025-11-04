@@ -20,18 +20,11 @@
 % (next section) and ORCID-ID for each author.  
 \author[1,2]{Moritz Mähr}[
   orcid=0000-0002-1367-1618
-  email=moritz.maehr@gmail.com
-]
-\author[1]{Moritz Twente}[
-  orcid=0009-0005-7187-9774
-  email=mtwente@protonmail.com
 ]
 
-% While we encourage including ORCID-IDs for all authors, you can
-% include authors that do not have one by definining an empty ID.
-% \author[2]{Author Three}[
-%   orcid=
-% ]
+\author[1]{Moritz Twente}[
+  orcid=0009-0005-7187-9774
+]
 
 % There should be one call to \affiliation for each affiliation of
 % the authors. Multiple affiliations can be given to each author
@@ -48,13 +41,12 @@
 % This will be filled in when the document is published; the values can
 % be kept as their defaults when the file is submitted
 \pubyear{2025}
-\pubvolume{1}
-\pagestart{1}
-\pageend{1}
-\conferencename{Proceedings of Digital Humanities Tech Symposium (DHTech) at DH2025, NOVA University Lisbon}
-% \conferenceeditors{Editor1 Editor2}
-% \doi{00000/00000}  
-
+\pubvolume{2}
+\pagestart{54}
+\pageend{67}
+\conferencename{Digital Humanities Tech Symposium 2025}
+\conferenceeditors{Julia Damerow and Rebecca Sutton Koeser}
+\doi{10.63744/X90VnKkYV5Hb}  
 \addbibresource{bibliography.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -99,15 +91,27 @@ A key innovation of our approach is treating documentation as a living, executab
 
 The Open Research Data Template comes with a set of best practices built in. It enforces a standardized, logical repository structure for organizing data, code, and content, building on \emph{The Turing Way} handbook on reproducible research~\cite{theturingwaycommunity2025}. Key features include:
 
-\paragraph{Executable Narratives.} Authors can create documents that directly incorporate code outputs (tables, plots, maps, etc.) into the narrative. Quarto's support for Jupyter and other kernels means the documentation itself can regenerate analyses if data or parameters change. This ensures that analysis results and figures are always in sync with the latest data and code, exemplifying reproducible research practices.
-
-\paragraph{Automated Deployment and Testing.} By using continuous integration, the template reduces the technical overhead for researchers. For example, when writing documentation in markdown or Jupyter notebooks, authors simply commit their work; the template's GitHub Actions workflows then automatically runs any code (in a controlled environment), builds the static site, checks for issues, and publishes it. This encourages frequent updates and iterative improvement without requiring web development expertise.
-
-\paragraph{Integrated Archiving with DOI.} The template streamlines the process of archiving each release of a project. After connecting Zenodo with GitHub during template initialization, a release triggers the Zenodo integration to archive the full repository (data, code, and site content) and issue a DOI. The live site can prominently display these DOIs, signaling to visitors that they can cite a specific version or access an immutable copy for reference. This was crucial for us in an evolving long-term project, as it provides snapshots for future historians to cite, even as the live documentation continues to evolve.
-
-\paragraph{Scalability and Consistency.} Because the template is a reusable scaffold, it brings consistency across projects. Every project site built with it has a similar navigation and structure (with sections for data, documentation, references, etc.), lowering the learning curve for users. It also makes it easier to onboard new team members or external collaborators to the project's workflow. As we and others have applied the template, we have benefited from community feedback and contributions (via GitHub) that continue to refine the template's core. The result is a scalable solution that can fit small one-off studies as well as large, multi-year collaborative projects.
 
 
+\noindent
+\textbf{Executable Narratives.} Authors can create documents that directly incorporate code outputs (tables, plots, maps, etc.) into the narrative. Quarto's support for Jupyter and other kernels means the documentation itself can regenerate analyses if data or parameters change. This ensures that analysis results and figures are always in sync with the latest data and code, exemplifying reproducible research practices.
+
+
+
+\noindent
+\textbf{Automated Deployment and Testing.} By using continuous integration, the template reduces the technical overhead for researchers. For example, when writing documentation in markdown or Jupyter notebooks, authors simply commit their work; the template's GitHub Actions workflows then automatically runs any code (in a controlled environment), builds the static site, checks for issues, and publishes it. This encourages frequent updates and iterative improvement without requiring web development expertise.
+
+
+
+\noindent
+\textbf{Integrated Archiving with DOI.} The template streamlines the process of archiving each release of a project. After connecting Zenodo with GitHub during template initialization, a release triggers the Zenodo integration to archive the full repository (data, code, and site content) and issue a DOI. The live site can prominently display these DOIs, signaling to visitors that they can cite a specific version or access an immutable copy for reference. This was crucial for us in an evolving long-term project, as it provides snapshots for future historians to cite, even as the live documentation continues to evolve.
+
+
+
+\noindent
+\textbf{Scalability and Consistency.} Because the template is a reusable scaffold, it brings consistency across projects. Every project site built with it has a similar navigation and structure (with sections for data, documentation, references, etc.), lowering the learning curve for users. It also makes it easier to onboard new team members or external collaborators to the project's workflow. As we and others have applied the template, we have benefited from community feedback and contributions (via GitHub) that continue to refine the template's core. The result is a scalable solution that can fit small one-off studies as well as large, multi-year collaborative projects.
+
+\noindent\newline
 By adhering to these principles and features, the template provides a practical model for elevating the standard of open data publication in the Digital Humanities. It helps researchers move beyond minimal compliance with open data mandates (i.e., just uploading files to a repository) toward creating genuinely reusable and transparent research outputs~\cite{diekjobst2024a}. In the next section, we discuss how deploying this template across diverse use cases has improved it and demonstrated its versatility.
 
 \section{Applications and Continuous Improvement Across Use Cases}\label{applications-and-continuous-improvement-across-use-cases}
@@ -222,7 +226,7 @@ First, the template provides a robust framework for creating citable supplementa
 
 Second, the template can facilitate a more transparent and rigorous peer-review process. By sharing a link to the repository with reviewers, authors can provide access to the entire research workflow. Reviewers can not only assess the final narrative but also inspect the raw data, run the code in a reproducible environment like a Codespace, and trace the project's development through its version history. This open approach transforms peer review from a simple evaluation of a final product into a more comprehensive audit of the research process itself, aligning with the growing demand for accountability in computational research.
 
-Finally, projects built with the template can function as standalone scholarly publications in their own right, challenging traditional publication models. The ``living handbook'' on \emph{Non-discriminatory Metadata}~\cite{maehr2024d} serves as a prime example. While it was not subjected to a conventional double-blind peer-review process, its publication on GitHub invites continuous open community review through the platform's issues and pull request features. This model treats scholarship as an ongoing conversation rather than a finished artifact. Furthermore, the template is ideally suited for producing data and software papers, a growing genre of peer-reviewed articles focused on describing a scholarly resource. The structured documentation, embedded code, and contextual narrative generated by the template provide the exact content required for submission to journals like the \emph{Journal of Open Humanities Data}. In this context, the template does not just support a publication; it helps generate its core substance. By formalizing the connection between data, process, and narrative, the template helps legitimize these essential research outputs as first-class academic contributions.
+Finally, projects built with the template can function as standalone scholarly publications in their own right, challenging traditional publication models. The ``living handbook'' on \emph{Non-discri\-mi\-na\-tory Metadata}~\cite{maehr2024d} serves as a prime example. While it was not subjected to a conventional double-blind peer-review process, its publication on GitHub invites continuous open community review through the platform's issues and pull request features. This model treats scholarship as an ongoing conversation rather than a finished artifact. Furthermore, the template is ideally suited for producing data and software papers, a growing genre of peer-reviewed articles focused on describing a scholarly resource. The structured documentation, embedded code, and contextual narrative generated by the template provide the exact content required for submission to journals like the \emph{Journal of Open Humanities Data}. In this context, the template does not just support a publication; it helps generate its core substance. By formalizing the connection between data, process, and narrative, the template helps legitimize these essential research outputs as first-class academic contributions.
 
 \section{Conclusion}\label{conclusion}
 

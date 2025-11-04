@@ -23,10 +23,20 @@ abstract: |
 thanks: We would like to thank the audience for their insightful feedback on our presentation at the Digital Humanities Tech Symposium (DHTech) on July 14, 2025, at NOVA University Lisbon. We are also grateful to the two anonymous reviewers for their constructive comments, which greatly improved the paper. Finally, we would like to extend special thanks to our colleagues in the research data management and public history team of the Stadt.Geschichte.Basel project for their continuous support and collaboration.
 keywords: [open research data, documentation, reproducibility, Digital Humanities, Quarto, static sites, research data management, GitHub, Zenodo]
 bibliography: bibliography.bib
+date: '2025'
+doi: 10.63744/X90VnKkYV5Hb
+citation:
+  type: standard
+  title: 'One Template to Rule Them All: Interactive Research Data Documentation with Quarto'
+  container-title: 'In: Damerow, Julia and Rebecca Sutton Koeser (eds.): Digital Humanities Tech Symposium 2025. Anthology for Computers and the Humanities 2, 54–67'
+appendix-cite-as: display
 other-links:
   - text: Paper (PDF)
     icon: filetype-pdf
     href: 'paper.pdf'
+  - text: Paper (HTML)
+    icon: filetype-html
+    href: 'https://doi.org/10.63744/X90VnKkYV5Hb'
 code-links:
   - text: Paper (TeX)
     icon: filetype-txt
